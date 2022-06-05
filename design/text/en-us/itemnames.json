@@ -1,0 +1,15 @@
+{
+   "name":"ItemName",
+   "lineLength":10,
+   "formLines":0,
+   "defaultTerminator":"ITEMNAMEEND",
+   "defaultLineFeed":"LF",
+   "defaultFormFeed":"FF",
+   "lines":{
+      "ItemNameNothing":{"text":"Nothing"},
+      "ItemNameItem00":{"text":"Item 0"},
+      "ItemNameItem01":{"text":"Item 1"},
+      "ItemNameItem02":{"text":"Item 2"},
+      "ItemNameItem03":{"text":"Item 3"}
+   }
+}

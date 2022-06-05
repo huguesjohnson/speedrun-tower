@@ -1,0 +1,152 @@
+{
+   "name":"StoryText",
+   "description":"Text for the main story",
+   "lineLength":22,
+   "formLines":1,
+   "defaultTerminator":"ETX",
+   "defaultLineFeed":"LF",
+   "defaultFormFeed":"FF",
+   "lines":{
+      "StoryTextNPC_FLOOR00_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR00_00",
+            "text":"You still don't have your badge?|It should be ready by now.|I'll let you by just more time.|The badging center is on the 9th floor.|No that's not a dumb place for it.",
+            "align":2},
+      "StoryTextNPC_FLOOR01_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR01_00",
+            "text":"We're disrupting the fortune cookie market|using blockchain and crypto.",
+            "align":2},
+      "StoryTextNPC_FLOOR01_01":{
+            "dialogTitle":"OBJ_NPC_FLOOR01_01",
+            "text":"We're hiring digital natives with|20+ years of Web3 experience.",
+            "align":2},
+      "StoryTextNPC_FLOOR02_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR02_00",
+            "text":"He's so disorganized, I can never find what I'm looking for.",
+            "align":2},
+      "StoryTextNPC_FLOOR02_01":{
+            "dialogTitle":"OBJ_NPC_FLOOR02_01",
+            "text":"Make sure to start a 529 when your kids are young.",
+            "align":2},
+      "StoryTextNPC_FLOOR03_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR03_00",
+            "text":"I can technically prescribe *anything*.|And our pharmacy is cheaper than others.",
+            "align":2},
+      "StoryTextNPC_FLOOR03_01":{
+            "dialogTitle":"OBJ_NPC_FLOOR03_01",
+            "text":"Hey, no line cutting.|I got here before they opened.",
+            "align":2},
+      "StoryTextNPC_FLOOR04_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR04_00",
+            "text":"This month we're selling an exclusive line of dolls based on an anime series.",
+            "align":2},
+      "StoryTextNPC_FLOOR04_01":{
+            "dialogTitle":"OBJ_NPC_FLOOR04_01",
+            "text":"We're supposed to sell at least 20 of these dolls a day.",
+            "align":2},
+      "StoryTextNPC_FLOOR06_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR06_00",
+            "text":"You need to get yourself in shape.|I've lost 10 pounds this year.",
+            "align":2},
+      "StoryTextNPC_FLOOR07_Line00":{
+            "dialogTitle":"OBJ_NPC_FLOOR07_01",
+            "text":"Every second we're down we lose $14 million!",
+            "align":2},
+      "StoryTextNPC_FLOOR07_Line01":{
+            "dialogTitle":"OBJ_NPC_FLOOR07_00",
+            "text":"Thanks. I know how high speed trading works.|Maybe if everything we used wasn't from the 90s|it wouldn't break so often.",
+            "align":2},
+      "StoryTextNPC_FLOOR07_Line02":{
+            "dialogTitle":"OBJ_NPC_FLOOR07_01",
+            "text":"Where's the other one I sent to the 6th floor|to look for leftover parts?|They used the same computers we have.",
+            "align":2},
+      "StoryTextNPC_FLOOR07_Line03":{
+            "dialogTitle":"OBJ_NPC_FLOOR07_00",
+            "text":"You know how the elevators work here.|Are you going to let me work,|or do you want to lose more?",
+            "align":2},
+      "StoryTextNPC_FLOOR08_AllFlags":{
+            "dialogTitle":"OBJ_NPC_FLOOR08_00",
+            "text":"You can use that to enter off-hours too.",
+            "align":2},
+      "StoryTextNPC_FLOOR08_StoryFlag":{
+            "dialogTitle":"OBJ_NPC_FLOOR08_00",
+            "text":"Your badge has been ready for a while.|Don't tell me you got lost again.|Go over to the printer & grab it.",
+            "align":2},
+      "StoryTextNPC_FLOOR09_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR09_00",
+            "text":"Welcome to Bearly Edible.|Our breakfast choices are Teriyaki pancakes|or sweet & sour hashbrowns.",
+            "align":2},
+      "StoryTextNPC_FLOOR09_01_AllFlags":{
+            "dialogTitle":"OBJ_NPC_FLOOR09_01",
+            "text":"Thanks for stopping by.",
+            "align":2},
+      "StoryTextNPC_FLOOR09_01_StoryFlag":{
+            "dialogTitle":"OBJ_NPC_FLOOR09_01",
+            "text":"You heard about the free coffee promo?|Take one, sorry it's a little burnt.|This is a burger place.|What kind of coffee do you expect?",
+            "align":2},
+      "StoryTextNPC_FLOOR0A_AllFlags":{
+            "dialogTitle":"OBJ_NPC_FLOOR0A_00",
+            "text":"I'm done messing with people.",
+            "align":2},
+      "StoryTextNPC_FLOOR0A_StoryFlag":{
+            "dialogTitle":"OBJ_NPC_FLOOR0A_00",
+            "text":"You heard about the 87 function hammer?|It's true, I use it to change the elevators daily.|I've worked here so long it's the only thing that makes me happy. I've done it long enough though.|Take the hammer so I'm not tempted to start again.",
+            "align":2},
+      "StoryTextNPC_FLOOR0B_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR0B_00",
+            "text":"Are you interested in a vacation package?|We can send you anywhere in the world for $49.|That's if you don't mind a couple stops.",
+            "align":2},
+      "StoryTextNPC_FLOOR0C_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR0C_00",
+            "text":"You're listening to WWIP-LPFM.|The station exclusively heard in this building.|This hour we have a special guest.|It's the guy who doesn't work on your floor|but is always using your bathroom.|Don't miss it.|We also have a sponsor today.|The burger place is now serving breakfast.|To celebrate, they're giving a free small coffee to everyone who stops by and says they heard this ad.",
+            "align":2},            
+      "StoryTextNPC_FLOOR0D_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR0D_00",
+            "text":"I'm in charge of this shared auditorium. Any company here can reserve it. No one ever does though.",
+            "align":2},            
+      "StoryTextNPC_FLOOR0E_Line00":{
+            "dialogTitle":"OBJ_NPC_FLOOR0E_01",
+            "text":"He stole my idea for an 87 function hammer!|He needs to talk to me now!",
+            "align":2},
+      "StoryTextNPC_FLOOR0E_Line01":{
+            "dialogTitle":"OBJ_NPC_FLOOR0E_00",
+            "text":"I told you, his schedule is booked.|You don't have proof anyway.",
+            "align":2},
+      "StoryTextNPC_FLOOR0E_Line02":{
+            "dialogTitle":"OBJ_NPC_FLOOR0E_01",
+            "text":"I do! I saw my hammer on the 11th floor!|He stole my idea & sold it himself!",
+            "align":2},
+      "StoryTextNPC_FLOOR0E_Line03":{
+            "dialogTitle":"OBJ_NPC_FLOOR0E_00",
+            "text":"You need to leave before I call security.",
+            "align":2},
+      "StoryTextNPC_FLOOR0F_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR0F_00",
+            "text":"I don't see how this idea will make money.|There's a reason no one translated these weird games already.",
+            "align":2},
+      "StoryTextNPC_FLOOR0F_01_Bad":{
+            "dialogTitle":"OBJ_NPC_FLOOR0F_00",
+            "text":"This building really took you on a trip.|It's OK, maybe tomorrow will be easier.",
+            "align":2},
+      "StoryTextNPC_FLOOR0F_01_Good":{
+            "dialogTitle":"OBJ_NPC_FLOOR0F_00",
+            "text":"You're here early.|It's nice to have extra time to settle in.",
+            "align":2},
+      "StoryTextNPC_FLOOR0F_01_Perfect":{
+            "dialogTitle":"OBJ_NPC_FLOOR0F_00",
+            "text":"Looks like you've had a busy morning.|We have a lot to do today so let's get started.",
+            "align":2},
+      "StoryTextNPC_FLOOR05_NoFlags":{
+            "text":"Do I really have time to rummage?"},
+      "StoryTextNPC_FLOOR05_StoryFlag":{
+            "text":"So this was a 1990s tech company..|Maybe they have something I can use at work..|(rummaging around)..|Oh, it's a copy of NextStep.|I can finally try the N64 devkit."},
+      "StoryTextNPC_FLOOR05_AllFlags":{
+            "text":"There's nothing else interesting."},
+      "StoryTextNPC_FLOOR08_GetBadge":{
+            "text":"So that's my badge.|The photo is terrible."},          
+      "ScriptedEventExample":{
+            "dialogTitle":"OBJ_NPC_BASE",
+            "text":"This is an example of a scripted event triggered when entering a scene.",
+            "align":2}
+
+   }
+}

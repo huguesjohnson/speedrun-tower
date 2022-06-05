@@ -1,0 +1,20 @@
+Scenario and program by Hugues Johnson
+
+********************************************************************************
+software used to build this demo
+********************************************************************************
+vasm is used to build this demo
+ http://sun.hasenbraten.de/vasm/
+
+Background music was edited using MilkyTracker
+ http://www.milkytracker.org/
+ https://github.com/milkytracker/MilkyTracker
+
+xm2esf was used to convert xm files to esf for use with Echo
+ (c) 2010-2015 Eric Voirin alias Oerg866
+ https://github.com/oerg866/xm2esf
+
+********************************************************************************
+3rd party assets used to build this demo
+********************************************************************************
+See LICENSE for the list of 3rd party code & graphics used in this demo

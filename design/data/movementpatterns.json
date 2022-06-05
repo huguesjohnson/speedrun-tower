@@ -1,0 +1,21 @@
+[
+   {
+      "name":"NullMovement",
+      "steps":[
+         "NULL"
+      ]
+   },
+   {
+      "name":"SimpleLeftRightMovement",
+      "steps":[
+         "LEFT",
+         "LEFT",
+         "LEFT",
+         "LEFT",
+         "RIGHT",
+         "RIGHT",
+         "RIGHT",
+         "RIGHT"
+      ]
+   }
+]

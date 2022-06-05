@@ -1,21 +1,95 @@
-MIT License
+********************************************************************************
+Summary
+********************************************************************************
+The license summary for this project is:
+* MIT License for original source code
+* CC BY-SA 4.0 for original characters, story, art, & other non-code things
+* The final compiled games is CC BY-SA 4.0
+* 3rd party assets (code, graphics, music) are under their respective licenses
 
-Copyright (c) 2022 Hugues Johnson
+The intent behind this is:
+* The game code is under a permissive license & can be reused with minimal drama
+  * For example - using any portion of this code to build a different game
+* Anything reusing the scenario (characters, settings, story) is CC BY-SA 4.0
+  * For example - creating a sequel or spin-off
+  * Another example - porting this demo as-is to a different system
+  * I understand it's extremely unlikely anyone would ever want to do these
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+********************************************************************************
+License for original source code
+********************************************************************************
+Except where noted below, all code & assets in this project are available under
+The MIT License:
 
-The above copyright notice and this permission notice shall be included in all
+ The MIT License (MIT)
+
+Copyright (c) 2015-2022 Hugues Johnson
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of 
+this software and associated documentation files (the "Software"), to deal in 
+the Software without restriction, including without limitation the rights to 
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies 
+of the Software, and to permit persons to whom the Software is furnished to do 
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all 
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN 
+THE SOFTWARE.
+
+********************************************************************************
+License for original non-code assets
+********************************************************************************
+The story, setting, and all characters of this demo are licensed under:
+Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+https://creativecommons.org/licenses/by-sa/4.0/
+This includes the final compiled game.
+
+********************************************************************************
+License for Echo Sound Driver
+********************************************************************************
+© 2010-2019 Javier Degirolmo
+
+This software is provided 'as-is', without any express or implied
+warranty.  In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+   claim that you wrote the original software. If you use this software
+   in a product, an acknowledgment in the product documentation would be
+   appreciated but is not required.
+2. Altered source versions must be plainly marked as such, and must not be
+   misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution.
+
+********************************************************************************
+3rd party graphics
+********************************************************************************
+Dialog & menu font is based off Deathwake font by Zee-3
+ http://www.zee-3.com/pickfordbros/archive/bitmapfonts.php
+ "Feel free to use any of these fonts for whatever purpose you see fit."
+
+Scenery and sprite tilesets are based off the following licensed tilesets:
+* Modern exteriors: https://limezu.itch.io/modernexteriors
+* Modern interiors: https://limezu.itch.io/moderninteriors
+* Modern office: https://limezu.itch.io/modernoffice
+All three were created by LimeZu (https://limezu.itch.io/)
+If you want to use them in a different project please purchase a license 
+from the above links - they are really cheap so just do it.
+
+********************************************************************************
+Physical Redistribution
+******************************************************************************** 
+I can't stop anyone from making physical reproductions of this demo but would
+really prefer they didn't. This is a free game and I'd like to keep it that way.
+Buying reproduction games only helps game counterfeiters, not the developers.

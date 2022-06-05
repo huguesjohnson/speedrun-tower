@@ -1,0 +1,15 @@
+{
+   "name":"ItemDescription",
+   "lineLength":18,
+   "formLines":6,
+   "defaultTerminator":"ETX",
+   "defaultLineFeed":"LF",
+   "defaultFormFeed":"FF",
+   "lines":{
+      "ItemDescriptionNothing":{"text":"A deep void in your pocket that yearns to be filled."},
+      "ItemDescriptionItem00":{"text":"Description for item 0."},
+      "ItemDescriptionItem01":{"text":"Description for item 1."},
+      "ItemDescriptionItem02":{"text":"Description for item 2."},
+      "ItemDescriptionItem03":{"text":"Description for item 3."}
+   }
+}

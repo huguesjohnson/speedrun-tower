@@ -1,0 +1,27 @@
+{
+   "name":"SceneText",
+   "lineLength":22,
+   "skipTable":"true",   
+   "formLines":1,
+   "defaultTerminator":"ETX",
+   "defaultLineFeed":"LF",
+   "defaultFormFeed":"FF",
+   "lines":{
+      "SceneTextFloor00":{"text":"1"},
+      "SceneTextFloor01":{"text":"2"},
+      "SceneTextFloor02":{"text":"3"},
+      "SceneTextFloor03":{"text":"4"},
+      "SceneTextFloor04":{"text":"5"},
+      "SceneTextFloor05":{"text":"6"},
+      "SceneTextFloor06":{"text":"7"},
+      "SceneTextFloor07":{"text":"8"},
+      "SceneTextFloor08":{"text":"9"},
+      "SceneTextFloor09":{"text":"10"},
+      "SceneTextFloor0A":{"text":"11"},
+      "SceneTextFloor0B":{"text":"12"},
+      "SceneTextFloor0C":{"text":"13"},
+      "SceneTextFloor0D":{"text":"14"},
+      "SceneTextFloor0E":{"text":"15"},
+      "SceneTextFloor0F":{"text":"16"}
+   }
+}

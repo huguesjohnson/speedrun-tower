@@ -1,0 +1,5 @@
+The easiest way to link to this code is:
+1) Copy to {project-src}/lib/retailclerk/
+3) Add: include 'lib/retailclerk/inc_RetailClerk.X68'
+3) Make sure your project includes the Retail Clerk memory map and other constants (or is generating them via the Retail Clerk build tools)
+4) If you think there's something you don't need comment out the include line(s) in inc_RetailClerk.X68

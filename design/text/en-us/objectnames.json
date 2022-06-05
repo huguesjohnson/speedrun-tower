@@ -1,0 +1,11 @@
+{
+   "name":"ObjectName",
+   "lineLength":22,
+   "formLines":0,
+   "defaultTerminator":"OBJNAMEEND",
+   "defaultLineFeed":"LF",
+   "defaultFormFeed":"FF",
+   "lines":{
+      "ObjectNameUnknown":{"text":"????"}
+   }
+}

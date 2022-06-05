@@ -1,0 +1,187 @@
+;*******************************************************************************
+; memory map for the base retail clerk game engine
+;*******************************************************************************
+;
+;-------------------------------------------------------------------------------
+; table to sort the draw order of sprites
+;-------------------------------------------------------------------------------
+MEM_SPRITE_SORT_TABLE_SORTED,2,0000=sorted
+MEM_SPRITE_SORT_TABLE_ID0,2,sort table ID 0
+MEM_SPRITE_SORT_TABLE_VALUE0,2,sort table value 0
+MEM_SPRITE_SORT_TABLE_ID1,2,sort table ID 1
+MEM_SPRITE_SORT_TABLE_VALUE1,2,sort table value 1
+MEM_SPRITE_SORT_TABLE_ID2,2,sort table ID 2
+MEM_SPRITE_SORT_TABLE_VALUE2,2,sort table value 2
+MEM_SPRITE_SORT_TABLE_ID3,2,sort table ID 3
+MEM_SPRITE_SORT_TABLE_VALUE3,2,sort table value 3
+MEM_SPRITE_SORT_TABLE_ID4,2,sort table ID 4
+MEM_SPRITE_SORT_TABLE_VALUE4,2,sort table value 4
+;
+;-------------------------------------------------------------------------------
+; counters
+;-------------------------------------------------------------------------------
+MEM_VBLANK_COUNTER,2,incremented at vblank - used for debug & RNG
+MEM_MAINLOOP_COUNTER,2,used for debug & RNG
+MEM_FRAME_COUNTER,2,current frame
+;
+;-------------------------------------------------------------------------------
+; program flow
+;-------------------------------------------------------------------------------
+MEM_NPC_LOOP_COUNTER,2,used for loop control in main
+;
+;-------------------------------------------------------------------------------
+; controller input
+;-------------------------------------------------------------------------------
+MEM_CONTROL_1_ID,2,what type of controller is connected
+MEM_CONTROL_1_6BUTTON,2,whether first controller is 6 button
+MEM_CONTROL_HELD,2,store value of regular held buttons
+MEM_CONTROL_PRESSED,2,store value of regular pressed buttons
+MEM_CONTROL_6_HELD,2,store value of extra held buttons
+MEM_CONTROL_6_PRESSED,2,store value of extra pressed buttons
+;
+;-------------------------------------------------------------------------------
+; game state
+;-------------------------------------------------------------------------------
+; MEM_OBJECTIVE is first because it's used for save game title 
+MEM_OBJECTIVE,2,which text to show on objectives
+MEM_GAME_STATE,4,used to control the main loop flow
+MEM_ACTION_ID,2,current action selected by player
+MEM_ACTION_TARGET_OBJID,2,action target object id
+MEM_ACTION_TARGET_NPCID,2,NPC id if action target is an NPC
+MEM_ACTION_TARGET_NPC_DIRECTION,2,put NPC back in right direction
+MEM_ACTION_TABLE_OFFSET,2,relative address of action table entry
+MEM_ACTIVE_ITEM,2,item that is currently being used
+MEM_NPC_LOCATIONS,128,table to track where NPCs are located
+MEM_DAY,2,what day is it in the story
+MEM_PLAYER_SPRITE,2,which sprite to use for the player
+MEM_GLOBAL_EVENT_FLAGS,4,track events across days
+MEM_DAY_EVENT_FLAGS,4,track events in the current day
+MEM_MENU_SCREEN_PAGE,2,last page viewed in menu screen
+MEM_STORY_EVENT1_SCENE_ID,2,scene where the next story event occurs
+MEM_STORY_EVENT2_SCENE_ID,2,scene where the next story event occurs
+MEM_OPTIONAL_EVENT1_SCENE_ID,2,scene where an optional event occurs
+MEM_OPTIONAL_EVENT2_SCENE_ID,2,scene where an optional event occurs
+MEM_OPTIONAL_EVENT3_SCENE_ID,2,scene where an optional event occurs
+;
+;-------------------------------------------------------------------------------
+; player inventory
+;-------------------------------------------------------------------------------
+MEM_PLAYER_ITEM_COUNT,2,how many items the player is holding
+MEM_PLAYER_ITEMS,8,four items
+;
+;-------------------------------------------------------------------------------
+; sprite management
+;-------------------------------------------------------------------------------
+MEM_SPRITE_Y_ORDER_CHANGED,2,track if sprite order has changed
+MEM_PLAYER_SPRITE_ID,2,sprite table id of player sprite
+MEM_PLAYER_SPRITE_X,2,virtual x position of the player
+MEM_PLAYER_SPRITE_Y,2,virtual y position of the player
+MEM_PLAYER_SPRITE_PATTERN_INDEX,2,index of pattern in VDP
+MEM_PLAYER_SPRITE_DIRECTION,2,which direction the player faces
+MEM_PLAYER_SPRITE_FRAME,2,animation frame of player sprite
+MEM_PLAYER_SPRITE_STEP_COUNTER,2,used to determine when to move
+MEM_PLAYER_MOVEMENT_COUNTER,2,used to determine how far to move
+MEM_PLAYER_MOVE_FREQUENCY,2,how often to move
+MEM_PLAYER_MOVE_PATTERN,4,movement pattern
+MEM_PLAYER_MOVE_PATTERN_LENGTH,2,length of movement pattern
+MEM_PLAYER_MOVE_INDEX,2,where the sprite is the movement pattern
+MEM_NPC0_SPRITE_ID,2,sprite table id of NPC0 sprite
+MEM_NPC0_SPRITE_X,2,virtual x position of NPC0 sprite
+MEM_NPC0_SPRITE_Y,2,virtual y position of NPC0 sprite
+MEM_NPC0_SPRITE_PATTERN_INDEX,2,index of pattern in VDP
+MEM_NPC0_SPRITE_DIRECTION,2,which direction NPC0 faces
+MEM_NPC0_SPRITE_FRAME,2,animation frame of NPC0 sprite
+MEM_NPC0_SPRITE_STEP_COUNTER,2,used to determine when to move
+MEM_NPC0_MOVEMENT_COUNTER,2,used to determine how far to move
+MEM_NPC0_MOVE_FREQUENCY,2,how often to move
+MEM_NPC0_MOVE_PATTERN,4,movement pattern
+MEM_NPC0_MOVE_PATTERN_LENGTH,2,length of movement pattern
+MEM_NPC0_MOVE_INDEX,2,where the sprite is the movement pattern
+MEM_NPC1_SPRITE_ID,2,sprite table id of NPC1 sprite
+MEM_NPC1_SPRITE_X,2,virtual x position of NPC1 sprite
+MEM_NPC1_SPRITE_Y,2,virtual y position of NPC1 sprite
+MEM_NPC1_SPRITE_PATTERN_INDEX,2,index of pattern in VDP
+MEM_NPC1_SPRITE_DIRECTION,2,which direction NPC1 faces
+MEM_NPC1_SPRITE_FRAME,2,animation frame of NPC1 sprite
+MEM_NPC1_SPRITE_STEP_COUNTER,2,used to determine when to move
+MEM_NPC1_MOVEMENT_COUNTER,2,used to determine how far to move
+MEM_NPC1_MOVE_FREQUENCY,2,how often to move
+MEM_NPC1_MOVE_PATTERN,4,movement pattern
+MEM_NPC1_MOVE_PATTERN_LENGTH,2,length of movement pattern
+MEM_NPC1_MOVE_INDEX,2,where the sprite is the movement pattern
+MEM_NPC2_SPRITE_ID,2,sprite table id of NPC2 sprite
+MEM_NPC2_SPRITE_X,2,virtual x position of NPC2 sprite
+MEM_NPC2_SPRITE_Y,2,virtual y position of NPC2 sprite
+MEM_NPC2_SPRITE_PATTERN_INDEX,2,index of pattern in VDP
+MEM_NPC2_SPRITE_DIRECTION,2,which direction NPC2 faces
+MEM_NPC2_SPRITE_FRAME,2,animation frame of NPC2 sprite
+MEM_NPC2_SPRITE_STEP_COUNTER,2,used to determine when to move
+MEM_NPC2_MOVEMENT_COUNTER,2,used to determine how far to move
+MEM_NPC2_MOVE_FREQUENCY,2,how often to move
+MEM_NPC2_MOVE_PATTERN,4,movement pattern
+MEM_NPC2_MOVE_PATTERN_LENGTH,2,length of movement pattern
+MEM_NPC2_MOVE_INDEX,2,where the sprite is the movement pattern
+MEM_NPC3_SPRITE_ID,2,sprite table id of NPC3 sprite
+MEM_NPC3_SPRITE_X,2,virtual x position of NPC3 sprite
+MEM_NPC3_SPRITE_Y,2,virtual y position of NPC3 sprite
+MEM_NPC3_SPRITE_PATTERN_INDEX,2,index of pattern in VDP
+MEM_NPC3_SPRITE_DIRECTION,2,which direction NPC3 faces
+MEM_NPC3_SPRITE_FRAME,2,animation frame of NPC3 sprite
+MEM_NPC3_SPRITE_STEP_COUNTER,2,used to determine when to move
+MEM_NPC3_MOVEMENT_COUNTER,2,used to determine how far to move
+MEM_NPC3_MOVE_FREQUENCY,2,how often to move
+MEM_NPC3_MOVE_PATTERN,4,movement pattern
+MEM_NPC3_MOVE_PATTERN_LENGTH,2,length of movement pattern
+MEM_NPC3_MOVE_INDEX,2,where the sprite is the movement pattern
+;
+;-------------------------------------------------------------------------------
+; active scene
+;-------------------------------------------------------------------------------
+MEM_ACTIVE_SCENE_ID,2,ID of the active scene
+MEM_ACTIVE_SCENE_EXIT_S,2,south exit of active scene
+MEM_ACTIVE_SCENE_EXIT_N,2,north exit of active scene
+MEM_ACTIVE_SCENE_EXIT_W,2,west exit of active scene
+MEM_ACTIVE_SCENE_EXIT_E,2,east exit of active scene
+MEM_ACTIVE_NPC_COUNT,2,number of NPCs in the current scene
+MEM_OBJECT_LIST_OBJS,60,list of objects in current map
+MEM_OBJECT_LIST_NPCS,24,list of npcs in current map
+MEM_SCENE_BGM,4,reference to current background music
+MEM_SCENE_PALETTE,128,storing for fade in/out
+;
+;-------------------------------------------------------------------------------
+; dialog & menu management
+;-------------------------------------------------------------------------------
+MEM_MENU_SELECTION,2,which menu item is selected - used for sprite 0
+MEM_MENU_RESPONSE,2,which dialog choice was selected
+MEM_DIALOG_FLAGS,4,used to manage dialogs
+MEM_DIALOG_TITLE,4,pointer to location of dialog title
+MEM_DIALOG_TEXT,4,pointer to location of dialog text
+MEM_DIALOG_VDP,4,pointer to VPD location to write text
+MEM_DIALOG_ITEM_LIST,4,pointer to location of item list to display
+MEM_DIALOG_ITEM_INDEX,2,track which item in the list is being drawn
+;
+;-------------------------------------------------------------------------------
+; scripted event management
+;-------------------------------------------------------------------------------
+MEM_SCRIPTED_EVENT_ADDR,4,pointer to scripted event running
+MEM_SCRIPTED_EVENT_ACTION,2,current scripted event action
+MEM_SCRIPTED_EVENT_STEPS,2,steps remaining in current action
+MEM_SCRIPTED_SPRITE_ADDR,4,which sprite to move
+;
+;-------------------------------------------------------------------------------
+; temp working space
+;-------------------------------------------------------------------------------
+MEM_TEMP_SPACE,64,temp working space
+;
+;-------------------------------------------------------------------------------
+; collision detection
+;-------------------------------------------------------------------------------
+MEM_ACTIVE_SPRITE_LEFT_COLUMN,2,left column of active sprite
+MEM_ACTIVE_SPRITE_HIGH_LEFT,2,high left row of active sprite
+MEM_ACTIVE_SPRITE_LOW_LEFT,2,low left row of active sprite
+MEM_ACTIVE_SPRITE_RIGHT_COLUMN,2,right column of active sprite
+MEM_ACTIVE_SPRITE_HIGH_RIGHT,2,high right row of active sprite
+MEM_ACTIVE_SPRITE_LOW_RIGHT,2,low right row of active sprite
+MEM_COLLISION_MAP_ROW,4,row of map data
+MEM_COLLISION_RESULT,2,result of collision test
+MEM_COLLISION_DATA,640,collision data for the current map

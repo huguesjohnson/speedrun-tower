@@ -1,0 +1,46 @@
+;
+;*******************************************************************************
+; memory map for things specific to this demo
+;*******************************************************************************
+;-------------------------------------------------------------------------------
+; debug registers
+;-------------------------------------------------------------------------------
+MEM_DEBUG_1,2,general debug register
+MEM_DEBUG_2,2,general debug register
+;
+;-------------------------------------------------------------------------------
+; debug registers
+;-------------------------------------------------------------------------------
+MEM_RANDOM_1,2,pseudorandom number for guaranteed path generation
+MEM_RANDOM_2,2,pseudorandom number for random path generation
+MEM_RANDOM_3,2,pseudorandom number for mapping paths to elevators
+;
+;-------------------------------------------------------------------------------
+; used to build floor paths
+;-------------------------------------------------------------------------------
+MEM_FLOOR_QUEUE,32,queue of floors
+MEM_RANDOM_ORDER,32,order of floors in the random path
+MEM_GUARANTEED_ORDER,32,order of floors in the guaranteed path
+;
+;-------------------------------------------------------------------------------
+; tracking enter/exit stuff
+;-------------------------------------------------------------------------------
+MEM_EXITING_DOOR_NUM,2,track which door (0-3) the player is exiting
+MEM_EXITING_DOOR_PATH,2,track which path (0-3) the exiting door is on
+MEM_ENTERING_DOOR_NUM,2,track which door (0-3) the player is entering
+MEM_ENTERING_DOOR_PATH,2,track which path (0-3) the entering door is on
+MEM_ENTERING_SCENE_ID,2,track which scene the player is entering
+;
+;-------------------------------------------------------------------------------
+; tracking things the player has done
+;-------------------------------------------------------------------------------
+MEM_ROOMS_VISITED,4,track which rooms have been visited
+MEM_DIALOG_EVENTS,4,track regular NPC dialog
+MEM_STORY_EVENTS,4,track events viewed & item clues received
+;
+;-------------------------------------------------------------------------------
+; everything else
+;-------------------------------------------------------------------------------
+MEM_PC_ID,2,which sprite the player chose
+MEM_LOOP_COUNTER,2,for one spot where I ran out of registers
+MEM_BIT_COUNTER,2,for one spot where I ran out of registers

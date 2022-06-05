@@ -1,0 +1,13 @@
+{
+   "name":"GeneralText",
+   "lineLength":22,
+   "skipTable":"true",   
+   "formLines":1,
+   "defaultTerminator":"ETX",
+   "defaultLineFeed":"LF",
+   "defaultFormFeed":"FF",
+   "lines":{
+      "DialogTextNothing":{"text":"There's nothing very interesting here."},
+      "DialogTextNothingHappens":{"text":"Nothing happens."}
+   }
+}

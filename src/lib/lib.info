@@ -1,0 +1,11 @@
+This folder contains libraries that are maintained outside of this project.
+
+For practical purposes the code is copied here vs compiling & linking to object code.
+-This is not purely laziness. 
+
+The libraries are:
+
+echo: See CREDITS.
+
+retailclerk: My library of code to build Retail Clerk like games.
+The latest version is possibly here - https://github.com/huguesjohnson/DubbelLib/tree/main/68k

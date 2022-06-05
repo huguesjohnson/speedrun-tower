@@ -1,0 +1,39 @@
+PatternFrameSouth:
+	dc.w	$0	; 1 rows
+	dc.w	$23	; 36 columns
+	dc.w	$21
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$22
+	dc.w	$23

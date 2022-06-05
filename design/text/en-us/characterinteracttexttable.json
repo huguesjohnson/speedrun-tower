@@ -1,0 +1,138 @@
+{
+   "name":"CharacterInteractText",
+   "description":"Default character dialog",
+   "lineLength":22,
+   "formLines":1,
+   "defaultTerminator":"ETX",
+   "defaultLineFeed":"LF",
+   "defaultFormFeed":"FF",
+   "lines":{
+      "DialogTextUnknown":{
+            "text":"?",
+            "align":2},   
+      "DialogTextPC00":{
+            "dialogTitle":"OBJ_NPC_PC00",
+            "text":"?",
+            "align":2},
+      "DialogTextPC01":{
+            "dialogTitle":"OBJ_NPC_PC01",
+            "text":"?",
+            "align":2},
+      "DialogTextPC02":{
+            "dialogTitle":"OBJ_NPC_PC02",
+            "text":"?",
+            "align":2},
+      "DialogTextPC03":{
+            "dialogTitle":"OBJ_NPC_PC03",
+            "text":"?",
+            "align":2},
+      "DialogTextPC04":{
+            "dialogTitle":"OBJ_NPC_PC04",
+            "text":"?",
+            "align":2},
+      "DialogTextPC05":{
+            "dialogTitle":"OBJ_NPC_PC05",
+            "text":"?",
+            "align":2},
+      "DialogTextPC06":{
+            "dialogTitle":"OBJ_NPC_PC06",
+            "text":"?",
+            "align":2},
+      "DialogTextPC07":{
+            "dialogTitle":"OBJ_NPC_PC07",
+            "text":"?",
+            "align":2},
+      "DialogTextNPC_FLOOR00_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR00_00",
+            "text":"Just head to the 9th floor.|They'll take care of you.",
+            "align":2},
+      "DialogTextNPC_FLOOR01_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR01_00",
+            "text":"I don't think you get it.",
+            "align":2},
+      "DialogTextNPC_FLOOR01_01":{
+            "dialogTitle":"OBJ_NPC_FLOOR01_01",
+            "text":"I don't think you can handle working here.",
+            "align":2},
+      "DialogTextNPC_FLOOR02_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR02_00",
+            "text":"He always makes such a mess.",
+            "align":2},
+      "DialogTextNPC_FLOOR02_01":{
+            "dialogTitle":"OBJ_NPC_FLOOR02_01",
+            "text":"It's weird how people are having fewer kids but college costs still rise.",
+            "align":2},
+      "DialogTextNPC_FLOOR03_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR03_00",
+            "text":"Just let me know what you're looking for.",
+            "align":2},
+      "DialogTextNPC_FLOOR03_01":{
+            "dialogTitle":"OBJ_NPC_FLOOR03_01",
+            "text":"Seriously, I've been waiting for an hour.",
+            "align":2},
+      "DialogTextNPC_FLOOR04_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR04_00",
+            "text":"I think these will go up in value.",
+            "align":2},
+      "DialogTextNPC_FLOOR04_01":{
+            "dialogTitle":"OBJ_NPC_FLOOR04_01",
+            "text":"Only a few minutes until our shift starts.",
+            "align":2},
+      "DialogTextNPC_FLOOR06_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR06_00",
+            "text":"Maybe you should try the stairs next time.",
+            "align":2},
+      "DialogTextNPC_FLOOR07_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR07_00",
+            "text":"You were smart to turn down the job here.",
+            "align":2},
+      "DialogTextNPC_FLOOR07_01":{
+            "dialogTitle":"OBJ_NPC_FLOOR07_01",
+            "text":"Why are you tech people so bad at your jobs?",
+            "align":2},
+      "DialogTextNPC_FLOOR08":{
+            "dialogTitle":"OBJ_NPC_FLOOR08_00",
+            "text":"I don't know why people can't find this place.",
+            "align":2},
+      "DialogTextNPC_FLOOR09_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR09_00",
+            "text":"Sorry all the breakfast options are weird.",
+            "align":2},
+      "DialogTextNPC_FLOOR09_01":{
+            "dialogTitle":"OBJ_NPC_FLOOR09_00",
+            "text":"We're a burger place but the manager wants to try selling breakfast to double our sales or something.",
+            "align":2},
+      "DialogTextNPC_FLOOR0A":{
+            "dialogTitle":"OBJ_NPC_FLOOR0A_00",
+            "text":"This is where the elevators are managed.|Don't think about touching them without the right tools.",
+            "align":2},            
+      "DialogTextNPC_FLOOR0B_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR0B_00",
+            "text":"Stop by anytime you want to book travel.",
+            "align":2},
+      "DialogTextNPC_FLOOR0C_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR0C_00",
+            "text":"You're not my next guest.",
+            "align":2},
+      "DialogTextNPC_FLOOR0D_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR0D_00",
+            "text":"It's OK.|It gives me time to catch-up on whatever I do all day.",
+            "align":2},
+      "DialogTextNPC_FLOOR0E_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR0E_00",
+            "text":"You might want to keep your distance from him.",
+            "align":2},
+      "DialogTextNPC_FLOOR0E_01":{
+            "dialogTitle":"OBJ_NPC_FLOOR0E_01",
+            "text":"I'm not leaving until the lawyer talks to me.",
+            "align":2},
+      "DialogTextNPC_FLOOR0F_00":{
+            "dialogTitle":"OBJ_NPC_FLOOR0F_00",
+            "text":"If you see this then I messed up.",
+            "align":2},
+      "DialogTextNPC_FLOOR0F_01":{
+            "dialogTitle":"OBJ_NPC_FLOOR0F_01",
+            "text":"As long as the checks clear it's fine.",
+            "align":2}
+   }
+}

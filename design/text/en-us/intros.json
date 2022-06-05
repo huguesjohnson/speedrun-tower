@@ -1,0 +1,25 @@
+{
+   "name":"DayIntros",
+   "description":"Text used on the day intro screenes",
+   "lineLength":40,
+   "skipTable":"true",   
+   "formLines":0,
+   "defaultTerminator":"ETX",
+   "defaultLineFeed":"LF",
+   "defaultFormFeed":"FF",
+   "lines":{
+      "Intro00ObjectiveTitle":{"text":"              Objective"},
+      "Intro00Objective0":{"text":"Reach floor 16 in the fewest moves"},
+      "Intro00Objective1":{"text":"Elevators directly connect 2 floors"},
+      "Intro00Objective2":{"text":"The paths are random but won't change"},
+      "Intro00Objective3":{"text":"There's optional hidden items & dialog"},
+      "Intro00TipsTitle":{"text":"               Controls"},
+      "Intro00Tip0":{"text":"D-Pad: Move player, menu selection"},
+      "Intro00Tip1":{"text":"A: Interact with people & objects"},
+      "Intro00Tip2":{"text":"C: Open the status screen"},
+      "Intro00Tip3":{"text":"A or C: Confirm menu selection"},
+      "Intro00Tip4":{"text":"B: Cancel dialog, exit status"},      
+      "Intro00Tip5":{"text":"Z: Hold for fast-forward"},      
+      "Intro00Tip6":{"text":"Start: Pause, exit this screen"}
+   }
+}

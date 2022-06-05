@@ -1,0 +1,16 @@
+{
+   "name":"TitleScreen",
+   "description":"Text used on the title screen",
+   "lineLength":38,
+   "skipTable":"true",
+   "formLines":0,
+   "defaultTerminator":"ETX",
+   "defaultLineFeed":"LF",
+   "defaultFormFeed":"FF",
+   "lines":{
+      "TitleScreenTextLine00":{"text":"Speedrun Tower"},
+      "TitleScreenTextLine01":{"text":" Press Start"},
+      "TitleScreenTextFooter":{"text":"June '22 Beta"},
+      "TitleScreenTextFooterDebug":{"text":" Debug Build"}
+   }
+}

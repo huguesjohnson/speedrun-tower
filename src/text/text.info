@@ -1,0 +1,27 @@
+There's a 0.000001% chance this will ever be translated to another language.
+(Almost) All the game text is in one folder to make it easier if that happens.
+
+The best way to go about it is:
+1) Copy the design/text/en-us/ folder and rename to your preferred region+language combo
+2) Painfully change all the text in the json files
+3) Not rename any of the labels
+4) Change the paths in the build file
+5) Change version in header (also in the build file) to avoid confusion
+6) Rebuild
+
+Things that will make translations difficult:
+1) In the overhead view, the dialog displays a fixed 22 chars per row
+2) Game font only includes ASCII, unused chars could be re-purposed though
+3) The game logo text is not in this file
+4) Character & item names are also restricted to small values
+5) Right to left text rendering would be a code change (likely not complicated)
+
+The second item is the one I feel worst about..
+It makes adding non-English characters a complete nightmare.
+Another option would be extending the dialog font but that has issues too..
+Hint: If you try doing that you may have to update the DIALOG_BASE_TILE constant.
+
+If someone does translate this into a different language I will gladly post it.
+
+Yes, all the English text in this demo was written by a native English speaker.
+I know that is very difficult to believe.

@@ -1,0 +1,43 @@
+PatternFrameNorthWestLow:
+	dc.w	$3	; 4 rows
+	dc.w	$9	; 10 columns
+	dc.w	$0
+	dc.w	$1
+	dc.w	$2
+	dc.w	$2
+	dc.w	$2
+	dc.w	$2
+	dc.w	$2
+	dc.w	$2
+	dc.w	$2
+	dc.w	$2
+	dc.w	$9
+	dc.w	$A
+	dc.w	$B
+	dc.w	$B
+	dc.w	$B
+	dc.w	$B
+	dc.w	$B
+	dc.w	$B
+	dc.w	$B
+	dc.w	$B
+	dc.w	$9
+	dc.w	$12
+	dc.w	$13
+	dc.w	$13
+	dc.w	$13
+	dc.w	$13
+	dc.w	$13
+	dc.w	$13
+	dc.w	$13
+	dc.w	$13
+	dc.w	$9
+	dc.w	$18
+	dc.w	$19
+	dc.w	$19
+	dc.w	$19
+	dc.w	$19
+	dc.w	$19
+	dc.w	$19
+	dc.w	$19
+	dc.w	$19
