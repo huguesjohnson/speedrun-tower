@@ -4,7 +4,7 @@ A couple years ago I wrote a Sega Genesis demo called [Retail Clerk '89](https:/
 
 Speedrun Tower is set in a building with a confusing elevator system. [The design is loosely described here](https://huguesjohnson.com/programming/genesis/random/).
 
-Your goal is to reach the top floor in the fewest steps possible. Unless of course your goal is to visit every floor or view every event in the fewest steps possible. That's three categories right there.
+Your goal is to reach the top floor and talk to your co-workers in the fewest steps possible. Unless of course your goal is to visit every floor or view every event in the fewest steps possible. That's three categories right there.
 
 This demo was also an excuse to try different approaches for achieving pseudorandomness on the Sega Genesis.
 
@@ -17,13 +17,12 @@ As of June 2022:
 - Fully-playable demo that doesn't crash in any way I've found
 - Tested on real Sega Genesis model 1 hardware
 - So far no "unwinnable" game states have been produced - I don't know if I want to declare it "impossible" though
-- There are some graphical quirks I need to fix
 - I'd like to improve the dialog a bit
 - I'd like to improve the ending screens a lot
 
 **Links**
 
-Project page coming soon, I promise..
+[Project page with latest builds](https://HuguesJohnson.com/speedrun-tower/)
 
 **Build Versions**
 

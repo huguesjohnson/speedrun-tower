@@ -1,5 +1,4 @@
 *.class
 /build/*.bin
 /build/*.zip
-# excluding until xm->esf conversion is supported in build tools 
-/design/xm/
+/backup/*.gz

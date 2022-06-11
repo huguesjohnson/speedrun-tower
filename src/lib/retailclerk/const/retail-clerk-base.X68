@@ -71,7 +71,7 @@ DIALOG_TEXT_ROWCOL=$0C120000 ; DIALOG_ROWCOL + 3 rows + 1 column
 DIALOG_TITLE_ROWCOL=$0B140000 ; DIALOG_ROWCOL + 1 row + 2 columns
 DIALOG_FRAME_COUNT=$000B ; number of animation frames for dialogs
 DIALOG_MENU_INIT_SELECTION_X=$C8 ; x coordinate of initial menu selection
-DIALOG_MENU_INIT_SELECTION_Y=$128 ; y coordinate of initial menu selection
+DIALOG_MENU_INIT_SELECTION_Y=$140 ; y coordinate of initial menu selection
 DIALOG_NO_RESPONSE=$FFFF ; no response or dialog cancelled 
 ;
 ;-------------------------------------------------------------------------------

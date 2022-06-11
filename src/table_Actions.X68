@@ -91,7 +91,7 @@ ActionTableStart:
 	dc.l	DefaultEnterScene ; EnterScene
 ; scene 15
 	dc.l	Floor0FInteract ; Interact
-	dc.l	ActionScriptNullEvent ; Respond
+	dc.l	Floor0FRespond ; Respond
 	dc.l	DefaultExitScene ; ExitScene
 	dc.l	DefaultEnterScene ; EnterScene
 

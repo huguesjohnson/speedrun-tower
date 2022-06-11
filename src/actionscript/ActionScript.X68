@@ -418,7 +418,7 @@ Floor02Interact:
 	bsr.w	SetupDialogNPC ; setup the dialog
 	rts
 
-Floor03Interact:
+Floor03Interact: ; event flags are flipped due to my poor planning
 	move.w	(MEM_ACTION_TARGET_OBJID),d6 ; move target object ID to d6
 	cmpi.w	#OBJ_NPC_FLOOR03_00,d6 ; test if talking to npc00
 	beq.s	.floor03npc0 ; if so branch
@@ -427,18 +427,18 @@ Floor03Interact:
 	bra.w	FloorDefault ; not npc1, use default text
 .floor03npc0
 	move.l	(MEM_DIALOG_EVENTS),d7 ; copy dialog events to d7
-	btst.l	#DIALOGEVENT_FLAG_FLOOR03_NPC00,d7 ; test if 1st dialog viewed
+	btst.l	#DIALOGEVENT_FLAG_FLOOR03_NPC01,d7 ; test if 1st dialog viewed
 	bne.w	FloorDefault ; bit set = dialog viewed = use default text
-	bset.l	#DIALOGEVENT_FLAG_FLOOR03_NPC00,d7 ; set bit to indicated viewed
+	bset.l	#DIALOGEVENT_FLAG_FLOOR03_NPC01,d7 ; set bit to indicated viewed
 	move.l	d7,(MEM_DIALOG_EVENTS) ; save the updated event flags
 	lea StoryTextNPC_FLOOR03_00,a6 ; point a6 to the text to display
 	bsr.w	SetupDialogNPC ; setup the dialog
 	rts
 .floor03npc1
 	move.l	(MEM_DIALOG_EVENTS),d7 ; copy dialog events to d7
-	btst.l	#DIALOGEVENT_FLAG_FLOOR03_NPC01,d7 ; test if 1st dialog viewed
+	btst.l	#DIALOGEVENT_FLAG_FLOOR03_NPC00,d7 ; test if 1st dialog viewed
 	bne.w	FloorDefault ; bit set = dialog viewed = use default text
-	bset.l	#DIALOGEVENT_FLAG_FLOOR03_NPC01,d7 ; set bit to indicated viewed
+	bset.l	#DIALOGEVENT_FLAG_FLOOR03_NPC00,d7 ; set bit to indicated viewed
 	move.l	d7,(MEM_DIALOG_EVENTS) ; save the updated event flags
 	lea StoryTextNPC_FLOOR03_01,a6 ; point a6 to the text to display
 	bsr.w	SetupDialogNPC ; setup the dialog
@@ -686,8 +686,8 @@ Floor0FInteract:
 	beq.s	.floor0fnpc1 ; if so branch
 	bra.s	FloorDefault ; not npc1, use default text
 .floor0fnpc0
-	; talking to npc0 on floor 0f ends the demo
-	bsr.w	SetupEndGame
+	lea	StoryTextNPC_FLOOR0F_2Choice,a6 ; load dialog text	
+	bsr.w	Setup2ChoiceDialog
 	rts
 .floor0fnpc1
 	move.l	(MEM_DIALOG_EVENTS),d7 ; copy dialog events to d7
@@ -699,6 +699,23 @@ Floor0FInteract:
 	bsr.w	SetupDialogNPC ; setup the dialog
 	rts
 	
+Floor0FRespond:
+	bsr.w	ResetDialog
+	cmpi.w	#$0000,(MEM_MENU_RESPONSE) ; is the menu selection 0?
+	bne.s	.response1
+.response0
+	bsr.w	ResetDialog
+	; prevent the dialog from showing
+	move.l	(MEM_GAME_STATE),d7	; copy current game state to d7
+	bclr.l	#STATE_FLAG_DIALOG,d7 ; set the dialog bit
+	move.l	d7,(MEM_GAME_STATE) ; copy game state back to d7	
+	bsr.w	SetupEndGame
+	rts
+.response1
+	lea	StoryTextNPC_FLOOR0F_Response1,a6
+	bsr.w	SetupDialogNPC ; setup the dialog
+	rts
+	
 FloorDefault:
 	bsr.w ShowDefaultText
 	rts
@@ -707,7 +724,7 @@ SetupDialogNPC:
 	;---------------------------------------------------------------------------
 	; setup the dialog
 	;---------------------------------------------------------------------------
-	move.l	a6,(MEM_DIALOG_TEXT)	; copy value at a6 to MEM_DIALOG_TEXT
+	move.l	a6,(MEM_DIALOG_TEXT) ; copy value at a6 to MEM_DIALOG_TEXT
 	; set dialog flags to display the dialog
 	move.l	(MEM_DIALOG_FLAGS),d7 ; copy current dialog state to d7
 	bset.l	#DIALOG_FLAG_STYLE_TITLED,d7 ; set the titled flag
@@ -717,6 +734,20 @@ SetupDialogNPC:
 	bset.l	#STATE_FLAG_DIALOG,d7 ; set the dialog bit
 	move.l	d7,(MEM_GAME_STATE) ; copy game state back to d7
 	rts
+	
+Setup2ChoiceDialog:
+	move.l	a6,(MEM_DIALOG_TEXT) ; copy address to MEM_DIALOG_TEXT	
+	move.l	(MEM_DIALOG_FLAGS),d7 ; copy dialog flags to d7
+	; set 2 choice style
+	bset.l	#DIALOG_FLAG_STYLE_TEXT_2CHOICE,d7 ; set text choice flag
+	; set dialog flags to display the dialog	
+	bset.l	#DIALOG_FLAG_TEXT_OPENING,d7 ; change state to opening
+	bset.l	#DIALOG_FLAG_STYLE_TITLED,d7 ; set the titled flag
+	move.l	d7,(MEM_DIALOG_FLAGS) ; save updated dialog flags
+	move.l	(MEM_GAME_STATE),d7	; copy current game state to d7
+	bset.l	#STATE_FLAG_DIALOG,d7	; set the dialog bit
+	move.l	d7,(MEM_GAME_STATE) ; copy game state back to d7
+	rts	
 	
 SetupDialogScenery:
 	;---------------------------------------------------------------------------

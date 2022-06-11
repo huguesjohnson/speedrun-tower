@@ -429,12 +429,24 @@ StoryTextNPC_FLOOR0E_Line03:
 	dc.b	"security.",ETX
 	align 2
 StoryTextNPC_FLOOR0F_00:
-	dc.w	OBJ_NPC_FLOOR0F_00
+	dc.w	OBJ_NPC_FLOOR0F_01
 	dc.b	"I don't see how this",LF
 	dc.b	"idea will make money.^",FF
 	dc.b	"There's a reason no",LF
 	dc.b	"one translated these ^",FF
 	dc.b	"weird games already.",ETX
+	align 2
+StoryTextNPC_FLOOR0F_2Choice:
+	dc.w	OBJ_NPC_FLOOR0F_00
+	dc.b	"Is it time to start",LF
+	dc.b	"working?             ^",FFR
+	dc.b	"{ Yeah, let's go     ",LF
+	dc.b	"{ Give me a few",ETX
+	align 2
+StoryTextNPC_FLOOR0F_Response1:
+	dc.w	OBJ_NPC_FLOOR0F_00
+	dc.b	"That's cool. Whenever",LF
+	dc.b	"you're ready.",ETX
 	align 2
 StoryTextNPC_FLOOR0F_01_Bad:
 	dc.w	OBJ_NPC_FLOOR0F_00

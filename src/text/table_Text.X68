@@ -73,6 +73,8 @@ StoryTextTableStart:
 	dc.l	StoryTextNPC_FLOOR0E_Line02
 	dc.l	StoryTextNPC_FLOOR0E_Line03
 	dc.l	StoryTextNPC_FLOOR0F_00
+	dc.l	StoryTextNPC_FLOOR0F_2Choice
+	dc.l	StoryTextNPC_FLOOR0F_Response1
 	dc.l	StoryTextNPC_FLOOR0F_01_Bad
 	dc.l	StoryTextNPC_FLOOR0F_01_Good
 	dc.l	StoryTextNPC_FLOOR0F_01_Perfect

@@ -120,8 +120,17 @@
             "text":"You need to leave before I call security.",
             "align":2},
       "StoryTextNPC_FLOOR0F_00":{
-            "dialogTitle":"OBJ_NPC_FLOOR0F_00",
+            "dialogTitle":"OBJ_NPC_FLOOR0F_01",
             "text":"I don't see how this idea will make money.|There's a reason no one translated these weird games already.",
+            "align":2},
+      "StoryTextNPC_FLOOR0F_2Choice":{
+            "dialogTitle":"OBJ_NPC_FLOOR0F_00",
+            "text":"Is it time to start working?|{ Yeah, let's go      { Give me a few",
+            "formFeed":"FFR",
+            "align":2},
+      "StoryTextNPC_FLOOR0F_Response1":{
+            "dialogTitle":"OBJ_NPC_FLOOR0F_00",
+            "text":"That's cool. Whenever you're ready.",
             "align":2},
       "StoryTextNPC_FLOOR0F_01_Bad":{
             "dialogTitle":"OBJ_NPC_FLOOR0F_00",

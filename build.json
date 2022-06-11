@@ -1,6 +1,5 @@
 {
 	"basePath":".",
-	"backupPath":"../backup",
 	"memoryMap":{
 		"sourceFiles":[
 			"design/constants/MemoryMapSpeedrunTower.csv",
@@ -2591,7 +2590,8 @@
 		{"day":0,"scene":"SCENE_ID_FLOOR0C","action":"Interact","label":"Floor0CInteract"},
 		{"day":0,"scene":"SCENE_ID_FLOOR0D","action":"Interact","label":"Floor0DInteract"},
 		{"day":0,"scene":"SCENE_ID_FLOOR0E","action":"Interact","label":"Floor0EInteract"},
-		{"day":0,"scene":"SCENE_ID_FLOOR0F","action":"Interact","label":"Floor0FInteract"}
+		{"day":0,"scene":"SCENE_ID_FLOOR0F","action":"Interact","label":"Floor0FInteract"},
+		{"day":0,"scene":"SCENE_ID_FLOOR0F","action":"Respond","label":"Floor0FRespond"}
 		],
 		"actions":[
 			"Interact",
