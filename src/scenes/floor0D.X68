@@ -8,7 +8,7 @@
 	;---------------------------------------------------------------------------
 	; tiles
 	;---------------------------------------------------------------------------
-	dc.w	$000E ; tileset count - 1
+	dc.w	$0012 ; tileset count - 1
 
 	; tileset 0 - tiles start at [0] - tileset length [1]
 	dc.l	TransparentTileTilesStart
@@ -70,6 +70,22 @@
 	dc.l	WallTVTilesStart
 	dc.l	WallTVTilesEnd
 
+	; tileset F - tiles start at [A6] - tileset length [6]
+	dc.l	Floor0DOutdoorTreesTilesStart
+	dc.l	Floor0DOutdoorTreesTilesEnd
+
+	; tileset 10 - tiles start at [AC] - tileset length [4]
+	dc.l	Floor0DOutdoorFenceLeftTilesStart
+	dc.l	Floor0DOutdoorFenceLeftTilesEnd
+
+	; tileset 11 - tiles start at [B0] - tileset length [4]
+	dc.l	Floor0DOutdoorFenceRightTilesStart
+	dc.l	Floor0DOutdoorFenceRightTilesEnd
+
+	; tileset 12 - tiles start at [B4] - tileset length [10]
+	dc.l	Floor0DOutdoorTileTilesStart
+	dc.l	Floor0DOutdoorTileTilesEnd
+
 	;---------------------------------------------------------------------------
 	; palettes
 	;---------------------------------------------------------------------------
@@ -82,6 +98,34 @@
 	; scenery
 	;---------------------------------------------------------------------------
 	dc.w	$0025 ; scenery count - 1
+
+	; outdoors - trees
+	dc.l	Pattern24x16x320
+	;		%pccvhnnnnnnnnnnn
+	dc.w	%1010000010100110 ; vdp pattern
+	dc.w	$0000 ; repeat=0
+	dc.l	VDP_VRAM_WRITE_B+$00000000+$00000000 ; initial drawing location
+
+	; outdoors - fence - left
+	dc.l	Pattern16x16
+	;		%pccvhnnnnnnnnnnn
+	dc.w	%0010000010101100 ; vdp pattern
+	dc.w	$0000 ; repeat=0
+	dc.l	VDP_VRAM_WRITE_B+$00000000+$01000000 ; initial drawing location
+
+	; outdoors - fence - right
+	dc.l	Pattern16x16
+	;		%pccvhnnnnnnnnnnn
+	dc.w	%0010000010110000 ; vdp pattern
+	dc.w	$0000 ; repeat=0
+	dc.l	VDP_VRAM_WRITE_B+$004C0000+$01000000 ; initial drawing location
+
+	; outdoors - stone tile
+	dc.l	Pattern32x32x320
+	;		%pccvhnnnnnnnnnnn
+	dc.w	%0010000010110100 ; vdp pattern
+	dc.w	$0005 ; repeat=5
+	dc.l	VDP_VRAM_WRITE_B+$00000000+$02000000 ; initial drawing location
 
 	; floor
 	dc.l	Pattern16x16x256
@@ -138,34 +182,6 @@
 	dc.w	%0000000000000001 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_B+$00040000+$03000000 ; initial drawing location
-
-	; outdoors - north
-	dc.l	PatternOutdoorNorth
-	;		%pccvhnnnnnnnnnnn
-	dc.w	%1010000000100101 ; vdp pattern
-	dc.w	$0000 ; repeat=0
-	dc.l	VDP_VRAM_WRITE_A+$00000000+$00000000 ; initial drawing location
-
-	; outdoors - south
-	dc.l	PatternOutdoorSouth
-	;		%pccvhnnnnnnnnnnn
-	dc.w	%0010000000100101 ; vdp pattern
-	dc.w	$0000 ; repeat=0
-	dc.l	VDP_VRAM_WRITE_B+$00000000+$0C000000 ; initial drawing location
-
-	; outdoors - west
-	dc.l	PatternOutdoorEastWest
-	;		%pccvhnnnnnnnnnnn
-	dc.w	%0010000000100101 ; vdp pattern
-	dc.w	$0000 ; repeat=0
-	dc.l	VDP_VRAM_WRITE_B+$00000000+$01000000 ; initial drawing location
-
-	; outdoors - east
-	dc.l	PatternOutdoorEastWest
-	;		%pccvhnnnnnnnnnnn
-	dc.w	%0010000000100101 ; vdp pattern
-	dc.w	$0000 ; repeat=0
-	dc.l	VDP_VRAM_WRITE_B+$004C0000+$01000000 ; initial drawing location
 
 	; mid wall - left corner
 	dc.l	PatternFrameLeftJoint
@@ -310,28 +326,28 @@
 	; left light - low
 	dc.l	Pattern24x24
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000010000000 ; vdp pattern
+	dc.w	%0100000010000000 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$001A0000+$07000000 ; initial drawing location
 
 	; left light - high
 	dc.l	Pattern24x16
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%1000000010001001 ; vdp pattern
+	dc.w	%1100000010001001 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$001A0000+$06800000 ; initial drawing location
 
 	; right light - low
 	dc.l	Pattern24x24
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000010001111 ; vdp pattern
+	dc.w	%0100000010001111 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00300000+$07000000 ; initial drawing location
 
 	; right light - high
 	dc.l	Pattern24x16
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%1000000010011000 ; vdp pattern
+	dc.w	%1100000010011000 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00300000+$06800000 ; initial drawing location
 

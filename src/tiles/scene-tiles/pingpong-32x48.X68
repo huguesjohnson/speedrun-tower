@@ -52,7 +52,7 @@
 
 	; 5
 	dc.l	$EFE1BBB5
-	dc.l	$3EF1BBB5
+	dc.l	$8EF1BBB5
 	dc.l	$861AAAA5
 	dc.l	$81AAAAA5
 	dc.l	$81AAAAA5
@@ -181,7 +181,7 @@
 	dc.l	$55555555
 
 	; 12
-	dc.l	$A1FE3EF1
+	dc.l	$A1FE8EF1
 	dc.l	$A1EFEFE1
 	dc.l	$A1FEFEF1
 	dc.l	$B1EFEFE1

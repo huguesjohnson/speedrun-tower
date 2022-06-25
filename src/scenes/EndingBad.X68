@@ -53,9 +53,9 @@
 	;---------------------------------------------------------------------------
 	; palettes
 	;---------------------------------------------------------------------------
-	dc.l	PaletteFloor08
-	dc.l	PaletteTextCredits
-	dc.l	PaletteIndoor08
+	dc.l	PaletteEndingBad00
+	dc.l	PaletteEndingBad01
+	dc.l	PaletteEndingBad02
 	dc.l	PalettePeople
 
 	;---------------------------------------------------------------------------

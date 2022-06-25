@@ -33,9 +33,9 @@
 	;---------------------------------------------------------------------------
 	; palettes
 	;---------------------------------------------------------------------------
-	dc.l	PaletteFloor09
-	dc.l	PaletteTextCredits
-	dc.l	PaletteIndoor09
+	dc.l	PaletteEndingProgram00
+	dc.l	PaletteEndingProgram01
+	dc.l	PaletteEndingProgram02
 	dc.l	PalettePeople
 
 	;---------------------------------------------------------------------------
@@ -58,21 +58,21 @@
 	dc.l	VDP_VRAM_WRITE_B+$00040000+$01000000 ; initial drawing location
 
 	; table - left
-	dc.l	Pattern32x32
+	dc.l	Pattern32x24
 	;		%pccvhnnnnnnnnnnn
 	dc.w	%0100000000010010 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$000E0000+$03000000 ; initial drawing location
 
 	; table - center
-	dc.l	Pattern32x32
+	dc.l	Pattern32x24
 	;		%pccvhnnnnnnnnnnn
 	dc.w	%0100000000010010 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00240000+$03000000 ; initial drawing location
 
 	; table - right
-	dc.l	Pattern32x32
+	dc.l	Pattern32x24
 	;		%pccvhnnnnnnnnnnn
 	dc.w	%0100000000010010 ; vdp pattern
 	dc.w	$0000 ; repeat=0

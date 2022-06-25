@@ -15,9 +15,9 @@
 		"BadgingStation"
 	],
 	"paletteNames":[
-		"PaletteFloor08",
-		"PaletteTextCredits",
-		"PaletteIndoor08",
+		"PaletteEndingBad00",
+		"PaletteEndingBad01",
+		"PaletteEndingBad02",
 		"PalettePeople"
 	],
 	"scenery":[

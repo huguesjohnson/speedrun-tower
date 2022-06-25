@@ -60,7 +60,7 @@
             "align":2},
       "DialogTextNPC_FLOOR02_01":{
             "dialogTitle":"OBJ_NPC_FLOOR02_01",
-            "text":"It's weird how people are having fewer kids but college costs still rise.",
+            "text":"It's weird how people are having fewer kids|but college costs still rise.",
             "align":2},
       "DialogTextNPC_FLOOR03_00":{
             "dialogTitle":"OBJ_NPC_FLOOR03_00",
@@ -76,7 +76,7 @@
             "align":2},
       "DialogTextNPC_FLOOR04_01":{
             "dialogTitle":"OBJ_NPC_FLOOR04_01",
-            "text":"Only a few minutes until our shift starts.",
+            "text":"Only 10 minutes until our shift starts.",
             "align":2},
       "DialogTextNPC_FLOOR06_00":{
             "dialogTitle":"OBJ_NPC_FLOOR06_00",
@@ -84,27 +84,27 @@
             "align":2},
       "DialogTextNPC_FLOOR07_00":{
             "dialogTitle":"OBJ_NPC_FLOOR07_00",
-            "text":"You were smart to turn down the job here.",
+            "text":"You were smart to turn down a job here.",
             "align":2},
       "DialogTextNPC_FLOOR07_01":{
             "dialogTitle":"OBJ_NPC_FLOOR07_01",
-            "text":"Why are you tech people so bad at your jobs?",
+            "text":"Why are tech people so bad at their jobs?",
             "align":2},
       "DialogTextNPC_FLOOR08":{
             "dialogTitle":"OBJ_NPC_FLOOR08_00",
-            "text":"I don't know why people can't find this place.",
+            "text":"Why can't anyone find this place?",
             "align":2},
       "DialogTextNPC_FLOOR09_00":{
             "dialogTitle":"OBJ_NPC_FLOOR09_00",
-            "text":"Sorry all the breakfast options are weird.",
+            "text":"Sorry the breakfast options are so weird.",
             "align":2},
       "DialogTextNPC_FLOOR09_01":{
             "dialogTitle":"OBJ_NPC_FLOOR09_00",
-            "text":"We're a burger place but the manager wants to try selling breakfast to double our sales or something.",
+            "text":"We're usually just a regular burger place|but the manager wants to sell breakfast too so we double our sales or something.",
             "align":2},
       "DialogTextNPC_FLOOR0A":{
             "dialogTitle":"OBJ_NPC_FLOOR0A_00",
-            "text":"This is where the elevators are managed.|Don't think about touching them without the right tools.",
+            "text":"The elevators are managed here.|Don't touch anything.",
             "align":2},            
       "DialogTextNPC_FLOOR0B_00":{
             "dialogTitle":"OBJ_NPC_FLOOR0B_00",
@@ -116,15 +116,15 @@
             "align":2},
       "DialogTextNPC_FLOOR0D_00":{
             "dialogTitle":"OBJ_NPC_FLOOR0D_00",
-            "text":"It's OK.|It gives me time to catch-up on whatever I do all day.",
+            "text":"It's OK.|Really.|I can catch-up on whatever I do all day.",
             "align":2},
       "DialogTextNPC_FLOOR0E_00":{
             "dialogTitle":"OBJ_NPC_FLOOR0E_00",
-            "text":"You might want to keep your distance from him.",
+            "text":"You should keep your distance from him.",
             "align":2},
       "DialogTextNPC_FLOOR0E_01":{
             "dialogTitle":"OBJ_NPC_FLOOR0E_01",
-            "text":"I'm not leaving until the lawyer talks to me.",
+            "text":"I'm not leaving until the lawyer shows.",
             "align":2},
       "DialogTextNPC_FLOOR0F_00":{
             "dialogTitle":"OBJ_NPC_FLOOR0F_00",

@@ -10,7 +10,7 @@
    "lines":{
       "TitleScreenTextLine00":{"text":"Speedrun Tower"},
       "TitleScreenTextLine01":{"text":" Press Start"},
-      "TitleScreenTextFooter":{"text":"June '22 Beta"},
+      "TitleScreenTextFooter":{"text":"Version SG-1.0"},
       "TitleScreenTextFooterDebug":{"text":" Debug Build"}
    }
 }

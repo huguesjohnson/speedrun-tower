@@ -8,7 +8,7 @@
 	;---------------------------------------------------------------------------
 	; tiles
 	;---------------------------------------------------------------------------
-	dc.w	$000D ; tileset count - 1
+	dc.w	$0011 ; tileset count - 1
 
 	; tileset 0 - tiles start at [0] - tileset length [1]
 	dc.l	TransparentTileTilesStart
@@ -66,6 +66,22 @@
 	dc.l	Monitor3LTilesStart
 	dc.l	Monitor3LTilesEnd
 
+	; tileset E - tiles start at [61] - tileset length [6]
+	dc.l	Floor0AOutdoorTreesTilesStart
+	dc.l	Floor0AOutdoorTreesTilesEnd
+
+	; tileset F - tiles start at [67] - tileset length [4]
+	dc.l	Floor0AOutdoorFenceLeftTilesStart
+	dc.l	Floor0AOutdoorFenceLeftTilesEnd
+
+	; tileset 10 - tiles start at [6B] - tileset length [4]
+	dc.l	Floor0AOutdoorFenceRightTilesStart
+	dc.l	Floor0AOutdoorFenceRightTilesEnd
+
+	; tileset 11 - tiles start at [6F] - tileset length [10]
+	dc.l	Floor0AOutdoorTileTilesStart
+	dc.l	Floor0AOutdoorTileTilesEnd
+
 	;---------------------------------------------------------------------------
 	; palettes
 	;---------------------------------------------------------------------------
@@ -78,6 +94,34 @@
 	; scenery
 	;---------------------------------------------------------------------------
 	dc.w	$0032 ; scenery count - 1
+
+	; outdoors - trees
+	dc.l	Pattern24x16x320
+	;		%pccvhnnnnnnnnnnn
+	dc.w	%1010000001100001 ; vdp pattern
+	dc.w	$0000 ; repeat=0
+	dc.l	VDP_VRAM_WRITE_B+$00000000+$00000000 ; initial drawing location
+
+	; outdoors - fence - left
+	dc.l	Pattern16x16
+	;		%pccvhnnnnnnnnnnn
+	dc.w	%0010000001100111 ; vdp pattern
+	dc.w	$0000 ; repeat=0
+	dc.l	VDP_VRAM_WRITE_B+$00000000+$01000000 ; initial drawing location
+
+	; outdoors - fence - right
+	dc.l	Pattern16x16
+	;		%pccvhnnnnnnnnnnn
+	dc.w	%0010000001101011 ; vdp pattern
+	dc.w	$0000 ; repeat=0
+	dc.l	VDP_VRAM_WRITE_B+$004C0000+$01000000 ; initial drawing location
+
+	; outdoors - stone tile
+	dc.l	Pattern32x32x320
+	;		%pccvhnnnnnnnnnnn
+	dc.w	%0010000001101111 ; vdp pattern
+	dc.w	$0005 ; repeat=5
+	dc.l	VDP_VRAM_WRITE_B+$00000000+$02000000 ; initial drawing location
 
 	; floor
 	dc.l	Pattern16x16x256
@@ -134,34 +178,6 @@
 	dc.w	%0000000000000001 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00040000+$03000000 ; initial drawing location
-
-	; outdoors - north
-	dc.l	PatternOutdoorNorth
-	;		%pccvhnnnnnnnnnnn
-	dc.w	%1010000000100101 ; vdp pattern
-	dc.w	$0000 ; repeat=0
-	dc.l	VDP_VRAM_WRITE_A+$00000000+$00000000 ; initial drawing location
-
-	; outdoors - south
-	dc.l	PatternOutdoorSouth
-	;		%pccvhnnnnnnnnnnn
-	dc.w	%0010000000100101 ; vdp pattern
-	dc.w	$0000 ; repeat=0
-	dc.l	VDP_VRAM_WRITE_B+$00000000+$0C000000 ; initial drawing location
-
-	; outdoors - west
-	dc.l	PatternOutdoorEastWest
-	;		%pccvhnnnnnnnnnnn
-	dc.w	%0010000000100101 ; vdp pattern
-	dc.w	$0000 ; repeat=0
-	dc.l	VDP_VRAM_WRITE_B+$00000000+$01000000 ; initial drawing location
-
-	; outdoors - east
-	dc.l	PatternOutdoorEastWest
-	;		%pccvhnnnnnnnnnnn
-	dc.w	%0010000000100101 ; vdp pattern
-	dc.w	$0000 ; repeat=0
-	dc.l	VDP_VRAM_WRITE_B+$004C0000+$01000000 ; initial drawing location
 
 	; mechanical top
 	dc.l	Pattern16x24

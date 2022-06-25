@@ -20,7 +20,11 @@
 		"Monitor3R",
 		"PlantS",
 		"ChairBackLow",
-		"ChairBackHigh"
+		"ChairBackHigh",
+		"Floor0EOutdoorTrees",
+		"Floor0EOutdoorFenceLeft",
+		"Floor0EOutdoorFenceRight",
+		"Floor0EOutdoorTile"
 	],
 	"paletteNames":[
 		"PaletteFloor0E",
@@ -29,6 +33,54 @@
 		"PalettePeople"
 	],
 	"scenery":[
+		{
+			"patternName":"Pattern24x16x320",
+			"comment":"outdoors - trees",
+			"tilesetIndex":18,
+			"tilesetOffset":0,
+			"highPriority":true,
+			"paletteNumber":1,
+			"repeat":0,
+			"layer":"VDP_VRAM_WRITE_B",
+			"row":"00000000",
+			"column":"00000000"
+		},
+		{
+			"patternName":"Pattern16x16",
+			"comment":"outdoors - fence - left",
+			"tilesetIndex":19,
+			"tilesetOffset":0,
+			"highPriority":false,
+			"paletteNumber":1,
+			"repeat":0,
+			"layer":"VDP_VRAM_WRITE_B",
+			"row":"01000000",
+			"column":"00000000"
+		},			
+		{
+			"patternName":"Pattern16x16",
+			"comment":"outdoors - fence - right",
+			"tilesetIndex":20,
+			"tilesetOffset":0,
+			"highPriority":false,
+			"paletteNumber":1,
+			"repeat":0,
+			"layer":"VDP_VRAM_WRITE_B",
+			"row":"01000000",
+			"column":"004C0000"
+		},			
+		{
+			"patternName":"Pattern32x32x320",
+			"comment":"outdoors - stone tile",
+			"tilesetIndex":21,
+			"tilesetOffset":0,
+			"highPriority":false,
+			"paletteNumber":1,
+			"repeat":5,
+			"layer":"VDP_VRAM_WRITE_B",
+			"row":"02000000",
+			"column":"00000000"
+		},	
 		{
 			"patternName":"Pattern16x16x256",
 			"comment":"floor",
@@ -124,54 +176,6 @@
 			"layer":"VDP_VRAM_WRITE_A",
 			"row":"03000000",
 			"column":"00040000"
-		},
-		{
-			"patternName":"PatternOutdoorNorth",
-			"comment":"outdoors - north",
-			"tilesetIndex":2,
-			"tilesetOffset":0,
-			"highPriority":true,
-			"paletteNumber":1,
-			"repeat":0,
-			"layer":"VDP_VRAM_WRITE_A",
-			"row":"00000000",
-			"column":"00000000"
-		},
-		{
-			"patternName":"PatternOutdoorSouth",
-			"comment":"outdoors - south",
-			"tilesetIndex":2,
-			"tilesetOffset":0,
-			"highPriority":false,
-			"paletteNumber":1,
-			"repeat":0,
-			"layer":"VDP_VRAM_WRITE_B",
-			"row":"0C000000",
-			"column":"00000000"
-		},
-		{
-			"patternName":"PatternOutdoorEastWest",
-			"comment":"outdoors - west",
-			"tilesetIndex":2,
-			"tilesetOffset":0,
-			"highPriority":false,
-			"paletteNumber":1,
-			"repeat":0,
-			"layer":"VDP_VRAM_WRITE_B",
-			"row":"01000000",
-			"column":"00000000"
-		},
-		{
-			"patternName":"PatternOutdoorEastWest",
-			"comment":"outdoors - east",
-			"tilesetIndex":2,
-			"tilesetOffset":0,
-			"highPriority":false,
-			"paletteNumber":1,
-			"repeat":0,
-			"layer":"VDP_VRAM_WRITE_B",
-			"row":"01000000",
-			"column":"004C0000"
 		},
 		{
 			"patternName":"Pattern16x8",
@@ -323,7 +327,7 @@
 			"tilesetIndex":9,
 			"tilesetOffset":0,
 			"highPriority":true,
-			"paletteNumber":0,
+			"paletteNumber":2,
 			"repeat":0,
 			"layer":"VDP_VRAM_WRITE_A",
 			"row":"07000000",
@@ -335,7 +339,7 @@
 			"tilesetIndex":10,
 			"tilesetOffset":0,
 			"highPriority":false,
-			"paletteNumber":0,
+			"paletteNumber":2,
 			"repeat":0,
 			"layer":"VDP_VRAM_WRITE_A",
 			"row":"07800000",

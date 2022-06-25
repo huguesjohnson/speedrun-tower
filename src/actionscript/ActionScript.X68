@@ -782,7 +782,7 @@ SetupEndGame:
 	; --------------------------------------------------------------------------
 	move.l	(MEM_ROOMS_VISITED),d7
 	cmpi.l	#ALL_ROOMS_VISITED,d7
-	blt.s	.goodending ; the player did not visit every floor
+	blt.s	.fastending ; the player did not visit every floor
 	; test if the player completed all the events
 	move.l	(MEM_DIALOG_EVENTS),d7
 	cmpi.l	#ALL_DIALOG_EVENTS_VIEWED,d7
@@ -796,6 +796,14 @@ SetupEndGame:
 .badending
 	; queue scripted event
 	lea	ScriptedEventBadEndingStart,a6	; point a6 to event to load
+	bra.s	.queue
+.fastending
+	cmpi.l	#FAST_PATH,d7 ; is this is fastest path?
+	bne.s	.goodending ; branch if not
+	cmpi.w	#$0000,(MEM_EXITING_DOOR_NUM) ; exit through the closest door?	
+	bne.s	.goodending ; branch if not
+	; queue scripted event
+	lea	ScriptedEventFastEndingStart,a6	; point a6 to event to load
 	bra.s	.queue
 .goodending
 	lea ScriptedEventGoodEndingStart,a6	; point a6 to event to load

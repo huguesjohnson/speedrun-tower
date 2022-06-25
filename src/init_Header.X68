@@ -5,7 +5,7 @@
 	dc.b	'2022.JUN'	; date
 	dc.b	'Speedrun Tower                                  '	; cart name
 	dc.b	'Speedrun Tower                                  '	; cart name (alt)
-	dc.b	'GM 20220609-17'	; program type / serial number / version
+	dc.b	'GM 20220625-16'	; program type / serial number / version
 	dc.w	$0000	; ROM checksum
 	dc.b	'J               '	; I/O device support (unused)
 	dc.l	$00000000	; address of ROM start

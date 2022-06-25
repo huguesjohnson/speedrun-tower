@@ -73,9 +73,9 @@
 	;---------------------------------------------------------------------------
 	; palettes
 	;---------------------------------------------------------------------------
-	dc.l	PaletteFloor0C
-	dc.l	PaletteTextCredits
-	dc.l	PaletteIndoor0C
+	dc.l	PaletteEndingPerfect00
+	dc.l	PaletteEndingPerfect01
+	dc.l	PaletteEndingPerfect02
 	dc.l	PalettePeople
 
 	;---------------------------------------------------------------------------
@@ -191,14 +191,14 @@
 	; window
 	dc.l	PatternRadioWindow
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000001100001 ; vdp pattern
+	dc.w	%0100000001100001 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$001C0000+$01000000 ; initial drawing location
 
 	; speaker
 	dc.l	Pattern16x32
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000001111000 ; vdp pattern
+	dc.w	%0100000001111000 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00160000+$01800000 ; initial drawing location
 

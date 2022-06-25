@@ -198,3 +198,47 @@ ScriptedEventPerfectEndingStart:
 	dc.w	SCRIPTED_EVENT_END
 ScriptedEventPerfectEndingEnd:
 
+ScriptedEventFastEndingStart:
+	; npc0 sprite
+	dc.w	$0002
+	; dialog - perfect ending start
+	dc.w	SCRIPTED_EVENT_DIALOG
+	dc.l	StoryTextNPC_FLOOR0F_01_Fast
+	; fade out
+	dc.w	SCRIPTED_EVENT_FADE_BLACK
+	; move player sprite off screen
+	dc.w	SCRIPTED_EVENT_SET_PLAYER_SPRITE_X
+	dc.w	$0000
+	; move player sprite off screen
+	dc.w	SCRIPTED_EVENT_SET_PLAYER_SPRITE_Y
+	dc.w	$0000
+	; change scene - programming credits
+	dc.w	SCRIPTED_EVENT_CHANGE_SCENE
+	dc.w	SCENE_ID_CREDITS_PROGRAM
+	; timer for credits screen
+	dc.w	SCRIPTED_EVENT_TIMER
+	dc.w	CREDITS_SCREEN_LOOP
+	; change scene - graphics credits
+	dc.w	SCRIPTED_EVENT_CHANGE_SCENE
+	dc.w	SCENE_ID_CREDITS_GRAPHICS
+	; timer for credits screen
+	dc.w	SCRIPTED_EVENT_TIMER
+	dc.w	CREDITS_SCREEN_LOOP
+	; change scene - sound credits
+	dc.w	SCRIPTED_EVENT_CHANGE_SCENE
+	dc.w	SCENE_ID_CREDITS_SOUND
+	; timer for credits screen
+	dc.w	SCRIPTED_EVENT_TIMER
+	dc.w	CREDITS_SCREEN_LOOP
+	; change scene - ending
+	dc.w	SCRIPTED_EVENT_CHANGE_SCENE
+	dc.w	SCENE_ID_END_FAST
+	; timer for credits screen
+	dc.w	SCRIPTED_EVENT_TIMER
+	dc.w	CREDITS_SCREEN_LOOP
+	; set end game
+	dc.w	SCRIPTED_EVENT_ENDGAME
+	; end
+	dc.w	SCRIPTED_EVENT_END
+ScriptedEventFastEndingEnd:
+

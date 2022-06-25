@@ -20,9 +20,9 @@
 		"Frame"
 	],
 	"paletteNames":[
-		"PaletteFloor0C",
-		"PaletteTextCredits",
-		"PaletteIndoor0C",
+		"PaletteEndingPerfect00",
+		"PaletteEndingPerfect01",
+		"PaletteEndingPerfect02",
 		"PalettePeople"
 	],
 	"scenery":[
@@ -215,7 +215,7 @@
 			"tilesetIndex":12,
 			"tilesetOffset":0,
 			"highPriority":false,
-			"paletteNumber":0,
+			"paletteNumber":2,
 			"repeat":0,
 			"layer":"VDP_VRAM_WRITE_A",
 			"row":"01000000",
@@ -227,7 +227,7 @@
 			"tilesetIndex":13,
 			"tilesetOffset":0,
 			"highPriority":false,
-			"paletteNumber":0,
+			"paletteNumber":2,
 			"repeat":0,
 			"layer":"VDP_VRAM_WRITE_A",
 			"row":"01800000",

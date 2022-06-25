@@ -93,9 +93,8 @@ DialogTextNPC_FLOOR04_00:
 	align 2
 DialogTextNPC_FLOOR04_01:
 	dc.w	OBJ_NPC_FLOOR04_01
-	dc.b	"Only a few minutes",LF
-	dc.b	"until our shift      ^",FF
-	dc.b	"starts.",ETX
+	dc.b	"Only 10 minutes until",LF
+	dc.b	"our shift starts.",ETX
 	align 2
 DialogTextNPC_FLOOR06_00:
 	dc.w	OBJ_NPC_FLOOR06_00
@@ -105,44 +104,37 @@ DialogTextNPC_FLOOR06_00:
 DialogTextNPC_FLOOR07_00:
 	dc.w	OBJ_NPC_FLOOR07_00
 	dc.b	"You were smart to",LF
-	dc.b	"turn down the job    ^",FF
-	dc.b	"here.",ETX
+	dc.b	"turn down a job here.",ETX
 	align 2
 DialogTextNPC_FLOOR07_01:
 	dc.w	OBJ_NPC_FLOOR07_01
-	dc.b	"Why are you tech",LF
-	dc.b	"people so bad at your^",FF
-	dc.b	"jobs?",ETX
+	dc.b	"Why are tech people",LF
+	dc.b	"so bad at their jobs?",ETX
 	align 2
 DialogTextNPC_FLOOR08:
 	dc.w	OBJ_NPC_FLOOR08_00
-	dc.b	"I don't know why",LF
-	dc.b	"people can't find    ^",FF
-	dc.b	"this place.",ETX
+	dc.b	"Why can't anyone find",LF
+	dc.b	"this place?",ETX
 	align 2
 DialogTextNPC_FLOOR09_00:
 	dc.w	OBJ_NPC_FLOOR09_00
-	dc.b	"Sorry all the",LF
-	dc.b	"breakfast options are^",FF
-	dc.b	"weird.",ETX
+	dc.b	"Sorry the breakfast",LF
+	dc.b	"options are so weird.",ETX
 	align 2
 DialogTextNPC_FLOOR09_01:
 	dc.w	OBJ_NPC_FLOOR09_00
-	dc.b	"We're a burger place",LF
-	dc.b	"but the manager wants^",FF
-	dc.b	"to try selling",LF
-	dc.b	"breakfast to double  ^",FF
-	dc.b	"our sales or",LF
-	dc.b	"something.",ETX
+	dc.b	"We're usually just a",LF
+	dc.b	"regular burger place ^",FF
+	dc.b	"but the manager wants",LF
+	dc.b	"to sell breakfast too^",FF
+	dc.b	"so we double our",LF
+	dc.b	"sales or something.",ETX
 	align 2
 DialogTextNPC_FLOOR0A:
 	dc.w	OBJ_NPC_FLOOR0A_00
-	dc.b	"This is where the",LF
-	dc.b	"elevators are        ^",FF
-	dc.b	"managed.",LF
-	dc.b	"Don't think about    ^",FF
-	dc.b	"touching them without",LF
-	dc.b	"the right tools.",ETX
+	dc.b	"The elevators are",LF
+	dc.b	"managed here.        ^",FF
+	dc.b	"Don't touch anything.",ETX
 	align 2
 DialogTextNPC_FLOOR0B_00:
 	dc.w	OBJ_NPC_FLOOR0B_00
@@ -157,21 +149,19 @@ DialogTextNPC_FLOOR0C_00:
 DialogTextNPC_FLOOR0D_00:
 	dc.w	OBJ_NPC_FLOOR0D_00
 	dc.b	"It's OK.",LF
-	dc.b	"It gives me time to  ^",FF
-	dc.b	"catch-up on whatever",LF
-	dc.b	"I do all day.",ETX
+	dc.b	"Really.              ^",FF
+	dc.b	"I can catch-up on",LF
+	dc.b	"whatever I do all day.",ETX
 	align 2
 DialogTextNPC_FLOOR0E_00:
 	dc.w	OBJ_NPC_FLOOR0E_00
-	dc.b	"You might want to",LF
-	dc.b	"keep your distance   ^",FF
-	dc.b	"from him.",ETX
+	dc.b	"You should keep your",LF
+	dc.b	"distance from him.",ETX
 	align 2
 DialogTextNPC_FLOOR0E_01:
 	dc.w	OBJ_NPC_FLOOR0E_01
 	dc.b	"I'm not leaving until",LF
-	dc.b	"the lawyer talks to  ^",FF
-	dc.b	"me.",ETX
+	dc.b	"the lawyer shows.",ETX
 	align 2
 DialogTextNPC_FLOOR0F_00:
 	dc.w	OBJ_NPC_FLOOR0F_00
@@ -217,15 +207,14 @@ StoryTextNPC_FLOOR01_01:
 	align 2
 StoryTextNPC_FLOOR02_00:
 	dc.w	OBJ_NPC_FLOOR02_00
-	dc.b	"He's so disorganized,",LF
+	dc.b	"He's so disorganized.",LF
 	dc.b	"I can never find what^",FF
 	dc.b	"I'm looking for.",ETX
 	align 2
 StoryTextNPC_FLOOR02_01:
 	dc.w	OBJ_NPC_FLOOR02_01
-	dc.b	"Make sure to start a",LF
-	dc.b	"529 when your kids   ^",FF
-	dc.b	"are young.",ETX
+	dc.b	"Start a 529 when your",LF
+	dc.b	"kids are young.",ETX
 	align 2
 StoryTextNPC_FLOOR03_00:
 	dc.w	OBJ_NPC_FLOOR03_00
@@ -236,8 +225,9 @@ StoryTextNPC_FLOOR03_00:
 	align 2
 StoryTextNPC_FLOOR03_01:
 	dc.w	OBJ_NPC_FLOOR03_01
-	dc.b	"Hey, no line cutting.",LF
-	dc.b	"I got here before    ^",FF
+	dc.b	"Hey!",LF
+	dc.b	"No line cutting.     ^",FF
+	dc.b	"I got here before",LF
 	dc.b	"they opened.",ETX
 	align 2
 StoryTextNPC_FLOOR04_00:
@@ -249,8 +239,7 @@ StoryTextNPC_FLOOR04_00:
 	align 2
 StoryTextNPC_FLOOR04_01:
 	dc.w	OBJ_NPC_FLOOR04_01
-	dc.b	"We're supposed to",LF
-	dc.b	"sell at least 20 of  ^",FF
+	dc.b	"We have to sell 20 of",LF
 	dc.b	"these dolls a day.",ETX
 	align 2
 StoryTextNPC_FLOOR06_00:
@@ -263,34 +252,32 @@ StoryTextNPC_FLOOR06_00:
 StoryTextNPC_FLOOR07_Line00:
 	dc.w	OBJ_NPC_FLOOR07_01
 	dc.b	"Every second we're",LF
-	dc.b	"down we lose $14     ^",FF
-	dc.b	"million!",ETX
+	dc.b	"down we lose $14M!",ETX
 	align 2
 StoryTextNPC_FLOOR07_Line01:
 	dc.w	OBJ_NPC_FLOOR07_00
-	dc.b	"Thanks. I know how",LF
-	dc.b	"high speed trading   ^",FF
-	dc.b	"works.",LF
-	dc.b	"Maybe if everything  ^",FF
-	dc.b	"we used wasn't from",LF
-	dc.b	"the 90s              ^",FF
+	dc.b	"Yeah, I know how high",LF
+	dc.b	"speed trading works. ^",FF
+	dc.b	"If everything we used",LF
+	dc.b	"wasn't from the 90s  ^",FF
 	dc.b	"it wouldn't break so",LF
 	dc.b	"often.",ETX
 	align 2
 StoryTextNPC_FLOOR07_Line02:
 	dc.w	OBJ_NPC_FLOOR07_01
-	dc.b	"Where's the other one",LF
-	dc.b	"I sent to the 6th    ^",FF
-	dc.b	"floor",LF
-	dc.b	"to look for leftover ^",FF
-	dc.b	"parts?",LF
-	dc.b	"They used the same   ^",FF
-	dc.b	"computers we have.",ETX
+	dc.b	"Where's that other",LF
+	dc.b	"one?                 ^",FF
+	dc.b	"It's been over an",LF
+	dc.b	"hour already.        ^",FF
+	dc.b	"They should be back",LF
+	dc.b	"from 6th floor.      ^",FF
+	dc.b	"You said they had the",LF
+	dc.b	"same computers as us.",ETX
 	align 2
 StoryTextNPC_FLOOR07_Line03:
 	dc.w	OBJ_NPC_FLOOR07_00
 	dc.b	"You know how the",LF
-	dc.b	"elevators work here. ^",FF
+	dc.b	"elevators are here.  ^",FF
 	dc.b	"Are you going to let",LF
 	dc.b	"me work,             ^",FF
 	dc.b	"or do you want to",LF
@@ -328,12 +315,14 @@ StoryTextNPC_FLOOR09_01_StoryFlag:
 	dc.w	OBJ_NPC_FLOOR09_01
 	dc.b	"You heard about the",LF
 	dc.b	"free coffee promo?   ^",FF
-	dc.b	"Take one, sorry it's",LF
-	dc.b	"a little burnt.      ^",FF
+	dc.b	"Here, take one.",LF
+	dc.b	"Enjoy.               ^",FF
+	dc.b	"Sorry it's a little",LF
+	dc.b	"burnt.               ^",FF
 	dc.b	"This is a burger",LF
 	dc.b	"place.               ^",FF
 	dc.b	"What kind of coffee",LF
-	dc.b	"do you expect?",ETX
+	dc.b	"did you expect?",ETX
 	align 2
 StoryTextNPC_FLOOR0A_AllFlags:
 	dc.w	OBJ_NPC_FLOOR0A_00
@@ -344,52 +333,51 @@ StoryTextNPC_FLOOR0A_StoryFlag:
 	dc.w	OBJ_NPC_FLOOR0A_00
 	dc.b	"You heard about the",LF
 	dc.b	"87 function hammer?  ^",FF
-	dc.b	"It's true, I use it",LF
-	dc.b	"to change the        ^",FF
-	dc.b	"elevators daily.",LF
-	dc.b	"I've worked here so  ^",FF
-	dc.b	"long it's the only",LF
-	dc.b	"thing that makes me  ^",FF
-	dc.b	"happy. I've done it",LF
-	dc.b	"long enough though.  ^",FF
-	dc.b	"Take the hammer so",LF
-	dc.b	"I'm not tempted to   ^",FF
-	dc.b	"start again.",ETX
+	dc.b	"I copied it from a",LF
+	dc.b	"demo unit he dropped.^",FF
+	dc.b	"It's been working",LF
+	dc.b	"great for me.        ^",FF
+	dc.b	"I use it to change",LF
+	dc.b	"the elevators daily. ^",FF
+	dc.b	"I've worked so long",LF
+	dc.b	"it's the only thing  ^",FF
+	dc.b	"that makes me happy",LF
+	dc.b	"any more.            ^",FF
+	dc.b	"I've done it long",LF
+	dc.b	"enough though.       ^",FF
+	dc.b	"Take the hammer with",LF
+	dc.b	"you.                 ^",FF
+	dc.b	"So I don't start",LF
+	dc.b	"again.",ETX
 	align 2
 StoryTextNPC_FLOOR0B_00:
 	dc.w	OBJ_NPC_FLOOR0B_00
 	dc.b	"Are you interested in",LF
 	dc.b	"a vacation package?  ^",FF
 	dc.b	"We can send you",LF
-	dc.b	"anywhere in the world^",FF
-	dc.b	"for $49.",LF
-	dc.b	"That's if you don't  ^",FF
-	dc.b	"mind a couple stops.",ETX
+	dc.b	"anywhere for $49.    ^",FF
+	dc.b	"If you don't mind a",LF
+	dc.b	"couple stops.",ETX
 	align 2
 StoryTextNPC_FLOOR0C_00:
 	dc.w	OBJ_NPC_FLOOR0C_00
 	dc.b	"You're listening to",LF
 	dc.b	"WWIP-LPFM.           ^",FF
-	dc.b	"The station",LF
-	dc.b	"exclusively heard in ^",FF
-	dc.b	"this building.",LF
-	dc.b	"This hour we have a  ^",FF
-	dc.b	"special guest.",LF
-	dc.b	"It's the guy who     ^",FF
-	dc.b	"doesn't work on your",LF
-	dc.b	"floor                ^",FF
+	dc.b	"A station only heard",LF
+	dc.b	"in this building.    ^",FF
+	dc.b	"This hour we have a",LF
+	dc.b	"special guest.       ^",FF
+	dc.b	"That dude who doesn't",LF
+	dc.b	"work on your floor   ^",FF
 	dc.b	"but is always using",LF
 	dc.b	"your bathroom.       ^",FF
-	dc.b	"Don't miss it.",LF
-	dc.b	"We also have a       ^",FF
-	dc.b	"sponsor today.",LF
-	dc.b	"The burger place is  ^",FF
-	dc.b	"now serving",LF
-	dc.b	"breakfast.           ^",FF
-	dc.b	"To celebrate, they're",LF
-	dc.b	"giving a free small  ^",FF
-	dc.b	"coffee to everyone",LF
-	dc.b	"who stops by and says^",FF
+	dc.b	"We also have a",LF
+	dc.b	"sponsor today.       ^",FF
+	dc.b	"The burger place is",LF
+	dc.b	"serving breakfast.   ^",FF
+	dc.b	"They're giving a free",LF
+	dc.b	"small coffee to      ^",FF
+	dc.b	"everyone who says",LF
 	dc.b	"they heard this ad.",ETX
 	align 2
 StoryTextNPC_FLOOR0D_00:
@@ -397,15 +385,15 @@ StoryTextNPC_FLOOR0D_00:
 	dc.b	"I'm in charge of this",LF
 	dc.b	"shared auditorium.   ^",FF
 	dc.b	"Any company here can",LF
-	dc.b	"reserve it. No one   ^",FF
-	dc.b	"ever does though.",ETX
+	dc.b	"reserve it.          ^",FF
+	dc.b	"No one ever does",LF
+	dc.b	"though.",ETX
 	align 2
 StoryTextNPC_FLOOR0E_Line00:
 	dc.w	OBJ_NPC_FLOOR0E_01
-	dc.b	"He stole my idea for",LF
-	dc.b	"an 87 function       ^",FF
-	dc.b	"hammer!",LF
-	dc.b	"He needs to talk to  ^",FF
+	dc.b	"He stole my 87",LF
+	dc.b	"function hammer idea!^",FF
+	dc.b	"He needs to talk to",LF
 	dc.b	"me now!",ETX
 	align 2
 StoryTextNPC_FLOOR0E_Line01:
@@ -424,17 +412,17 @@ StoryTextNPC_FLOOR0E_Line02:
 	align 2
 StoryTextNPC_FLOOR0E_Line03:
 	dc.w	OBJ_NPC_FLOOR0E_00
-	dc.b	"You need to leave",LF
-	dc.b	"before I call        ^",FF
-	dc.b	"security.",ETX
+	dc.b	"You need to leave or",LF
+	dc.b	"I'll call security.",ETX
 	align 2
 StoryTextNPC_FLOOR0F_00:
 	dc.w	OBJ_NPC_FLOOR0F_01
-	dc.b	"I don't see how this",LF
+	dc.b	"I don't see how this ",LF
 	dc.b	"idea will make money.^",FF
 	dc.b	"There's a reason no",LF
-	dc.b	"one translated these ^",FF
-	dc.b	"weird games already.",ETX
+	dc.b	"one else wanted to   ^",FF
+	dc.b	"translate these weird",LF
+	dc.b	"RPGs already.",ETX
 	align 2
 StoryTextNPC_FLOOR0F_2Choice:
 	dc.w	OBJ_NPC_FLOOR0F_00
@@ -445,8 +433,8 @@ StoryTextNPC_FLOOR0F_2Choice:
 	align 2
 StoryTextNPC_FLOOR0F_Response1:
 	dc.w	OBJ_NPC_FLOOR0F_00
-	dc.b	"That's cool. Whenever",LF
-	dc.b	"you're ready.",ETX
+	dc.b	"That's cool.",LF
+	dc.b	"Whenever you're ready.",ETX
 	align 2
 StoryTextNPC_FLOOR0F_01_Bad:
 	dc.w	OBJ_NPC_FLOOR0F_00
@@ -458,18 +446,17 @@ StoryTextNPC_FLOOR0F_01_Bad:
 	align 2
 StoryTextNPC_FLOOR0F_01_Good:
 	dc.w	OBJ_NPC_FLOOR0F_00
-	dc.b	"You're here early.",LF
-	dc.b	"It's nice to have    ^",FF
-	dc.b	"extra time to settle",LF
-	dc.b	"in.",ETX
+	dc.b	"You're here early.",ETX
 	align 2
 StoryTextNPC_FLOOR0F_01_Perfect:
 	dc.w	OBJ_NPC_FLOOR0F_00
 	dc.b	"Looks like you've had",LF
-	dc.b	"a busy morning.      ^",FF
-	dc.b	"We have a lot to do",LF
-	dc.b	"today so let's get   ^",FF
-	dc.b	"started.",ETX
+	dc.b	"a busy morning.",ETX
+	align 2
+StoryTextNPC_FLOOR0F_01_Fast:
+	dc.w	OBJ_NPC_FLOOR0F_00
+	dc.b	"You got here in",LF
+	dc.b	"record time.",ETX
 	align 2
 StoryTextNPC_FLOOR05_NoFlags:
 	dc.b	"Do I really have time",LF
@@ -478,26 +465,19 @@ StoryTextNPC_FLOOR05_StoryFlag:
 	dc.b	"So this was a 1990s",LF
 	dc.b	"tech company..       ^",FF
 	dc.b	"Maybe they have",LF
-	dc.b	"something I can use  ^",FF
-	dc.b	"at work..",LF
-	dc.b	"(rummaging around).. ^",FF
+	dc.b	"something I can use..^",FF
+	dc.b	"(rummaging around)",LF
+	dc.b	"Hmm..                ^",FF
 	dc.b	"Oh, it's a copy of",LF
 	dc.b	"NextStep.            ^",FF
-	dc.b	"I can finally try the",LF
-	dc.b	"N64 devkit.",ETX
+	dc.b	"I can finally try",LF
+	dc.b	"that N64 devkit.",ETX
 StoryTextNPC_FLOOR05_AllFlags:
 	dc.b	"There's nothing else",LF
 	dc.b	"interesting.",ETX
 StoryTextNPC_FLOOR08_GetBadge:
 	dc.b	"So that's my badge.",LF
 	dc.b	"The photo is terrible.",ETX
-ScriptedEventExample:
-	dc.w	OBJ_NPC_BASE
-	dc.b	"This is an example of",LF
-	dc.b	"a scripted event     ^",FF
-	dc.b	"triggered when",LF
-	dc.b	"entering a scene.",ETX
-	align 2
 
 ;-------------------------------------------------------------------------------
 ; CharacterName
@@ -754,9 +734,7 @@ ObjectDescriptionFLOOR0C_INSTRUMENTS:
 	dc.b	"They must have live",LF
 	dc.b	"performers sometimes.",ETX
 ObjectDescriptionFLOOR0D_DRINKS:
-	dc.b	"Some of the canned",LF
-	dc.b	"drinks have been     ^",FF
-	dc.b	"discontinued.",ETX
+	dc.b	"These drinks look old.",ETX
 ObjectDescriptionFLOOR0D_STAGE:
 	dc.b	"Presentation stage.",ETX
 ObjectDescriptionFLOOR0D_SEATS:
@@ -833,7 +811,7 @@ TitleScreenTextLine00:
 TitleScreenTextLine01:
 	dc.b	" Press Start",ETX
 TitleScreenTextFooter:
-	dc.b	"June '22 Beta",ETX
+	dc.b	"Version SG-1.0",ETX
 TitleScreenTextFooterDebug:
 	dc.b	" Debug Build",ETX
 
@@ -1103,26 +1081,28 @@ EndScreenLine00GoodEnding:
 	dc.b	"Speedrun Tower - Ending #2",ETX
 EndScreenLine00PerfectEnding:
 	dc.b	"Speedrun Tower - Ending #3",ETX
+EndScreenLine00FastEnding:
+	dc.b	"Speedrun Tower - Ending #4",ETX
 EndScreen1TextLine1:
-	dc.b	"You visited every floor.",ETX
+	dc.b	" ",ETX
 EndScreen1TextLine2:
-	dc.b	"You also skipped some optional things.",ETX
+	dc.b	"You visited every floor.",ETX
 EndScreen1TextLine3:
-	dc.b	"Is that considered good or bad?",ETX
+	dc.b	"You also skipped some events.",ETX
 EndScreen1TextLine4:
-	dc.b	"If you're taking the long way,",ETX
+	dc.b	"Is that considered good or bad?",ETX
 EndScreen1TextLine5:
-	dc.b	"why not try everything?",ETX
+	dc.b	"Let's go with: definitely bad. Sorry.",ETX
 EndScreen1TextLine6:
 	dc.b	" ",ETX
 EndScreen1TextLine7:
 	dc.b	"Press the start button to reset.",ETX
 EndScreen2TextLine1:
-	dc.b	"You found a fast path.",ETX
+	dc.b	" ",ETX
 EndScreen2TextLine2:
-	dc.b	"Maybe it was the fastest.",ETX
+	dc.b	"You found a fast path.",ETX
 EndScreen2TextLine3:
-	dc.b	"Maybe not.",ETX
+	dc.b	"Maybe it was the fastest. Maybe not.",ETX
 EndScreen2TextLine4:
 	dc.b	"Figuring that out in 68k is hard.",ETX
 EndScreen2TextLine5:
@@ -1132,18 +1112,32 @@ EndScreen2TextLine6:
 EndScreen2TextLine7:
 	dc.b	"Press the start button to reset.",ETX
 EndScreen3TextLine1:
-	dc.b	"You did all the things.",ETX
+	dc.b	" ",ETX
 EndScreen3TextLine2:
-	dc.b	"Next you could try every map combo.",ETX
+	dc.b	"You did all the things.",ETX
 EndScreen3TextLine3:
-	dc.b	"I think there's a trilliard of them.",ETX
+	dc.b	"Next you could try every map combo.",ETX
 EndScreen3TextLine4:
-	dc.b	"Is that the criteria for 100%?",ETX
+	dc.b	"There's easily over a billion of them.",ETX
 EndScreen3TextLine5:
-	dc.b	"That seems too evil even for me.",ETX
+	dc.b	"Is that the criteria for 100%?",ETX
 EndScreen3TextLine6:
 	dc.b	" ",ETX
 EndScreen3TextLine7:
+	dc.b	"Press the start button to reset.",ETX
+EndScreen4TextLine1:
+	dc.b	" ",ETX
+EndScreen4TextLine2:
+	dc.b	"Hey, you found the shortest path.",ETX
+EndScreen4TextLine3:
+	dc.b	"There's only a 1/28 chance of that.",ETX
+EndScreen4TextLine4:
+	dc.b	"I didn't count the total steps though.",ETX
+EndScreen4TextLine5:
+	dc.b	"So maybe you could have been faster.",ETX
+EndScreen4TextLine6:
+	dc.b	" ",ETX
+EndScreen4TextLine7:
 	dc.b	"Press the start button to reset.",ETX
 
 	align 2

@@ -66,6 +66,9 @@ SceneEndingGood:
 SceneEndingPerfect:
 	include 'scenes/EndingPerfect.X68'
 
+SceneEndingFast:
+	include 'scenes/EndingFast.X68'
+
 SceneLegal:
 	include 'scenes/Legal.X68'
 

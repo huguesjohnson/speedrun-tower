@@ -35,28 +35,28 @@
 	dc.l	$34A4A4A4
 	dc.l	$344A4A4A
 	dc.l	$34A4A4A4
+	dc.l	$344A4A4A
+	dc.l	$34A4A4A4
+	dc.l	$344A4A4A
 	dc.l	$34444444
-	dc.l	$33333333
-	dc.l	$00000000
-	dc.l	$00000000
 
 	; 4
 	dc.l	$4A4A4A4A
 	dc.l	$A4A4A4A4
 	dc.l	$4A4A4A4A
 	dc.l	$A4A4A4A4
+	dc.l	$4A4A4A4A
+	dc.l	$A4A4A4A4
+	dc.l	$4A4A4A4A
 	dc.l	$44444444
-	dc.l	$33333333
-	dc.l	$00000000
-	dc.l	$00000000
 
 	; 5
 	dc.l	$4A4A4A43
 	dc.l	$A4A4A4A3
 	dc.l	$4A4A4A43
 	dc.l	$A4A4A4A3
+	dc.l	$4A4A4A43
+	dc.l	$A4A4A4A3
+	dc.l	$4A4A4A43
 	dc.l	$44444443
-	dc.l	$33333333
-	dc.l	$00000000
-	dc.l	$00000000
 

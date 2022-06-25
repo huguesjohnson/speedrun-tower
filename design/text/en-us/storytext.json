@@ -21,11 +21,11 @@
             "align":2},
       "StoryTextNPC_FLOOR02_00":{
             "dialogTitle":"OBJ_NPC_FLOOR02_00",
-            "text":"He's so disorganized, I can never find what I'm looking for.",
+            "text":"He's so disorganized.|I can never find what I'm looking for.",
             "align":2},
       "StoryTextNPC_FLOOR02_01":{
             "dialogTitle":"OBJ_NPC_FLOOR02_01",
-            "text":"Make sure to start a 529 when your kids are young.",
+            "text":"Start a 529 when your kids are young.",
             "align":2},
       "StoryTextNPC_FLOOR03_00":{
             "dialogTitle":"OBJ_NPC_FLOOR03_00",
@@ -33,7 +33,7 @@
             "align":2},
       "StoryTextNPC_FLOOR03_01":{
             "dialogTitle":"OBJ_NPC_FLOOR03_01",
-            "text":"Hey, no line cutting.|I got here before they opened.",
+            "text":"Hey!|No line cutting.| |I got here before they opened.",
             "align":2},
       "StoryTextNPC_FLOOR04_00":{
             "dialogTitle":"OBJ_NPC_FLOOR04_00",
@@ -41,7 +41,7 @@
             "align":2},
       "StoryTextNPC_FLOOR04_01":{
             "dialogTitle":"OBJ_NPC_FLOOR04_01",
-            "text":"We're supposed to sell at least 20 of these dolls a day.",
+            "text":"We have to sell 20 of these dolls a day.",
             "align":2},
       "StoryTextNPC_FLOOR06_00":{
             "dialogTitle":"OBJ_NPC_FLOOR06_00",
@@ -49,19 +49,19 @@
             "align":2},
       "StoryTextNPC_FLOOR07_Line00":{
             "dialogTitle":"OBJ_NPC_FLOOR07_01",
-            "text":"Every second we're down we lose $14 million!",
+            "text":"Every second we're down we lose $14M!",
             "align":2},
       "StoryTextNPC_FLOOR07_Line01":{
             "dialogTitle":"OBJ_NPC_FLOOR07_00",
-            "text":"Thanks. I know how high speed trading works.|Maybe if everything we used wasn't from the 90s|it wouldn't break so often.",
+            "text":"Yeah, I know how high speed trading works.|If everything we used wasn't from the 90s|it wouldn't break so often.",
             "align":2},
       "StoryTextNPC_FLOOR07_Line02":{
             "dialogTitle":"OBJ_NPC_FLOOR07_01",
-            "text":"Where's the other one I sent to the 6th floor|to look for leftover parts?|They used the same computers we have.",
+            "text":"Where's that other one?|It's been over an hour already.|They should be back from 6th floor.|You said they had the same computers as us.",
             "align":2},
       "StoryTextNPC_FLOOR07_Line03":{
             "dialogTitle":"OBJ_NPC_FLOOR07_00",
-            "text":"You know how the elevators work here.|Are you going to let me work,|or do you want to lose more?",
+            "text":"You know how the elevators are here.|Are you going to let me work,|or do you want to lose more?",
             "align":2},
       "StoryTextNPC_FLOOR08_AllFlags":{
             "dialogTitle":"OBJ_NPC_FLOOR08_00",
@@ -81,7 +81,7 @@
             "align":2},
       "StoryTextNPC_FLOOR09_01_StoryFlag":{
             "dialogTitle":"OBJ_NPC_FLOOR09_01",
-            "text":"You heard about the free coffee promo?|Take one, sorry it's a little burnt.|This is a burger place.|What kind of coffee do you expect?",
+            "text":"You heard about the free coffee promo?|Here, take one.|Enjoy.|Sorry it's a little burnt.|This is a burger place.|What kind of coffee did you expect?",
             "align":2},
       "StoryTextNPC_FLOOR0A_AllFlags":{
             "dialogTitle":"OBJ_NPC_FLOOR0A_00",
@@ -89,23 +89,23 @@
             "align":2},
       "StoryTextNPC_FLOOR0A_StoryFlag":{
             "dialogTitle":"OBJ_NPC_FLOOR0A_00",
-            "text":"You heard about the 87 function hammer?|It's true, I use it to change the elevators daily.|I've worked here so long it's the only thing that makes me happy. I've done it long enough though.|Take the hammer so I'm not tempted to start again.",
+            "text":"You heard about the 87 function hammer?|I copied it from a demo unit he dropped.|It's been working great for me.|I use it to change the elevators daily.|I've worked so long it's the only thing|that makes me happy any more.|I've done it long enough though.|Take the hammer with you.|So I don't start again.",
             "align":2},
       "StoryTextNPC_FLOOR0B_00":{
             "dialogTitle":"OBJ_NPC_FLOOR0B_00",
-            "text":"Are you interested in a vacation package?|We can send you anywhere in the world for $49.|That's if you don't mind a couple stops.",
+            "text":"Are you interested in a vacation package?|We can send you anywhere for $49.|If you don't mind a couple stops.",
             "align":2},
       "StoryTextNPC_FLOOR0C_00":{
             "dialogTitle":"OBJ_NPC_FLOOR0C_00",
-            "text":"You're listening to WWIP-LPFM.|The station exclusively heard in this building.|This hour we have a special guest.|It's the guy who doesn't work on your floor|but is always using your bathroom.|Don't miss it.|We also have a sponsor today.|The burger place is now serving breakfast.|To celebrate, they're giving a free small coffee to everyone who stops by and says they heard this ad.",
+            "text":"You're listening to WWIP-LPFM.|A station only heard in this building.|This hour we have a special guest.|That dude who doesn't work on your floor|but is always using your bathroom.|We also have a sponsor today.|The burger place is serving breakfast.|They're giving a free small coffee to |everyone who says they heard this ad.",
             "align":2},            
       "StoryTextNPC_FLOOR0D_00":{
             "dialogTitle":"OBJ_NPC_FLOOR0D_00",
-            "text":"I'm in charge of this shared auditorium. Any company here can reserve it. No one ever does though.",
+            "text":"I'm in charge of this shared auditorium.|Any company here can reserve it.|No one ever does though.",
             "align":2},            
       "StoryTextNPC_FLOOR0E_Line00":{
             "dialogTitle":"OBJ_NPC_FLOOR0E_01",
-            "text":"He stole my idea for an 87 function hammer!|He needs to talk to me now!",
+            "text":"He stole my 87 function hammer idea!|He needs to talk to me now!",
             "align":2},
       "StoryTextNPC_FLOOR0E_Line01":{
             "dialogTitle":"OBJ_NPC_FLOOR0E_00",
@@ -117,11 +117,11 @@
             "align":2},
       "StoryTextNPC_FLOOR0E_Line03":{
             "dialogTitle":"OBJ_NPC_FLOOR0E_00",
-            "text":"You need to leave before I call security.",
+            "text":"You need to leave or I'll call security.",
             "align":2},
       "StoryTextNPC_FLOOR0F_00":{
             "dialogTitle":"OBJ_NPC_FLOOR0F_01",
-            "text":"I don't see how this idea will make money.|There's a reason no one translated these weird games already.",
+            "text":"I don't see how this  idea will make money.|There's a reason no one else wanted to|translate these weird RPGs already.",
             "align":2},
       "StoryTextNPC_FLOOR0F_2Choice":{
             "dialogTitle":"OBJ_NPC_FLOOR0F_00",
@@ -130,7 +130,7 @@
             "align":2},
       "StoryTextNPC_FLOOR0F_Response1":{
             "dialogTitle":"OBJ_NPC_FLOOR0F_00",
-            "text":"That's cool. Whenever you're ready.",
+            "text":"That's cool.|Whenever you're ready.",
             "align":2},
       "StoryTextNPC_FLOOR0F_01_Bad":{
             "dialogTitle":"OBJ_NPC_FLOOR0F_00",
@@ -138,24 +138,23 @@
             "align":2},
       "StoryTextNPC_FLOOR0F_01_Good":{
             "dialogTitle":"OBJ_NPC_FLOOR0F_00",
-            "text":"You're here early.|It's nice to have extra time to settle in.",
+            "text":"You're here early.",
             "align":2},
       "StoryTextNPC_FLOOR0F_01_Perfect":{
             "dialogTitle":"OBJ_NPC_FLOOR0F_00",
-            "text":"Looks like you've had a busy morning.|We have a lot to do today so let's get started.",
+            "text":"Looks like you've had a busy morning.",
+            "align":2},
+      "StoryTextNPC_FLOOR0F_01_Fast":{
+            "dialogTitle":"OBJ_NPC_FLOOR0F_00",
+            "text":"You got here in record time.",
             "align":2},
       "StoryTextNPC_FLOOR05_NoFlags":{
             "text":"Do I really have time to rummage?"},
       "StoryTextNPC_FLOOR05_StoryFlag":{
-            "text":"So this was a 1990s tech company..|Maybe they have something I can use at work..|(rummaging around)..|Oh, it's a copy of NextStep.|I can finally try the N64 devkit."},
+            "text":"So this was a 1990s tech company..|Maybe they have something I can use..|(rummaging around)|Hmm..|Oh, it's a copy of NextStep.|I can finally try that N64 devkit."},
       "StoryTextNPC_FLOOR05_AllFlags":{
             "text":"There's nothing else interesting."},
       "StoryTextNPC_FLOOR08_GetBadge":{
-            "text":"So that's my badge.|The photo is terrible."},          
-      "ScriptedEventExample":{
-            "dialogTitle":"OBJ_NPC_BASE",
-            "text":"This is an example of a scripted event triggered when entering a scene.",
-            "align":2}
-
+            "text":"So that's my badge.|The photo is terrible."}
    }
 }

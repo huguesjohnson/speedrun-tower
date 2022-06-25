@@ -18,7 +18,7 @@ As of June 2022:
 - Tested on real Sega Genesis model 1 hardware
 - So far no "unwinnable" game states have been produced - I don't know if I want to declare it "impossible" though
 - I'd like to improve the dialog a bit
-- I'd like to improve the ending screens a lot
+- I'd like to add some outdoor scenery
 
 **Links**
 

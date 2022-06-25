@@ -8,7 +8,7 @@
 	;---------------------------------------------------------------------------
 	; tiles
 	;---------------------------------------------------------------------------
-	dc.w	$000F ; tileset count - 1
+	dc.w	$0013 ; tileset count - 1
 
 	; tileset 0 - tiles start at [0] - tileset length [1]
 	dc.l	TransparentTileTilesStart
@@ -74,6 +74,22 @@
 	dc.l	ShelfWithObjectTilesStart
 	dc.l	ShelfWithObjectTilesEnd
 
+	; tileset 10 - tiles start at [8A] - tileset length [6]
+	dc.l	Floor05OutdoorTreesTilesStart
+	dc.l	Floor05OutdoorTreesTilesEnd
+
+	; tileset 11 - tiles start at [90] - tileset length [4]
+	dc.l	Floor05OutdoorFenceLeftTilesStart
+	dc.l	Floor05OutdoorFenceLeftTilesEnd
+
+	; tileset 12 - tiles start at [94] - tileset length [4]
+	dc.l	Floor05OutdoorFenceRightTilesStart
+	dc.l	Floor05OutdoorFenceRightTilesEnd
+
+	; tileset 13 - tiles start at [98] - tileset length [10]
+	dc.l	Floor05OutdoorTileTilesStart
+	dc.l	Floor05OutdoorTileTilesEnd
+
 	;---------------------------------------------------------------------------
 	; palettes
 	;---------------------------------------------------------------------------
@@ -86,6 +102,34 @@
 	; scenery
 	;---------------------------------------------------------------------------
 	dc.w	$001C ; scenery count - 1
+
+	; outdoors - trees
+	dc.l	Pattern24x16x320
+	;		%pccvhnnnnnnnnnnn
+	dc.w	%1010000010001010 ; vdp pattern
+	dc.w	$0000 ; repeat=0
+	dc.l	VDP_VRAM_WRITE_B+$00000000+$00000000 ; initial drawing location
+
+	; outdoors - fence - left
+	dc.l	Pattern16x16
+	;		%pccvhnnnnnnnnnnn
+	dc.w	%0010000010010000 ; vdp pattern
+	dc.w	$0000 ; repeat=0
+	dc.l	VDP_VRAM_WRITE_B+$00000000+$01000000 ; initial drawing location
+
+	; outdoors - fence - right
+	dc.l	Pattern16x16
+	;		%pccvhnnnnnnnnnnn
+	dc.w	%0010000010010100 ; vdp pattern
+	dc.w	$0000 ; repeat=0
+	dc.l	VDP_VRAM_WRITE_B+$004C0000+$01000000 ; initial drawing location
+
+	; outdoors - stone tile
+	dc.l	Pattern32x32x320
+	;		%pccvhnnnnnnnnnnn
+	dc.w	%0010000010011000 ; vdp pattern
+	dc.w	$0005 ; repeat=5
+	dc.l	VDP_VRAM_WRITE_B+$00000000+$02000000 ; initial drawing location
 
 	; floor
 	dc.l	Pattern16x16x256
@@ -142,34 +186,6 @@
 	dc.w	%0000000000000001 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00040000+$03000000 ; initial drawing location
-
-	; outdoors - north
-	dc.l	PatternOutdoorNorth
-	;		%pccvhnnnnnnnnnnn
-	dc.w	%1010000000100101 ; vdp pattern
-	dc.w	$0000 ; repeat=0
-	dc.l	VDP_VRAM_WRITE_A+$00000000+$00000000 ; initial drawing location
-
-	; outdoors - south
-	dc.l	PatternOutdoorSouth
-	;		%pccvhnnnnnnnnnnn
-	dc.w	%0010000000100101 ; vdp pattern
-	dc.w	$0000 ; repeat=0
-	dc.l	VDP_VRAM_WRITE_B+$00000000+$0C000000 ; initial drawing location
-
-	; outdoors - west
-	dc.l	PatternOutdoorEastWest
-	;		%pccvhnnnnnnnnnnn
-	dc.w	%0010000000100101 ; vdp pattern
-	dc.w	$0000 ; repeat=0
-	dc.l	VDP_VRAM_WRITE_B+$00000000+$01000000 ; initial drawing location
-
-	; outdoors - east
-	dc.l	PatternOutdoorEastWest
-	;		%pccvhnnnnnnnnnnn
-	dc.w	%0010000000100101 ; vdp pattern
-	dc.w	$0000 ; repeat=0
-	dc.l	VDP_VRAM_WRITE_B+$004C0000+$01000000 ; initial drawing location
 
 	; paper trash
 	dc.l	Pattern32x24
@@ -244,49 +260,49 @@
 	; empty shelves - high - left
 	dc.l	Pattern32x16
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%1000000001111000 ; vdp pattern
+	dc.w	%1100000001111000 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00080000+$08000000 ; initial drawing location
 
 	; empty shelves - high - center
 	dc.l	Pattern32x16
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%1000000001111000 ; vdp pattern
+	dc.w	%1100000001111000 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00100000+$08000000 ; initial drawing location
 
 	; empty shelves - high - right
 	dc.l	Pattern32x16
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%1000000001111000 ; vdp pattern
+	dc.w	%1100000001111000 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00180000+$08000000 ; initial drawing location
 
 	; empty shelves - low - left
 	dc.l	Pattern32x16
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000010000000 ; vdp pattern
+	dc.w	%0100000010000000 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00080000+$09000000 ; initial drawing location
 
 	; empty shelves - low - center
 	dc.l	Pattern32x16
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000010000000 ; vdp pattern
+	dc.w	%0100000010000000 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00100000+$09000000 ; initial drawing location
 
 	; empty shelves - low - right
 	dc.l	Pattern32x16
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000010000000 ; vdp pattern
+	dc.w	%0100000010000000 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00180000+$09000000 ; initial drawing location
 
 	; shelf with object
 	dc.l	Pattern16x8
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000010001000 ; vdp pattern
+	dc.w	%0100000010001000 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00140000+$09800000 ; initial drawing location
 

@@ -78,11 +78,11 @@ StoryTextTableStart:
 	dc.l	StoryTextNPC_FLOOR0F_01_Bad
 	dc.l	StoryTextNPC_FLOOR0F_01_Good
 	dc.l	StoryTextNPC_FLOOR0F_01_Perfect
+	dc.l	StoryTextNPC_FLOOR0F_01_Fast
 	dc.l	StoryTextNPC_FLOOR05_NoFlags
 	dc.l	StoryTextNPC_FLOOR05_StoryFlag
 	dc.l	StoryTextNPC_FLOOR05_AllFlags
 	dc.l	StoryTextNPC_FLOOR08_GetBadge
-	dc.l	ScriptedEventExample
 StoryTextTableEnd:
 
 ;-------------------------------------------------------------------------------

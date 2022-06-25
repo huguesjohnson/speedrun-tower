@@ -73,8 +73,8 @@
 	;---------------------------------------------------------------------------
 	; palettes
 	;---------------------------------------------------------------------------
-	dc.l	PaletteFloor0F
-	dc.l	PaletteTextCredits
+	dc.l	PaletteEndingSound00
+	dc.l	PaletteEndingSound01
 	dc.l	PaletteIndoor0F
 	dc.l	PalettePeople
 
@@ -100,28 +100,28 @@
 	; cube - middle - left
 	dc.l	PatternCubeMiddle
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000000111011 ; vdp pattern
+	dc.w	%0100000000111011 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_B+$00040000+$01000000 ; initial drawing location
 
 	; cube - middle - right
 	dc.l	PatternCubeMiddle
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000000111011 ; vdp pattern
+	dc.w	%0100000000111011 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_B+$00320000+$01000000 ; initial drawing location
 
 	; cube - lower - left
 	dc.l	PatternCubeLower
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000001001000 ; vdp pattern
+	dc.w	%0100000001001000 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00040000+$02800000 ; initial drawing location
 
 	; cube - lower - right
 	dc.l	PatternCubeLower
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000001001000 ; vdp pattern
+	dc.w	%0100000001001000 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00320000+$02800000 ; initial drawing location
 
@@ -184,21 +184,21 @@
 	; game console
 	dc.l	Pattern16x16
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000000011011 ; vdp pattern
+	dc.w	%0100000000011011 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00060000+$02000000 ; initial drawing location
 
 	; tv
 	dc.l	Pattern16x24
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000000101011 ; vdp pattern
+	dc.w	%0100000000101011 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$000A0000+$01800000 ; initial drawing location
 
 	; game console
 	dc.l	Pattern24x16
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000000011111 ; vdp pattern
+	dc.w	%0100000000011111 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00160000+$02000000 ; initial drawing location
 
@@ -226,14 +226,14 @@
 	; game console
 	dc.l	Pattern24x16
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000000100101 ; vdp pattern
+	dc.w	%0100000000100101 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00400000+$02000000 ; initial drawing location
 
 	; tv
 	dc.l	Pattern16x24
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000000101011 ; vdp pattern
+	dc.w	%0100000000101011 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00460000+$01800000 ; initial drawing location
 

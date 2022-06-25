@@ -121,6 +121,7 @@ DIALOGEVENT_FLAG_FLOOR0F_NPC01=$C
 ALL_ROOMS_VISITED=$0000FFFF
 ALL_DIALOG_EVENTS_VIEWED=$00001FFF
 ALL_STORY_EVENTS_VIEWED=$000000FF
+FAST_PATH=$00008001
 ;
 ;-------------------------------------------------------------------------------
 ; which path an exit leads to

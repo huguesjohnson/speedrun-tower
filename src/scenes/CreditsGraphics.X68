@@ -49,9 +49,9 @@
 	;---------------------------------------------------------------------------
 	; palettes
 	;---------------------------------------------------------------------------
-	dc.l	PaletteFloor03
-	dc.l	PaletteTextCredits
-	dc.l	PaletteIndoor03
+	dc.l	PaletteEndingGraphics00
+	dc.l	PaletteEndingGraphics01
+	dc.l	PaletteEndingGraphics02
 	dc.l	PalettePeople
 
 	;---------------------------------------------------------------------------

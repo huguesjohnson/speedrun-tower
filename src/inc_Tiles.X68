@@ -908,3 +908,259 @@ EndingFrameTilesStart:
 	include 'tiles/scene-tiles/ending-frame.X68'
 EndingFrameTilesEnd:
 
+Floor00OutdoorTileTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-tile-00.X68'
+Floor00OutdoorTileTilesEnd:
+
+Floor01OutdoorTileTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-tile-01.X68'
+Floor01OutdoorTileTilesEnd:
+
+Floor02OutdoorTileTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-tile-02.X68'
+Floor02OutdoorTileTilesEnd:
+
+Floor03OutdoorTileTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-tile-03.X68'
+Floor03OutdoorTileTilesEnd:
+
+Floor04OutdoorTileTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-tile-04.X68'
+Floor04OutdoorTileTilesEnd:
+
+Floor05OutdoorTileTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-tile-05.X68'
+Floor05OutdoorTileTilesEnd:
+
+Floor06OutdoorTileTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-tile-06.X68'
+Floor06OutdoorTileTilesEnd:
+
+Floor07OutdoorTileTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-tile-07.X68'
+Floor07OutdoorTileTilesEnd:
+
+Floor08OutdoorTileTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-tile-08.X68'
+Floor08OutdoorTileTilesEnd:
+
+Floor09OutdoorTileTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-tile-09.X68'
+Floor09OutdoorTileTilesEnd:
+
+Floor0AOutdoorTileTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-tile-0A.X68'
+Floor0AOutdoorTileTilesEnd:
+
+Floor0BOutdoorTileTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-tile-0B.X68'
+Floor0BOutdoorTileTilesEnd:
+
+Floor0COutdoorTileTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-tile-0C.X68'
+Floor0COutdoorTileTilesEnd:
+
+Floor0DOutdoorTileTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-tile-0D.X68'
+Floor0DOutdoorTileTilesEnd:
+
+Floor0EOutdoorTileTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-tile-0E.X68'
+Floor0EOutdoorTileTilesEnd:
+
+Floor0FOutdoorTileTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-tile-0F.X68'
+Floor0FOutdoorTileTilesEnd:
+
+Floor00OutdoorTreesTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-trees-00.X68'
+Floor00OutdoorTreesTilesEnd:
+
+Floor01OutdoorTreesTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-trees-01.X68'
+Floor01OutdoorTreesTilesEnd:
+
+Floor02OutdoorTreesTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-trees-02.X68'
+Floor02OutdoorTreesTilesEnd:
+
+Floor03OutdoorTreesTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-trees-03.X68'
+Floor03OutdoorTreesTilesEnd:
+
+Floor04OutdoorTreesTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-trees-04.X68'
+Floor04OutdoorTreesTilesEnd:
+
+Floor05OutdoorTreesTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-trees-05.X68'
+Floor05OutdoorTreesTilesEnd:
+
+Floor06OutdoorTreesTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-trees-06.X68'
+Floor06OutdoorTreesTilesEnd:
+
+Floor07OutdoorTreesTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-trees-07.X68'
+Floor07OutdoorTreesTilesEnd:
+
+Floor08OutdoorTreesTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-trees-08.X68'
+Floor08OutdoorTreesTilesEnd:
+
+Floor09OutdoorTreesTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-trees-09.X68'
+Floor09OutdoorTreesTilesEnd:
+
+Floor0AOutdoorTreesTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-trees-0A.X68'
+Floor0AOutdoorTreesTilesEnd:
+
+Floor0BOutdoorTreesTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-trees-0B.X68'
+Floor0BOutdoorTreesTilesEnd:
+
+Floor0COutdoorTreesTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-trees-0C.X68'
+Floor0COutdoorTreesTilesEnd:
+
+Floor0DOutdoorTreesTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-trees-0D.X68'
+Floor0DOutdoorTreesTilesEnd:
+
+Floor0EOutdoorTreesTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-trees-0E.X68'
+Floor0EOutdoorTreesTilesEnd:
+
+Floor0FOutdoorTreesTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-trees-0F.X68'
+Floor0FOutdoorTreesTilesEnd:
+
+Floor00OutdoorFenceLeftTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-00-left.X68'
+Floor00OutdoorFenceLeftTilesEnd:
+
+Floor01OutdoorFenceLeftTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-01-left.X68'
+Floor01OutdoorFenceLeftTilesEnd:
+
+Floor02OutdoorFenceLeftTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-02-left.X68'
+Floor02OutdoorFenceLeftTilesEnd:
+
+Floor03OutdoorFenceLeftTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-03-left.X68'
+Floor03OutdoorFenceLeftTilesEnd:
+
+Floor04OutdoorFenceLeftTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-04-left.X68'
+Floor04OutdoorFenceLeftTilesEnd:
+
+Floor05OutdoorFenceLeftTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-05-left.X68'
+Floor05OutdoorFenceLeftTilesEnd:
+
+Floor06OutdoorFenceLeftTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-06-left.X68'
+Floor06OutdoorFenceLeftTilesEnd:
+
+Floor07OutdoorFenceLeftTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-07-left.X68'
+Floor07OutdoorFenceLeftTilesEnd:
+
+Floor08OutdoorFenceLeftTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-08-left.X68'
+Floor08OutdoorFenceLeftTilesEnd:
+
+Floor09OutdoorFenceLeftTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-09-left.X68'
+Floor09OutdoorFenceLeftTilesEnd:
+
+Floor0AOutdoorFenceLeftTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-0A-left.X68'
+Floor0AOutdoorFenceLeftTilesEnd:
+
+Floor0BOutdoorFenceLeftTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-0B-left.X68'
+Floor0BOutdoorFenceLeftTilesEnd:
+
+Floor0COutdoorFenceLeftTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-0C-left.X68'
+Floor0COutdoorFenceLeftTilesEnd:
+
+Floor0DOutdoorFenceLeftTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-0D-left.X68'
+Floor0DOutdoorFenceLeftTilesEnd:
+
+Floor0EOutdoorFenceLeftTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-0E-left.X68'
+Floor0EOutdoorFenceLeftTilesEnd:
+
+Floor0FOutdoorFenceLeftTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-0F-left.X68'
+Floor0FOutdoorFenceLeftTilesEnd:
+
+Floor00OutdoorFenceRightTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-00-right.X68'
+Floor00OutdoorFenceRightTilesEnd:
+
+Floor01OutdoorFenceRightTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-01-right.X68'
+Floor01OutdoorFenceRightTilesEnd:
+
+Floor02OutdoorFenceRightTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-02-right.X68'
+Floor02OutdoorFenceRightTilesEnd:
+
+Floor03OutdoorFenceRightTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-03-right.X68'
+Floor03OutdoorFenceRightTilesEnd:
+
+Floor04OutdoorFenceRightTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-04-right.X68'
+Floor04OutdoorFenceRightTilesEnd:
+
+Floor05OutdoorFenceRightTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-05-right.X68'
+Floor05OutdoorFenceRightTilesEnd:
+
+Floor06OutdoorFenceRightTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-06-right.X68'
+Floor06OutdoorFenceRightTilesEnd:
+
+Floor07OutdoorFenceRightTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-07-right.X68'
+Floor07OutdoorFenceRightTilesEnd:
+
+Floor08OutdoorFenceRightTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-08-right.X68'
+Floor08OutdoorFenceRightTilesEnd:
+
+Floor09OutdoorFenceRightTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-09-right.X68'
+Floor09OutdoorFenceRightTilesEnd:
+
+Floor0AOutdoorFenceRightTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-0A-right.X68'
+Floor0AOutdoorFenceRightTilesEnd:
+
+Floor0BOutdoorFenceRightTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-0B-right.X68'
+Floor0BOutdoorFenceRightTilesEnd:
+
+Floor0COutdoorFenceRightTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-0C-right.X68'
+Floor0COutdoorFenceRightTilesEnd:
+
+Floor0DOutdoorFenceRightTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-0D-right.X68'
+Floor0DOutdoorFenceRightTilesEnd:
+
+Floor0EOutdoorFenceRightTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-0E-right.X68'
+Floor0EOutdoorFenceRightTilesEnd:
+
+Floor0FOutdoorFenceRightTilesStart:
+	include 'tiles/scene-tiles/outdoors-outdoor-fence-0F-right.X68'
+Floor0FOutdoorFenceRightTilesEnd:
+

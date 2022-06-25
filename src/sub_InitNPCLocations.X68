@@ -22,6 +22,6 @@ InitNPCLocations:
 	move.l	#$0F121815,(a0)+	; location 13 (SceneEndingBad)
 	move.l	#$111C1613,(a0)+	; location 14 (SceneEndingGood)
 	move.l	#$1A1E0000,(a0)+	; location 15 (SceneEndingPerfect)
+	move.l	#$02070803,(a0)+	; location 16 (SceneEndingFast)
 
 	rts
-

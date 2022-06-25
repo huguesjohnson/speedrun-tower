@@ -61,9 +61,9 @@
 	;---------------------------------------------------------------------------
 	; palettes
 	;---------------------------------------------------------------------------
-	dc.l	PaletteFloor05
-	dc.l	PaletteTextCredits
-	dc.l	PaletteIndoor05
+	dc.l	PaletteEndingGood00
+	dc.l	PaletteEndingGood01
+	dc.l	PaletteEndingGood02
 	dc.l	PalettePeople
 
 	;---------------------------------------------------------------------------
@@ -102,49 +102,49 @@
 	; empty shelves - high - left
 	dc.l	Pattern32x16
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%1000000000111100 ; vdp pattern
+	dc.w	%1100000000111100 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00060000+$01000000 ; initial drawing location
 
 	; empty shelves - high - center
 	dc.l	Pattern32x16
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%1000000000111100 ; vdp pattern
+	dc.w	%1100000000111100 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$000E0000+$01000000 ; initial drawing location
 
 	; empty shelves - high - right
 	dc.l	Pattern32x16
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%1000000000111100 ; vdp pattern
+	dc.w	%1100000000111100 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00160000+$01000000 ; initial drawing location
 
 	; empty shelves - low - left
 	dc.l	Pattern32x16
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000001000100 ; vdp pattern
+	dc.w	%0100000001000100 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00060000+$02000000 ; initial drawing location
 
 	; empty shelves - low - center
 	dc.l	Pattern32x16
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000001000100 ; vdp pattern
+	dc.w	%0100000001000100 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$000E0000+$02000000 ; initial drawing location
 
 	; empty shelves - low - right
 	dc.l	Pattern32x16
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000001000100 ; vdp pattern
+	dc.w	%0100000001000100 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00160000+$02000000 ; initial drawing location
 
 	; shelf with object
 	dc.l	Pattern16x8
 	;		%pccvhnnnnnnnnnnn
-	dc.w	%0000000001001100 ; vdp pattern
+	dc.w	%0100000001001100 ; vdp pattern
 	dc.w	$0000 ; repeat=0
 	dc.l	VDP_VRAM_WRITE_A+$00120000+$02800000 ; initial drawing location
 

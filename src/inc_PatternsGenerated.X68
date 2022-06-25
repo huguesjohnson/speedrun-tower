@@ -162,9 +162,3 @@
 
 	include 'patterns/frame-wall-segment-32x32.X68'
 
-	include 'patterns/outdoor-north-base-320x16.X68'
-
-	include 'patterns/outdoor-south-base-320x32.X68'
-
-	include 'patterns/outdoor-ew-base-16x176.X68'
-

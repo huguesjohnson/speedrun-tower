@@ -45,27 +45,32 @@
 			{
 				"name":"PaletteBlack",
 				"sourceFilePath":"design/img/swatches/black.png",
-				"destinationFilePath":"src/palettes/black.X68"
+				"destinationFilePath":"src/palettes/black.X68",
+				"allowDuplicateColors":"true"
 			},
 			{
 				"name":"PalettePeople",
 				"sourceFilePath":"design/img/swatches/people.png",
-				"destinationFilePath":"src/palettes/people.X68"
+				"destinationFilePath":"src/palettes/people.X68",
+				"allowDuplicateColors":"true"
 			},
 			{
 				"name":"PaletteText00",
 				"sourceFilePath":"design/img/swatches/text00.png",
-				"destinationFilePath":"src/palettes/text00.X68"
+				"destinationFilePath":"src/palettes/text00.X68",
+				"allowDuplicateColors":"true"
 			},
 			{
 				"name":"PaletteText01",
 				"sourceFilePath":"design/img/swatches/text01.png",
-				"destinationFilePath":"src/palettes/text01.X68"
+				"destinationFilePath":"src/palettes/text01.X68",
+				"allowDuplicateColors":"true"
 			},
 			{
 				"name":"PaletteText02",
 				"sourceFilePath":"design/img/swatches/text02.png",
-				"destinationFilePath":"src/palettes/text02.X68"
+				"destinationFilePath":"src/palettes/text02.X68",
+				"allowDuplicateColors":"true"
 			},
 			{
 				"name":"PaletteTextCredits",
@@ -76,22 +81,26 @@
 			{
 				"name":"PaletteTitle00",
 				"sourceFilePath":"design/img/swatches/title/00-low-scenery.png",
-				"destinationFilePath":"src/palettes/title00.X68"
+				"destinationFilePath":"src/palettes/title00.X68",
+				"allowDuplicateColors":"true"
 			},
 			{
 				"name":"PaletteTitle01",
 				"sourceFilePath":"design/img/swatches/title/01-high-scenery.png",
-				"destinationFilePath":"src/palettes/title01.X68"
+				"destinationFilePath":"src/palettes/title01.X68",
+				"allowDuplicateColors":"true"
 			},
 			{
 				"name":"PaletteTitle02",
 				"sourceFilePath":"design/img/swatches/title/02-high-scenery-alt.png",
-				"destinationFilePath":"src/palettes/title02.X68"
+				"destinationFilePath":"src/palettes/title02.X68",
+				"allowDuplicateColors":"true"
 			},
 			{
 				"name":"PaletteTitle03",
 				"sourceFilePath":"design/img/swatches/title/03-text.png",
-				"destinationFilePath":"src/palettes/title03.X68"
+				"destinationFilePath":"src/palettes/title03.X68",
+				"allowDuplicateColors":"true"
 			},
 			{
 				"name":"PaletteMenu00",
@@ -421,6 +430,126 @@
 				"name":"PaletteIndoor0F",
 				"sourceFilePath":"design/img/swatches/2-indoor/indoor0F.png",
 				"destinationFilePath":"src/palettes/indoor0F.X68",
+				"allowDuplicateColors":"true"
+			},
+			{
+				"name":"PaletteEndingGraphics00",
+				"sourceFilePath":"design/img/swatches/ending/credits-graphics-00.png",
+				"destinationFilePath":"src/palettes/credits-graphics-00.X68",
+				"allowDuplicateColors":"true"
+			},
+			{
+				"name":"PaletteEndingGraphics01",
+				"sourceFilePath":"design/img/swatches/ending/credits-graphics-01.png",
+				"destinationFilePath":"src/palettes/credits-graphics-01.X68",
+				"allowDuplicateColors":"true"
+			},
+			{
+				"name":"PaletteEndingGraphics02",
+				"sourceFilePath":"design/img/swatches/ending/credits-graphics-02.png",
+				"destinationFilePath":"src/palettes/credits-graphics-02.X68",
+				"allowDuplicateColors":"true"
+			},
+			{
+				"name":"PaletteEndingSound00",
+				"sourceFilePath":"design/img/swatches/ending/credits-sound-00.png",
+				"destinationFilePath":"src/palettes/credits-sound-00.X68",
+				"allowDuplicateColors":"true"
+			},	
+			{
+				"name":"PaletteEndingSound01",
+				"sourceFilePath":"design/img/swatches/ending/credits-sound-01.png",
+				"destinationFilePath":"src/palettes/credits-sound-01.X68",
+				"allowDuplicateColors":"true"
+			},	
+			{
+				"name":"PaletteEndingProgram00",
+				"sourceFilePath":"design/img/swatches/ending/credits-program-00.png",
+				"destinationFilePath":"src/palettes/credits-program-00.X68",
+				"allowDuplicateColors":"true"
+			},
+			{
+				"name":"PaletteEndingProgram01",
+				"sourceFilePath":"design/img/swatches/ending/credits-program-01.png",
+				"destinationFilePath":"src/palettes/credits-program-01.X68",
+				"allowDuplicateColors":"true"
+			},
+			{
+				"name":"PaletteEndingProgram02",
+				"sourceFilePath":"design/img/swatches/ending/credits-program-02.png",
+				"destinationFilePath":"src/palettes/credits-program-02.X68",
+				"allowDuplicateColors":"true"
+			},
+			{
+				"name":"PaletteEndingGood00",
+				"sourceFilePath":"design/img/swatches/ending/end-good-00.png",
+				"destinationFilePath":"src/palettes/end-good-00.X68",
+				"allowDuplicateColors":"true"
+			},
+			{
+				"name":"PaletteEndingGood01",
+				"sourceFilePath":"design/img/swatches/ending/end-good-01.png",
+				"destinationFilePath":"src/palettes/end-good-01.X68",
+				"allowDuplicateColors":"true"
+			},
+			{
+				"name":"PaletteEndingGood02",
+				"sourceFilePath":"design/img/swatches/ending/end-good-02.png",
+				"destinationFilePath":"src/palettes/end-good-02.X68",
+				"allowDuplicateColors":"true"
+			},
+			{
+				"name":"PaletteEndingFast00",
+				"sourceFilePath":"design/img/swatches/ending/end-fast-00.png",
+				"destinationFilePath":"src/palettes/end-fast-00.X68",
+				"allowDuplicateColors":"true"
+			},			
+			{
+				"name":"PaletteEndingFast01",
+				"sourceFilePath":"design/img/swatches/ending/end-fast-01.png",
+				"destinationFilePath":"src/palettes/end-fast-01.X68",
+				"allowDuplicateColors":"true"
+			},			
+			{
+				"name":"PaletteEndingFast02",
+				"sourceFilePath":"design/img/swatches/ending/end-fast-02.png",
+				"destinationFilePath":"src/palettes/end-fast-02.X68",
+				"allowDuplicateColors":"true"
+			},			
+			{
+				"name":"PaletteEndingBad00",
+				"sourceFilePath":"design/img/swatches/ending/end-bad-00.png",
+				"destinationFilePath":"src/palettes/end-bad-00.X68",
+				"allowDuplicateColors":"true"
+			},			
+			{
+				"name":"PaletteEndingBad01",
+				"sourceFilePath":"design/img/swatches/ending/end-bad-01.png",
+				"destinationFilePath":"src/palettes/end-bad-01.X68",
+				"allowDuplicateColors":"true"
+			},
+			{
+				"name":"PaletteEndingBad02",
+				"sourceFilePath":"design/img/swatches/ending/end-bad-02.png",
+				"destinationFilePath":"src/palettes/end-bad-02.X68",
+				"allowDuplicateColors":"true"
+			},
+			{
+				"name":"PaletteEndingPerfect00",
+				"sourceFilePath":"design/img/swatches/ending/end-perfect-00.png",
+				"destinationFilePath":"src/palettes/end-perfect-00.X68",
+				"allowDuplicateColors":"true"
+			},
+			{
+				"name":"PaletteEndingPerfect01",
+				"sourceFilePath":"design/img/swatches/ending/end-perfect-01.png",
+				"destinationFilePath":"src/palettes/end-perfect-01.X68",
+				"allowDuplicateColors":"true"
+			},
+			{
+				"name":"PaletteEndingPerfect02",
+				"sourceFilePath":"design/img/swatches/ending/end-perfect-02.png",
+				"destinationFilePath":"src/palettes/end-perfect-02.X68",
 				"allowDuplicateColors":"true"
 			}
 		],
@@ -826,56 +955,56 @@
 			},
 			{
 				"name":"TurnStyleLeftLow",
-				"palette":"PaletteFloor00",
+				"palette":"PaletteIndoor00",
 				"sourceFilePath":"design/img/scene-tiles/office/turnstyle-left-low-16x24.png",
 				"destinationFilePath":"src/tiles/scene-tiles/turnstyle-left-low-16x24.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"TurnStyleRightLow",
-				"palette":"PaletteFloor00",
+				"palette":"PaletteIndoor00",
 				"sourceFilePath":"design/img/scene-tiles/office/turnstyle-right-low-16x24.png",
 				"destinationFilePath":"src/tiles/scene-tiles/turnstyle-right-low-16x24.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"TurnStyleLeftHigh",
-				"palette":"PaletteFloor00",
+				"palette":"PaletteIndoor00",
 				"sourceFilePath":"design/img/scene-tiles/office/turnstyle-left-high-8x16.png",
 				"destinationFilePath":"src/tiles/scene-tiles/turnstyle-left-high-8x16.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"TurnStyleRightHigh",
-				"palette":"PaletteFloor00",
+				"palette":"PaletteIndoor00",
 				"sourceFilePath":"design/img/scene-tiles/office/turnstyle-right-high-8x16.png",
 				"destinationFilePath":"src/tiles/scene-tiles/turnstyle-right-high-8x16.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"CouchStripedLeftLow",
-				"palette":"PaletteFloor00",
+				"palette":"PaletteIndoor00",
 				"sourceFilePath":"design/img/scene-tiles/office/couch-striped-left-low-24x32.png",
 				"destinationFilePath":"src/tiles/scene-tiles/couch-striped-left-low-24x32.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"CouchStripedLeftHigh",
-				"palette":"PaletteFloor00",
+				"palette":"PaletteIndoor00",
 				"sourceFilePath":"design/img/scene-tiles/office/couch-striped-left-high-16x8.png",
 				"destinationFilePath":"src/tiles/scene-tiles/couch-striped-left-high-16x8.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"CouchStripedRightLow",
-				"palette":"PaletteFloor00",
+				"palette":"PaletteIndoor00",
 				"sourceFilePath":"design/img/scene-tiles/office/couch-striped-right-low-24x32.png",
 				"destinationFilePath":"src/tiles/scene-tiles/couch-striped-right-low-24x32.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"CouchStripedRightHigh",
-				"palette":"PaletteFloor00",
+				"palette":"PaletteIndoor00",
 				"sourceFilePath":"design/img/scene-tiles/office/couch-striped-right-high-16x8.png",
 				"destinationFilePath":"src/tiles/scene-tiles/couch-striped-right-high-16x8.X68",
 				"allowDuplicateTiles":"true"
@@ -1302,21 +1431,21 @@
 			},
 			{
 				"name":"EmptyShelvesHigh",
-				"palette":"PaletteFloor05",
+				"palette":"PaletteIndoorBase",
 				"sourceFilePath":"design/img/scene-tiles/office/emptyshelves-high-32x16.png",
 				"destinationFilePath":"src/tiles/scene-tiles/emptyshelves-high-32x16.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"EmptyShelvesLow",
-				"palette":"PaletteFloor05",
+				"palette":"PaletteIndoorBase",
 				"sourceFilePath":"design/img/scene-tiles/office/emptyshelves-low-32x16.png",
 				"destinationFilePath":"src/tiles/scene-tiles/emptyshelves-low-32x16.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"ShelfWithObject",
-				"palette":"PaletteFloor05",
+				"palette":"PaletteIndoorBase",
 				"sourceFilePath":"design/img/scene-tiles/office/shelfwithobject-16x8.png",
 				"destinationFilePath":"src/tiles/scene-tiles/shelfwithobject-16x8.X68",
 				"allowDuplicateTiles":"true"
@@ -1777,7 +1906,7 @@
 			},						
 			{
 				"name":"GrayCurtainOpening",
-				"palette":"PaletteFloor0C",
+				"palette":"PaletteIndoor0C",
 				"sourceFilePath":"design/img/scene-tiles/radio/gray-curtain-opening.png",
 				"destinationFilePath":"src/tiles/scene-tiles/gray-curtain-opening.X68",
 				"allowDuplicateTiles":"false",
@@ -1785,7 +1914,7 @@
 			},
 			{
 				"name":"RadioWindow",
-				"palette":"PaletteFloor0C",
+				"palette":"PaletteIndoorBase",
 				"sourceFilePath":"design/img/scene-tiles/radio/window.png",
 				"destinationFilePath":"src/tiles/scene-tiles/radio-window.X68",
 				"allowDuplicateTiles":"false",
@@ -1793,7 +1922,7 @@
 			},
 			{
 				"name":"GuestCouch",
-				"palette":"PaletteFloor0C",
+				"palette":"PaletteIndoor0C",
 				"sourceFilePath":"design/img/scene-tiles/radio/guest-couch.png",
 				"destinationFilePath":"src/tiles/scene-tiles/guest-couch.X68",
 				"allowDuplicateTiles":"false",
@@ -1801,7 +1930,7 @@
 			},
 			{
 				"name":"Speaker",
-				"palette":"PaletteFloor0C",
+				"palette":"PaletteIndoorBase",
 				"sourceFilePath":"design/img/scene-tiles/radio/speaker-16x32.png",
 				"destinationFilePath":"src/tiles/scene-tiles/speaker-16x32.X68",
 				"allowDuplicateTiles":"true"
@@ -1831,28 +1960,28 @@
 			},			
 			{
 				"name":"LightLeftLow",
-				"palette":"PaletteFloor0D",
+				"palette":"PaletteIndoor0D",
 				"sourceFilePath":"design/img/scene-tiles/office/light-left-low-24x24.png",
 				"destinationFilePath":"src/tiles/scene-tiles/light-left-low-24x24.X68",
 				"allowDuplicateTiles":"true"
 			},	
 			{
 				"name":"LightLeftHigh",
-				"palette":"PaletteFloor0D",
+				"palette":"PaletteIndoor0D",
 				"sourceFilePath":"design/img/scene-tiles/office/light-left-high-24x16.png",
 				"destinationFilePath":"src/tiles/scene-tiles/light-left-high-24x16.X68",
 				"allowDuplicateTiles":"true"
 			},	
 			{
 				"name":"LightRightLow",
-				"palette":"PaletteFloor0D",
+				"palette":"PaletteIndoor0D",
 				"sourceFilePath":"design/img/scene-tiles/office/light-right-low-24x24.png",
 				"destinationFilePath":"src/tiles/scene-tiles/light-right-low-24x24.X68",
 				"allowDuplicateTiles":"true"
 			},	
 			{
 				"name":"LightRightHigh",
-				"palette":"PaletteFloor0D",
+				"palette":"PaletteIndoor0D",
 				"sourceFilePath":"design/img/scene-tiles/office/light-right-high-24x16.png",
 				"destinationFilePath":"src/tiles/scene-tiles/light-right-high-24x16.X68",
 				"allowDuplicateTiles":"true"
@@ -1873,7 +2002,7 @@
 			},
 			{
 				"name":"Synth",
-				"palette":"PaletteIndoorBase",
+				"palette":"PaletteIndoor0F",
 				"sourceFilePath":"design/img/scene-tiles/office/synth-24x16.png",
 				"destinationFilePath":"src/tiles/scene-tiles/synth-24x16.X68",
 				"allowDuplicateTiles":"true"
@@ -1903,49 +2032,49 @@
 			},	
 			{
 				"name":"GameConsole1",
-				"palette":"PaletteFloor0F",
+				"palette":"PaletteIndoor0F",
 				"sourceFilePath":"design/img/scene-tiles/office/gameconsole1-16x16.png",
 				"destinationFilePath":"src/tiles/scene-tiles/gameconsole1-16x16.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"GameConsole2",
-				"palette":"PaletteFloor0F",
+				"palette":"PaletteIndoor0F",
 				"sourceFilePath":"design/img/scene-tiles/office/gameconsole2-24x16.png",
 				"destinationFilePath":"src/tiles/scene-tiles/gameconsole2-24x16.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"GameConsole3",
-				"palette":"PaletteFloor0F",
+				"palette":"PaletteIndoor0F",
 				"sourceFilePath":"design/img/scene-tiles/office/gameconsole3-24x16.png",
 				"destinationFilePath":"src/tiles/scene-tiles/gameconsole3-24x16.X68",
 				"allowDuplicateTiles":"true"
 			},			
 			{
 				"name":"ArcadeHigh",
-				"palette":"PaletteFloor0F",
+				"palette":"PaletteIndoor0F",
 				"sourceFilePath":"design/img/scene-tiles/office/arcade-high-32x16.png",
 				"destinationFilePath":"src/tiles/scene-tiles/arcade-high-32x16.X68",
 				"allowDuplicateTiles":"true"
 			},	
 			{
 				"name":"ArcadeLow",
-				"palette":"PaletteFloor0F",
+				"palette":"PaletteIndoor0F",
 				"sourceFilePath":"design/img/scene-tiles/office/arcade-low-32x24.png",
 				"destinationFilePath":"src/tiles/scene-tiles/arcade-low-32x24.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"OldTV",
-				"palette":"PaletteFloor0F",
+				"palette":"PaletteIndoor0F",
 				"sourceFilePath":"design/img/scene-tiles/office/oldtv-16x24.png",
 				"destinationFilePath":"src/tiles/scene-tiles/oldtv-16x24.X68",
 				"allowDuplicateTiles":"true"
 			},			
 			{
 				"name":"TableBluePartial",
-				"palette":"PaletteFloor0F",
+				"palette":"PaletteIndoor0F",
 				"sourceFilePath":"design/img/scene-tiles/office/table-blue-partial.png",
 				"destinationFilePath":"src/tiles/scene-tiles/table-blue-partial.X68",
 				"allowDuplicateTiles":"false",
@@ -1953,7 +2082,7 @@
 			},			
 			{
 				"name":"CubeTop",
-				"palette":"PaletteFloor0F",
+				"palette":"PaletteIndoor0F",
 				"sourceFilePath":"design/img/scene-tiles/office/cube-top.png",
 				"destinationFilePath":"src/tiles/scene-tiles/cube-top.X68",
 				"allowDuplicateTiles":"false",
@@ -1961,7 +2090,7 @@
 			},				
 			{
 				"name":"CubeMiddle",
-				"palette":"PaletteFloor0F",
+				"palette":"PaletteIndoor0F",
 				"sourceFilePath":"design/img/scene-tiles/office/cube-middle.png",
 				"destinationFilePath":"src/tiles/scene-tiles/cube-middle.X68",
 				"allowDuplicateTiles":"false",
@@ -1969,7 +2098,7 @@
 			},
 			{
 				"name":"CubeLower",
-				"palette":"PaletteFloor0F",
+				"palette":"PaletteIndoor0F",
 				"sourceFilePath":"design/img/scene-tiles/office/cube-lower.png",
 				"destinationFilePath":"src/tiles/scene-tiles/cube-lower.X68",
 				"allowDuplicateTiles":"false",
@@ -2046,6 +2175,454 @@
 				"destinationFilePath":"src/tiles/scene-tiles/ending-frame.X68",
 				"allowDuplicateTiles":"false",
 				"patternFilePath":"src/patterns/ending-frame.X68"				
+			},
+			{
+				"name":"Floor00OutdoorTile",
+				"palette":"PaletteOutdoor00",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-tile-00.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-tile-00.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor01OutdoorTile",
+				"palette":"PaletteOutdoor01",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-tile-01.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-tile-01.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor02OutdoorTile",
+				"palette":"PaletteOutdoor02",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-tile-02.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-tile-02.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor03OutdoorTile",
+				"palette":"PaletteOutdoor03",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-tile-03.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-tile-03.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor04OutdoorTile",
+				"palette":"PaletteOutdoor04",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-tile-04.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-tile-04.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor05OutdoorTile",
+				"palette":"PaletteOutdoor05",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-tile-05.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-tile-05.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor06OutdoorTile",
+				"palette":"PaletteOutdoor06",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-tile-06.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-tile-06.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor07OutdoorTile",
+				"palette":"PaletteOutdoor07",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-tile-07.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-tile-07.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor08OutdoorTile",
+				"palette":"PaletteOutdoor08",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-tile-08.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-tile-08.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor09OutdoorTile",
+				"palette":"PaletteOutdoor09",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-tile-09.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-tile-09.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0AOutdoorTile",
+				"palette":"PaletteOutdoor0A",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-tile-0A.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-tile-0A.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0BOutdoorTile",
+				"palette":"PaletteOutdoor0B",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-tile-0B.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-tile-0B.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0COutdoorTile",
+				"palette":"PaletteOutdoor0C",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-tile-0C.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-tile-0C.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0DOutdoorTile",
+				"palette":"PaletteOutdoor0D",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-tile-0D.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-tile-0D.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0EOutdoorTile",
+				"palette":"PaletteOutdoor0E",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-tile-0E.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-tile-0E.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0FOutdoorTile",
+				"palette":"PaletteOutdoor0F",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-tile-0F.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-tile-0F.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor00OutdoorTrees",
+				"palette":"PaletteOutdoor00",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-00.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-00.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor01OutdoorTrees",
+				"palette":"PaletteOutdoor01",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-01.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-01.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor02OutdoorTrees",
+				"palette":"PaletteOutdoor02",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-02.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-02.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor03OutdoorTrees",
+				"palette":"PaletteOutdoor03",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-03.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-03.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor04OutdoorTrees",
+				"palette":"PaletteOutdoor04",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-04.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-04.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor05OutdoorTrees",
+				"palette":"PaletteOutdoor05",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-05.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-05.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor06OutdoorTrees",
+				"palette":"PaletteOutdoor06",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-06.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-06.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor07OutdoorTrees",
+				"palette":"PaletteOutdoor07",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-07.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-07.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor08OutdoorTrees",
+				"palette":"PaletteOutdoor08",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-08.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-08.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor09OutdoorTrees",
+				"palette":"PaletteOutdoor09",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-09.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-09.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0AOutdoorTrees",
+				"palette":"PaletteOutdoor0A",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-0A.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-0A.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0BOutdoorTrees",
+				"palette":"PaletteOutdoor0B",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-0B.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-0B.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0COutdoorTrees",
+				"palette":"PaletteOutdoor0C",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-0C.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-0C.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0DOutdoorTrees",
+				"palette":"PaletteOutdoor0D",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-0D.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-0D.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0EOutdoorTrees",
+				"palette":"PaletteOutdoor0E",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-0E.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-0E.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0FOutdoorTrees",
+				"palette":"PaletteOutdoor00",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-0F.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-0F.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor00OutdoorFenceLeft",
+				"palette":"PaletteOutdoor00",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-00-left.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-00-left.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor01OutdoorFenceLeft",
+				"palette":"PaletteOutdoor01",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-01-left.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-01-left.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor02OutdoorFenceLeft",
+				"palette":"PaletteOutdoor02",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-02-left.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-02-left.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor03OutdoorFenceLeft",
+				"palette":"PaletteOutdoor03",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-03-left.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-03-left.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor04OutdoorFenceLeft",
+				"palette":"PaletteOutdoor04",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-04-left.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-04-left.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor05OutdoorFenceLeft",
+				"palette":"PaletteOutdoor05",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-05-left.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-05-left.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor06OutdoorFenceLeft",
+				"palette":"PaletteOutdoor06",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-06-left.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-06-left.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor07OutdoorFenceLeft",
+				"palette":"PaletteOutdoor07",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-07-left.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-07-left.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor08OutdoorFenceLeft",
+				"palette":"PaletteOutdoor08",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-08-left.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-08-left.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor09OutdoorFenceLeft",
+				"palette":"PaletteOutdoor09",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-09-left.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-09-left.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0AOutdoorFenceLeft",
+				"palette":"PaletteOutdoor0A",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0A-left.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0A-left.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0BOutdoorFenceLeft",
+				"palette":"PaletteOutdoor0B",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0B-left.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0B-left.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0COutdoorFenceLeft",
+				"palette":"PaletteOutdoor0C",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0C-left.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0C-left.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0DOutdoorFenceLeft",
+				"palette":"PaletteOutdoor0D",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0D-left.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0D-left.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0EOutdoorFenceLeft",
+				"palette":"PaletteOutdoor0E",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0E-left.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0E-left.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0FOutdoorFenceLeft",
+				"palette":"PaletteOutdoor0F",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0F-left.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0F-left.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor00OutdoorFenceRight",
+				"palette":"PaletteOutdoor00",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-00-right.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-00-right.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor01OutdoorFenceRight",
+				"palette":"PaletteOutdoor01",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-01-right.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-01-right.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor02OutdoorFenceRight",
+				"palette":"PaletteOutdoor02",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-02-right.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-02-right.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor03OutdoorFenceRight",
+				"palette":"PaletteOutdoor03",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-03-right.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-03-right.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor04OutdoorFenceRight",
+				"palette":"PaletteOutdoor04",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-04-right.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-04-right.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor05OutdoorFenceRight",
+				"palette":"PaletteOutdoor05",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-05-right.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-05-right.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor06OutdoorFenceRight",
+				"palette":"PaletteOutdoor06",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-06-right.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-06-right.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor07OutdoorFenceRight",
+				"palette":"PaletteOutdoor07",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-07-right.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-07-right.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor08OutdoorFenceRight",
+				"palette":"PaletteOutdoor08",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-08-right.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-08-right.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor09OutdoorFenceRight",
+				"palette":"PaletteOutdoor09",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-09-right.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-09-right.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0AOutdoorFenceRight",
+				"palette":"PaletteOutdoor0A",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0A-right.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0A-right.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0BOutdoorFenceRight",
+				"palette":"PaletteOutdoor0B",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0B-right.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0B-right.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0COutdoorFenceRight",
+				"palette":"PaletteOutdoor0C",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0C-right.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0C-right.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0DOutdoorFenceRight",
+				"palette":"PaletteOutdoor0D",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0D-right.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0D-right.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0EOutdoorFenceRight",
+				"palette":"PaletteOutdoor0E",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0E-right.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0E-right.X68",
+				"allowDuplicateTiles":"true"
+			},
+			{
+				"name":"Floor0FOutdoorFenceRight",
+				"palette":"PaletteOutdoor0F",
+				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0F-right.png",
+				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0F-right.X68",
+				"allowDuplicateTiles":"true"
 			}
 		],
 		"tileIncludeFilePath":"src/inc_Tiles.X68",
@@ -2318,27 +2895,6 @@
 				"paletteName":"PaletteFloorBase",
 				"sourceFilePath":"design/img/scene-tiles/frame-wall-segment-32x32.png",
 				"destinationFilePath":"src/patterns/frame-wall-segment-32x32.X68"
-			},					
-			{
-				"name":"OutdoorNorth",
-				"tilesetName":"Outdoors",
-				"paletteName":"PaletteOutdoorBase",
-				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-north-base-320x16.png",
-				"destinationFilePath":"src/patterns/outdoor-north-base-320x16.X68"
-			},
-			{
-				"name":"OutdoorSouth",
-				"tilesetName":"Outdoors",
-				"paletteName":"PaletteOutdoorBase",
-				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-south-base-320x32.png",
-				"destinationFilePath":"src/patterns/outdoor-south-base-320x32.X68"
-			},
-			{
-				"name":"OutdoorEastWest",
-				"tilesetName":"Outdoors",
-				"paletteName":"PaletteOutdoorBase",
-				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-ew-base-16x176.png",
-				"destinationFilePath":"src/patterns/outdoor-ew-base-16x176.X68"
 			}
 		],
 		"patternIncludeFilePath":"src/inc_PatternsGenerated.X68"
@@ -2539,6 +3095,7 @@
 			"/design/scene-json/endbad.json",
 			"/design/scene-json/endgood.json",
 			"/design/scene-json/endperfect.json",
+			"/design/scene-json/endfast.json",
 			"/design/scene-json/legal.json",
 			"/design/scene-json/title.json",
 			"/design/scene-json/titledebug.json",

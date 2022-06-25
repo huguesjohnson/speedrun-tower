@@ -340,5 +340,81 @@
             "command":"END"
          }
       ]
-   }   
+   },
+   {
+      "name":"ScriptedEventFastEnding",
+      "actions":[
+         {
+            "comment":"npc0 sprite",
+            "intValue":2
+         },
+         {
+            "comment":"dialog - perfect ending start",
+            "command":"DIALOG",
+            "label":"StoryTextNPC_FLOOR0F_01_Fast"
+         },
+         {
+            "comment":"fade out",
+            "command":"FADE_BLACK"
+         },
+         {
+            "comment":"move player sprite off screen",
+            "command":"SET_PLAYER_SPRITE_X",
+            "intConst":"$0000"
+         },
+         {
+            "comment":"move player sprite off screen",
+            "command":"SET_PLAYER_SPRITE_Y",
+            "intConst":"$0000"
+         },
+         {
+            "comment":"change scene - programming credits",
+            "command":"CHANGE_SCENE",
+            "intConst":"SCENE_ID_CREDITS_PROGRAM"
+         },
+         {
+            "comment":"timer for credits screen",
+            "command":"TIMER",
+            "intConst":"CREDITS_SCREEN_LOOP"
+         },
+         {
+            "comment":"change scene - graphics credits",
+            "command":"CHANGE_SCENE",
+            "intConst":"SCENE_ID_CREDITS_GRAPHICS"
+         },
+         {
+            "comment":"timer for credits screen",
+            "command":"TIMER",
+            "intConst":"CREDITS_SCREEN_LOOP"
+         },
+         {
+            "comment":"change scene - sound credits",
+            "command":"CHANGE_SCENE",
+            "intConst":"SCENE_ID_CREDITS_SOUND"
+         },
+         {
+            "comment":"timer for credits screen",
+            "command":"TIMER",
+            "intConst":"CREDITS_SCREEN_LOOP"
+         },
+         {
+            "comment":"change scene - ending",
+            "command":"CHANGE_SCENE",
+            "intConst":"SCENE_ID_END_FAST"
+         },
+         {
+            "comment":"timer for credits screen",
+            "command":"TIMER",
+            "intConst":"CREDITS_SCREEN_LOOP"
+         },
+         {
+            "comment":"set end game",
+            "command":"ENDGAME"
+         },
+         {
+            "comment":"end",
+            "command":"END"
+         }
+      ]
+   }      
 ]

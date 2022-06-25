@@ -14,9 +14,9 @@
 		"MedicalTableLow"
 	],
 	"paletteNames":[
-		"PaletteFloor03",
-		"PaletteTextCredits",
-		"PaletteIndoor03",
+		"PaletteEndingGraphics00",
+		"PaletteEndingGraphics01",
+		"PaletteEndingGraphics02",
 		"PalettePeople"
 	],
 	"scenery":[

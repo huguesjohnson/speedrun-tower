@@ -462,7 +462,7 @@
 			"stringLabel":"MenuScreenFloorsVisitedCaption",
 			"comment":"floors visited caption",
 			"highPriority":false,
-			"paletteNumber":2,
+			"paletteNumber":1,
 			"layer":"VDP_VRAM_WRITE_A",
 			"row":"01000000",
 			"column":"00040000"
@@ -471,7 +471,7 @@
 			"stringLabel":"MenuScreenEventsCompleteCaption",
 			"comment":"events complete caption",
 			"highPriority":false,
-			"paletteNumber":2,
+			"paletteNumber":1,
 			"layer":"VDP_VRAM_WRITE_A",
 			"row":"01000000",
 			"column":"002C0000"

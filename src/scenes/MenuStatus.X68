@@ -330,12 +330,12 @@
 
 	; floors visited caption
 	dc.l	MenuScreenFloorsVisitedCaption
-	dc.w	FONT_BASE_TILE_LOW+%0100000000000000 ; vdp pattern
+	dc.w	FONT_BASE_TILE_LOW+%0010000000000000 ; vdp pattern
 	dc.l	VDP_VRAM_WRITE_A+$00040000+$01000000 ; initial drawing location
 
 	; events complete caption
 	dc.l	MenuScreenEventsCompleteCaption
-	dc.w	FONT_BASE_TILE_LOW+%0100000000000000 ; vdp pattern
+	dc.w	FONT_BASE_TILE_LOW+%0010000000000000 ; vdp pattern
 	dc.l	VDP_VRAM_WRITE_A+$002C0000+$01000000 ; initial drawing location
 
 	; unseen - floor 00
