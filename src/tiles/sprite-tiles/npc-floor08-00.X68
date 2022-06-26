@@ -511,9 +511,9 @@ FLOOR08_00_Frame6Start:
 	dc.l	$AAAAAAA1
 	dc.l	$AAAAAAA1
 	dc.l	$AAAAAAA1
-	dc.l	$AAAAAA11
+	dc.l	$AAAAAA10
 
-	dc.l	$AAAAAA11
+	dc.l	$AAAAAA10
 	dc.l	$11111110
 	dc.l	$FFFFFF10
 	dc.l	$FFFFFF10
@@ -587,9 +587,9 @@ FLOOR08_00_Frame7Start:
 	dc.l	$AAAAAAA1
 	dc.l	$AAAAAAA1
 	dc.l	$AAAAAAA1
-	dc.l	$AAAAAA11
+	dc.l	$AAAAAA10
 
-	dc.l	$AAAAAA11
+	dc.l	$AAAAAA10
 	dc.l	$11111110
 	dc.l	$FFFFFF10
 	dc.l	$FFFFFF10
@@ -663,9 +663,9 @@ FLOOR08_00_Frame8Start:
 	dc.l	$AAAAAAA1
 	dc.l	$AAAAAAA1
 	dc.l	$AAAAAAA1
-	dc.l	$AAAAAA11
+	dc.l	$AAAAAA10
 
-	dc.l	$AAAAAA11
+	dc.l	$AAAAAA10
 	dc.l	$11111110
 	dc.l	$FFFFFF10
 	dc.l	$FFFFFF10
@@ -703,9 +703,9 @@ FLOOR08_00_Frame9Start:
 	dc.l	$1AAAAAAA
 	dc.l	$1AAAAAAA
 	dc.l	$1AAAAAAA
-	dc.l	$11AAAAAA
+	dc.l	$01AAAAAA
 
-	dc.l	$11AAAAAA
+	dc.l	$01AAAAAA
 	dc.l	$01111111
 	dc.l	$01FFFFFF
 	dc.l	$01FFFFFF
@@ -779,9 +779,9 @@ FLOOR08_00_Frame10Start:
 	dc.l	$1AAAAAAA
 	dc.l	$1AAAAAAA
 	dc.l	$1AAAAAAA
-	dc.l	$11AAAAAA
+	dc.l	$01AAAAAA
 
-	dc.l	$11AAAAAA
+	dc.l	$01AAAAAA
 	dc.l	$01111111
 	dc.l	$01FFFFFF
 	dc.l	$01FFFFFF
@@ -855,9 +855,9 @@ FLOOR08_00_Frame11Start:
 	dc.l	$1AAAAAAA
 	dc.l	$1AAAAAAA
 	dc.l	$1AAAAAAA
-	dc.l	$11AAAAAA
+	dc.l	$01AAAAAA
 
-	dc.l	$11AAAAAA
+	dc.l	$01AAAAAA
 	dc.l	$01111111
 	dc.l	$01FFFFFF
 	dc.l	$01FFFFFF

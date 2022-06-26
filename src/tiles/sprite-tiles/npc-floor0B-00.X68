@@ -251,10 +251,10 @@ FLOOR0B_00_Frame3Start:
 
 	dc.l	$1CBBBBBB
 	dc.l	$1CBBBBBB
-	dc.l	$11777777
-	dc.l	$11777777
-	dc.l	$01177777
-	dc.l	$00117777
+	dc.l	$01777777
+	dc.l	$01777777
+	dc.l	$00177777
+	dc.l	$00017777
 	dc.l	$001C1111
 	dc.l	$01CCCCCC
 
@@ -287,10 +287,10 @@ FLOOR0B_00_Frame3Start:
 
 	dc.l	$BBBBBBC1
 	dc.l	$BBBBBBC1
-	dc.l	$77777711
-	dc.l	$77777711
-	dc.l	$77777110
-	dc.l	$77771100
+	dc.l	$77777710
+	dc.l	$77777710
+	dc.l	$77777100
+	dc.l	$77771000
 	dc.l	$1111C100
 	dc.l	$CCCCCC10
 
@@ -326,10 +326,10 @@ FLOOR0B_00_Frame4Start:
 	dc.l	$1CBBBBBB
 
 	dc.l	$1CBBBBBB
-	dc.l	$11777777
-	dc.l	$11777777
-	dc.l	$01177777
-	dc.l	$00117777
+	dc.l	$01777777
+	dc.l	$01777777
+	dc.l	$00177777
+	dc.l	$00017777
 	dc.l	$001C1111
 	dc.l	$01CCCCCC
 	dc.l	$171C9999
@@ -362,9 +362,9 @@ FLOOR0B_00_Frame4Start:
 	dc.l	$BBBBBBC1
 
 	dc.l	$BBBBBBC1
-	dc.l	$77777711
-	dc.l	$77777711
-	dc.l	$77777110
+	dc.l	$77777710
+	dc.l	$77777710
+	dc.l	$77777100
 	dc.l	$77771171
 	dc.l	$1111CC71
 	dc.l	$CCCCCC10
@@ -402,8 +402,8 @@ FLOOR0B_00_Frame5Start:
 	dc.l	$1CBBBBBB
 
 	dc.l	$1CBBBBBB
-	dc.l	$11777777
-	dc.l	$11777777
+	dc.l	$01777777
+	dc.l	$01777777
 	dc.l	$01177777
 	dc.l	$17117777
 	dc.l	$17CC1111
@@ -438,9 +438,9 @@ FLOOR0B_00_Frame5Start:
 	dc.l	$BBBBBBC1
 
 	dc.l	$BBBBBBC1
-	dc.l	$77777711
-	dc.l	$77777711
-	dc.l	$77777110
+	dc.l	$77777710
+	dc.l	$77777710
+	dc.l	$77777100
 	dc.l	$77771100
 	dc.l	$1111C100
 	dc.l	$CCCCCC10

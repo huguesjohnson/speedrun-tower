@@ -493,7 +493,7 @@ PC02_Frame6Start:
 	dc.l	$00001AAA
 	dc.l	$000011AA
 	dc.l	$00000177
-	dc.l	$000000AA
+	dc.l	$00000011
 
 	dc.l	$00000000
 	dc.l	$00000000
@@ -529,7 +529,7 @@ PC02_Frame6Start:
 	dc.l	$A1000000
 	dc.l	$A1000000
 	dc.l	$71000000
-	dc.l	$A0000000
+	dc.l	$10000000
 
 PC02_Frame6End:
 
@@ -708,9 +708,9 @@ PC02_Frame9Start:
 	dc.l	$01888888
 	dc.l	$01888885
 	dc.l	$01888855
-	dc.l	$00A88555
-	dc.l	$00A88555
-	dc.l	$000AA555
+	dc.l	$00188555
+	dc.l	$00188555
+	dc.l	$00011555
 	dc.l	$00000111
 	dc.l	$000001A1
 
@@ -721,7 +721,7 @@ PC02_Frame9Start:
 	dc.l	$0000001A
 	dc.l	$0000001A
 	dc.l	$00000017
-	dc.l	$0000000A
+	dc.l	$00000001
 
 	dc.l	$00000000
 	dc.l	$00000000
@@ -757,7 +757,7 @@ PC02_Frame9Start:
 	dc.l	$AAA10000
 	dc.l	$AA110000
 	dc.l	$77100000
-	dc.l	$AA000000
+	dc.l	$11000000
 
 PC02_Frame9End:
 

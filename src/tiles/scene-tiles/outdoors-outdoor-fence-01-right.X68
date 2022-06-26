@@ -4,39 +4,39 @@
 	dc.l	$44445444
 	dc.l	$44445444
 	dc.l	$66646664
-	dc.l	$6F646F66
-	dc.l	$6664666F
-	dc.l	$6E646E66
-	dc.l	$6F646F6E
-	dc.l	$6F6F6F6F
+	dc.l	$69646966
+	dc.l	$66646669
+	dc.l	$68646866
+	dc.l	$69646968
+	dc.l	$69696969
 
 	; 1
 	dc.l	$44444442
 	dc.l	$44444422
 	dc.l	$66646664
-	dc.l	$6F646F66
-	dc.l	$6664666F
-	dc.l	$6E646E66
-	dc.l	$6F646F6E
-	dc.l	$6F6F6F6F
+	dc.l	$69646966
+	dc.l	$66646669
+	dc.l	$68646866
+	dc.l	$69646968
+	dc.l	$69696969
 
 	; 2
-	dc.l	$6F6D6F6F
-	dc.l	$6D666D6F
-	dc.l	$6FFFFF6F
-	dc.l	$6FFFFF6F
-	dc.l	$6D666D6F
-	dc.l	$6F6D6F6F
-	dc.l	$6F666F6F
+	dc.l	$69686969
+	dc.l	$68666869
+	dc.l	$69999969
+	dc.l	$69999969
+	dc.l	$68666869
+	dc.l	$69686969
+	dc.l	$69666969
 	dc.l	$66666666
 
 	; 3
-	dc.l	$6F6D6F6F
-	dc.l	$6D666D6F
-	dc.l	$6FFFFF6F
-	dc.l	$6FFFFF6F
-	dc.l	$6D666D6F
-	dc.l	$6F6D6F6F
-	dc.l	$6F666F6F
+	dc.l	$69686969
+	dc.l	$68666869
+	dc.l	$69999969
+	dc.l	$69999969
+	dc.l	$68666869
+	dc.l	$69686969
+	dc.l	$69666969
 	dc.l	$66666666
 

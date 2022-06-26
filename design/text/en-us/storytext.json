@@ -134,7 +134,7 @@
             "align":2},
       "StoryTextNPC_FLOOR0F_01_Bad":{
             "dialogTitle":"OBJ_NPC_FLOOR0F_00",
-            "text":"This building really took you on a trip.|It's OK, maybe tomorrow will be easier.",
+            "text":"This building really took you on a trip.|Maybe tomorrow will be easier.",
             "align":2},
       "StoryTextNPC_FLOOR0F_01_Good":{
             "dialogTitle":"OBJ_NPC_FLOOR0F_00",

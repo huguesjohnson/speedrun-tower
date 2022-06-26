@@ -8,17 +8,16 @@ Your goal is to reach the top floor and talk to your co-workers in the fewest st
 
 This demo was also an excuse to try different approaches for achieving pseudorandomness on the Sega Genesis.
 
-I am very tempted to port this to other 68k platforms but there are no concrete plans.
-
 **Project Status**
 
-As of June 2022:
+Sega Genesis version 1.0 is complete. That means:
 
 - Fully-playable demo that doesn't crash in any way I've found
 - Tested on real Sega Genesis model 1 hardware
 - So far no "unwinnable" game states have been produced - I don't know if I want to declare it "impossible" though
-- I'd like to improve the dialog a bit
-- I'd like to add some outdoor scenery
+- I do not plan any further changes to this version unless a breaking bug is found
+
+I am very tempted to port this to other 68k platforms but there are no concrete plans. I am also tempted to port it to Sega CD but again nothing concrete.
 
 **Links**
 
@@ -34,7 +33,7 @@ As of June 2022:
 
 I have only ever built this using [vasm](http://sun.hasenbraten.de/vasm/) with the motorola syntax module. I have no reason to believe this won't work with any other 68000 assembler.
 
-There are additional build tools that require Java 8+ in the /build-tools/ folder. These are not needed to compile the demo from source. However, they are needed if you want to customize sprites, collision maps, or change the memory map. [The source for those tools are here](https://github.com/huguesjohnson/DubbelLib).
+There are additional build tools that require Java 8+ in the /build-tools/ folder. These are not needed to compile the demo from source. However, they are needed if you want to customize sprites, scenes, collision maps, or change the memory map. [The source for those tools are here](https://github.com/huguesjohnson/DubbelLib).
 
 **Disclaimers**
 

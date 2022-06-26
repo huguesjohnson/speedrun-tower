@@ -67,7 +67,7 @@ PC05_Frame0Start:
 	dc.l	$444AAA10
 
 	dc.l	$AAAAAA10
-	dc.l	$888AAA41
+	dc.l	$888AA141
 	dc.l	$AA8A1441
 	dc.l	$A8AA1110
 	dc.l	$AAAA1000
@@ -407,7 +407,7 @@ PC05_Frame5Start:
 	dc.l	$16666666
 	dc.l	$16666666
 	dc.l	$16666666
-	dc.l	$21666666
+	dc.l	$01666666
 	dc.l	$1AA66666
 
 	dc.l	$1AAAAAAA
@@ -641,7 +641,7 @@ PC05_Frame8Start:
 	dc.l	$00141A1A
 	dc.l	$00148A11
 	dc.l	$000111A1
-	dc.l	$00011AA1
+	dc.l	$00001AA1
 	dc.l	$00111111
 	dc.l	$01F77777
 	dc.l	$01FF7777
@@ -905,7 +905,7 @@ PC05_Frame11Start:
 	dc.l	$A1A14100
 	dc.l	$11A84100
 	dc.l	$1A111000
-	dc.l	$1AA11000
+	dc.l	$1AA10000
 	dc.l	$11111100
 	dc.l	$77777F10
 	dc.l	$7777FF10

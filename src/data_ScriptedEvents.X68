@@ -103,7 +103,7 @@ ScriptedEventBadEndingStart:
 	dc.w	SCENE_ID_END_BAD
 	; timer for credits screen
 	dc.w	SCRIPTED_EVENT_TIMER
-	dc.w	CREDITS_SCREEN_LOOP
+	dc.w	CREDITS_SCREEN_LOOP_LAST_SCREEN
 	; set end game
 	dc.w	SCRIPTED_EVENT_ENDGAME
 	; end
@@ -147,7 +147,7 @@ ScriptedEventGoodEndingStart:
 	dc.w	SCENE_ID_END_GOOD
 	; timer for credits screen
 	dc.w	SCRIPTED_EVENT_TIMER
-	dc.w	CREDITS_SCREEN_LOOP
+	dc.w	CREDITS_SCREEN_LOOP_LAST_SCREEN
 	; set end game
 	dc.w	SCRIPTED_EVENT_ENDGAME
 	; end
@@ -191,7 +191,7 @@ ScriptedEventPerfectEndingStart:
 	dc.w	SCENE_ID_END_PERFECT
 	; timer for credits screen
 	dc.w	SCRIPTED_EVENT_TIMER
-	dc.w	CREDITS_SCREEN_LOOP
+	dc.w	CREDITS_SCREEN_LOOP_LAST_SCREEN
 	; set end game
 	dc.w	SCRIPTED_EVENT_ENDGAME
 	; end
@@ -235,7 +235,7 @@ ScriptedEventFastEndingStart:
 	dc.w	SCENE_ID_END_FAST
 	; timer for credits screen
 	dc.w	SCRIPTED_EVENT_TIMER
-	dc.w	CREDITS_SCREEN_LOOP
+	dc.w	CREDITS_SCREEN_LOOP_LAST_SCREEN
 	; set end game
 	dc.w	SCRIPTED_EVENT_ENDGAME
 	; end

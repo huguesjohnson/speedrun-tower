@@ -223,7 +223,7 @@ FLOOR0A_00_Frame2Start:
 	dc.l	$2FF55F10
 	dc.l	$77E55100
 	dc.l	$AAAE1000
-	dc.l	$11100000
+	dc.l	$11110000
 	dc.l	$00000000
 	dc.l	$00000000
 
@@ -489,8 +489,8 @@ FLOOR0A_00_Frame6Start:
 	dc.l	$00001212
 	dc.l	$00001A1F
 	dc.l	$00001215
-	dc.l	$00002615
-	dc.l	$000002A1
+	dc.l	$00001615
+	dc.l	$000012A1
 	dc.l	$000001AA
 	dc.l	$00000016
 	dc.l	$00000001
@@ -753,8 +753,8 @@ FLOOR0A_00_Frame9Start:
 	dc.l	$21210000
 	dc.l	$F1A10000
 	dc.l	$51210000
-	dc.l	$51620000
-	dc.l	$1A200000
+	dc.l	$51610000
+	dc.l	$1A210000
 	dc.l	$AA100000
 	dc.l	$61000000
 	dc.l	$10000000

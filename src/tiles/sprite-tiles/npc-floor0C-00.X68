@@ -737,8 +737,8 @@ FLOOR0C_00_Frame9Start:
 	dc.l	$11100000
 	dc.l	$22210000
 	dc.l	$22FF1000
-	dc.l	$FFFF1100
-	dc.l	$AFFFA110
+	dc.l	$FFFF1000
+	dc.l	$AFFFA100
 	dc.l	$F2FFFF10
 
 	dc.l	$FF244F10
@@ -813,8 +813,8 @@ FLOOR0C_00_Frame10Start:
 	dc.l	$11100000
 	dc.l	$22210000
 	dc.l	$22FF1000
-	dc.l	$FFFF1100
-	dc.l	$AFFFA110
+	dc.l	$FFFF1000
+	dc.l	$AFFFA100
 	dc.l	$F2FFFF10
 
 	dc.l	$FF244F10
@@ -889,8 +889,8 @@ FLOOR0C_00_Frame11Start:
 	dc.l	$11100000
 	dc.l	$22210000
 	dc.l	$22FF1000
-	dc.l	$FFFF1100
-	dc.l	$AFFFA110
+	dc.l	$FFFF1000
+	dc.l	$AFFFA100
 	dc.l	$F2FFFF10
 
 	dc.l	$FF244F10

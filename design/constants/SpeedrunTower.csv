@@ -158,3 +158,9 @@ CHARACTER_SELECT6_ROW,$09800000
 CHARACTER_SELECT6_COL,$00280000
 CHARACTER_SELECT7_ROW,$09800000
 CHARACTER_SELECT7_COL,$003A0000
+;
+;-------------------------------------------------------------------------------
+; everything else
+;-------------------------------------------------------------------------------
+CREDITS_SCREEN_LOOP_LAST_SCREEN,$0020,how long before press start can work
+;

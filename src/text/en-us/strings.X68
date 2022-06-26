@@ -440,9 +440,8 @@ StoryTextNPC_FLOOR0F_01_Bad:
 	dc.w	OBJ_NPC_FLOOR0F_00
 	dc.b	"This building really",LF
 	dc.b	"took you on a trip.  ^",FF
-	dc.b	"It's OK, maybe",LF
-	dc.b	"tomorrow will be     ^",FF
-	dc.b	"easier.",ETX
+	dc.b	"Maybe tomorrow will",LF
+	dc.b	"be easier.",ETX
 	align 2
 StoryTextNPC_FLOOR0F_01_Good:
 	dc.w	OBJ_NPC_FLOOR0F_00

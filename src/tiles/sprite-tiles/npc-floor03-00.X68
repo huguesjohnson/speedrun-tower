@@ -108,7 +108,7 @@ FLOOR03_00_Frame1Start:
 
 	dc.l	$01BB1B22
 	dc.l	$01B2B111
-	dc.l	$01244B2B
+	dc.l	$01241B2B
 	dc.l	$00144BBF
 	dc.l	$00011BBF
 	dc.l	$00000111
@@ -220,7 +220,7 @@ FLOOR03_00_Frame2Start:
 
 	dc.l	$22B1BBA0
 	dc.l	$F11B2BA0
-	dc.l	$F2B442A0
+	dc.l	$F2B142A0
 	dc.l	$BBB44A00
 	dc.l	$BBB11000
 	dc.l	$11100000
@@ -366,7 +366,7 @@ FLOOR03_00_Frame4Start:
 	dc.l	$88888810
 	dc.l	$88888110
 	dc.l	$88881441
-	dc.l	$1111BB41
+	dc.l	$1111B141
 	dc.l	$BBBBBBA0
 	dc.l	$2222BBA0
 
@@ -406,11 +406,11 @@ FLOOR03_00_Frame5Start:
 	dc.l	$01888888
 	dc.l	$01188888
 	dc.l	$14418888
-	dc.l	$14BB1111
-	dc.l	$0ABBBBBB
-	dc.l	$0ABB2222
+	dc.l	$141B1111
+	dc.l	$01BBBBBB
+	dc.l	$01BB2222
 
-	dc.l	$00AB2222
+	dc.l	$001B2222
 	dc.l	$00012222
 	dc.l	$0001BB22
 	dc.l	$000111BB
@@ -486,10 +486,10 @@ FLOOR03_00_Frame6Start:
 	dc.l	$00014444
 	dc.l	$00001111
 
-	dc.l	$0000A21B
-	dc.l	$0000AA12
-	dc.l	$0000A214
-	dc.l	$0000A214
+	dc.l	$0000121B
+	dc.l	$00001A12
+	dc.l	$00001214
+	dc.l	$00001214
 	dc.l	$000001B1
 	dc.l	$00000122
 	dc.l	$00000012
@@ -750,10 +750,10 @@ FLOOR03_00_Frame9Start:
 	dc.l	$44441000
 	dc.l	$11110000
 
-	dc.l	$B12A0000
-	dc.l	$21AA0000
-	dc.l	$412A0000
-	dc.l	$412A0000
+	dc.l	$B1210000
+	dc.l	$21A10000
+	dc.l	$41210000
+	dc.l	$41210000
 	dc.l	$1B100000
 	dc.l	$22100000
 	dc.l	$21000000

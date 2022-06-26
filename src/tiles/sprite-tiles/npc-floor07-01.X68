@@ -112,7 +112,7 @@ FLOOR07_01_Frame1Start:
 	dc.l	$00177661
 	dc.l	$00011A11
 	dc.l	$000111AA
-	dc.l	$00000000
+	dc.l	$00000011
 	dc.l	$00000000
 
 	dc.l	$00000000
@@ -224,7 +224,7 @@ FLOOR07_01_Frame2Start:
 	dc.l	$16677100
 	dc.l	$11A11000
 	dc.l	$AA111000
-	dc.l	$00000000
+	dc.l	$11000000
 	dc.l	$00000000
 
 FLOOR07_01_Frame2End:
@@ -487,7 +487,7 @@ FLOOR07_01_Frame6Start:
 	dc.l	$00001111
 
 	dc.l	$0000121A
-	dc.l	$00008A16
+	dc.l	$00001816
 	dc.l	$00001617
 	dc.l	$00001A17
 	dc.l	$000001A1
@@ -751,7 +751,7 @@ FLOOR07_01_Frame9Start:
 	dc.l	$11110000
 
 	dc.l	$A1210000
-	dc.l	$61A80000
+	dc.l	$61810000
 	dc.l	$71610000
 	dc.l	$71A10000
 	dc.l	$1A100000

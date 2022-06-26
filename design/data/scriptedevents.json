@@ -177,7 +177,7 @@
          {
             "comment":"timer for credits screen",
             "command":"TIMER",
-            "intConst":"CREDITS_SCREEN_LOOP"
+            "intConst":"CREDITS_SCREEN_LOOP_LAST_SCREEN"
          },
          {
             "comment":"set end game",
@@ -253,7 +253,7 @@
          {
             "comment":"timer for credits screen",
             "command":"TIMER",
-            "intConst":"CREDITS_SCREEN_LOOP"
+            "intConst":"CREDITS_SCREEN_LOOP_LAST_SCREEN"
          },
          {
             "comment":"set end game",
@@ -329,7 +329,7 @@
          {
             "comment":"timer for credits screen",
             "command":"TIMER",
-            "intConst":"CREDITS_SCREEN_LOOP"
+            "intConst":"CREDITS_SCREEN_LOOP_LAST_SCREEN"
          },
          {
             "comment":"set end game",
@@ -405,7 +405,7 @@
          {
             "comment":"timer for credits screen",
             "command":"TIMER",
-            "intConst":"CREDITS_SCREEN_LOOP"
+            "intConst":"CREDITS_SCREEN_LOOP_LAST_SCREEN"
          },
          {
             "comment":"set end game",

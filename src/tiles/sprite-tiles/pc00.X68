@@ -31,7 +31,7 @@ PC00_Frame0Start:
 	dc.l	$11A22244
 
 	dc.l	$01AAAAA2
-	dc.l	$14AAAAA2
+	dc.l	$141AAAA2
 	dc.l	$14411AA2
 	dc.l	$0111AAAF
 	dc.l	$0001FFFF
@@ -104,7 +104,7 @@ PC00_Frame1Start:
 	dc.l	$16664244
 	dc.l	$16644544
 	dc.l	$16644444
-	dc.l	$14A22244
+	dc.l	$14122244
 
 	dc.l	$144AAAA2
 	dc.l	$011AAAA2
@@ -144,7 +144,7 @@ PC00_Frame1Start:
 
 	dc.l	$2AAAAA10
 	dc.l	$2AAAAA10
-	dc.l	$2AA44A10
+	dc.l	$2AA14A10
 	dc.l	$FAA44100
 	dc.l	$FFF11000
 	dc.l	$11100000
@@ -184,7 +184,7 @@ PC00_Frame2Start:
 
 	dc.l	$01AAAAA2
 	dc.l	$01AAAAA2
-	dc.l	$01A44AA2
+	dc.l	$01A41AA2
 	dc.l	$00144AAF
 	dc.l	$00011FFF
 	dc.l	$00000111
@@ -216,7 +216,7 @@ PC00_Frame2Start:
 	dc.l	$44246661
 	dc.l	$44544661
 	dc.l	$44444661
-	dc.l	$44222A41
+	dc.l	$44222141
 
 	dc.l	$2AAAA441
 	dc.l	$2AAAA110

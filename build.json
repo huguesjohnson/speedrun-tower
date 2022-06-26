@@ -2290,336 +2290,336 @@
 			},
 			{
 				"name":"Floor00OutdoorTrees",
-				"palette":"PaletteOutdoor00",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-00.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-00.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor01OutdoorTrees",
-				"palette":"PaletteOutdoor01",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-01.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-01.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor02OutdoorTrees",
-				"palette":"PaletteOutdoor02",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-02.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-02.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor03OutdoorTrees",
-				"palette":"PaletteOutdoor03",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-03.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-03.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor04OutdoorTrees",
-				"palette":"PaletteOutdoor04",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-04.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-04.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor05OutdoorTrees",
-				"palette":"PaletteOutdoor05",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-05.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-05.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor06OutdoorTrees",
-				"palette":"PaletteOutdoor06",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-06.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-06.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor07OutdoorTrees",
-				"palette":"PaletteOutdoor07",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-07.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-07.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor08OutdoorTrees",
-				"palette":"PaletteOutdoor08",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-08.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-08.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor09OutdoorTrees",
-				"palette":"PaletteOutdoor09",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-09.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-09.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor0AOutdoorTrees",
-				"palette":"PaletteOutdoor0A",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-0A.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-0A.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor0BOutdoorTrees",
-				"palette":"PaletteOutdoor0B",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-0B.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-0B.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor0COutdoorTrees",
-				"palette":"PaletteOutdoor0C",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-0C.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-0C.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor0DOutdoorTrees",
-				"palette":"PaletteOutdoor0D",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-0D.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-0D.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor0EOutdoorTrees",
-				"palette":"PaletteOutdoor0E",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-0E.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-0E.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor0FOutdoorTrees",
-				"palette":"PaletteOutdoor00",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-trees-0F.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-trees-0F.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor00OutdoorFenceLeft",
-				"palette":"PaletteOutdoor00",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-00-left.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-00-left.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor01OutdoorFenceLeft",
-				"palette":"PaletteOutdoor01",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-01-left.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-01-left.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor02OutdoorFenceLeft",
-				"palette":"PaletteOutdoor02",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-02-left.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-02-left.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor03OutdoorFenceLeft",
-				"palette":"PaletteOutdoor03",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-03-left.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-03-left.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor04OutdoorFenceLeft",
-				"palette":"PaletteOutdoor04",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-04-left.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-04-left.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor05OutdoorFenceLeft",
-				"palette":"PaletteOutdoor05",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-05-left.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-05-left.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor06OutdoorFenceLeft",
-				"palette":"PaletteOutdoor06",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-06-left.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-06-left.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor07OutdoorFenceLeft",
-				"palette":"PaletteOutdoor07",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-07-left.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-07-left.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor08OutdoorFenceLeft",
-				"palette":"PaletteOutdoor08",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-08-left.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-08-left.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor09OutdoorFenceLeft",
-				"palette":"PaletteOutdoor09",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-09-left.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-09-left.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor0AOutdoorFenceLeft",
-				"palette":"PaletteOutdoor0A",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0A-left.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0A-left.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor0BOutdoorFenceLeft",
-				"palette":"PaletteOutdoor0B",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0B-left.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0B-left.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor0COutdoorFenceLeft",
-				"palette":"PaletteOutdoor0C",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0C-left.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0C-left.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor0DOutdoorFenceLeft",
-				"palette":"PaletteOutdoor0D",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0D-left.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0D-left.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor0EOutdoorFenceLeft",
-				"palette":"PaletteOutdoor0E",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0E-left.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0E-left.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor0FOutdoorFenceLeft",
-				"palette":"PaletteOutdoor0F",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0F-left.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0F-left.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor00OutdoorFenceRight",
-				"palette":"PaletteOutdoor00",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-00-right.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-00-right.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor01OutdoorFenceRight",
-				"palette":"PaletteOutdoor01",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-01-right.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-01-right.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor02OutdoorFenceRight",
-				"palette":"PaletteOutdoor02",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-02-right.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-02-right.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor03OutdoorFenceRight",
-				"palette":"PaletteOutdoor03",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-03-right.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-03-right.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor04OutdoorFenceRight",
-				"palette":"PaletteOutdoor04",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-04-right.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-04-right.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor05OutdoorFenceRight",
-				"palette":"PaletteOutdoor05",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-05-right.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-05-right.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor06OutdoorFenceRight",
-				"palette":"PaletteOutdoor06",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-06-right.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-06-right.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor07OutdoorFenceRight",
-				"palette":"PaletteOutdoor07",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-07-right.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-07-right.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor08OutdoorFenceRight",
-				"palette":"PaletteOutdoor08",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-08-right.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-08-right.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor09OutdoorFenceRight",
-				"palette":"PaletteOutdoor09",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-09-right.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-09-right.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor0AOutdoorFenceRight",
-				"palette":"PaletteOutdoor0A",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0A-right.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0A-right.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor0BOutdoorFenceRight",
-				"palette":"PaletteOutdoor0B",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0B-right.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0B-right.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor0COutdoorFenceRight",
-				"palette":"PaletteOutdoor0C",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0C-right.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0C-right.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor0DOutdoorFenceRight",
-				"palette":"PaletteOutdoor0D",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0D-right.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0D-right.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor0EOutdoorFenceRight",
-				"palette":"PaletteOutdoor0E",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0E-right.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0E-right.X68",
 				"allowDuplicateTiles":"true"
 			},
 			{
 				"name":"Floor0FOutdoorFenceRight",
-				"palette":"PaletteOutdoor0F",
+				"palette":"PaletteOutdoorBase",
 				"sourceFilePath":"design/img/scene-tiles/outdoors/outdoor-fence-0F-right.png",
 				"destinationFilePath":"src/tiles/scene-tiles/outdoors-outdoor-fence-0F-right.X68",
 				"allowDuplicateTiles":"true"

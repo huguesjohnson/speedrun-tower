@@ -107,9 +107,9 @@ PC07_Frame1Start:
 	dc.l	$01F44444
 
 	dc.l	$01FFF444
-	dc.l	$01FFFF22
-	dc.l	$01F44F22
-	dc.l	$00144FCC
+	dc.l	$01F1FF22
+	dc.l	$01141F22
+	dc.l	$001441CC
 	dc.l	$000111CC
 	dc.l	$00000111
 	dc.l	$00000000
@@ -142,7 +142,7 @@ PC07_Frame1Start:
 	dc.l	$44444110
 	dc.l	$4444F141
 
-	dc.l	$444FF441
+	dc.l	$444F1441
 	dc.l	$22FFF110
 	dc.l	$22FF1000
 	dc.l	$CCF11000
@@ -182,7 +182,7 @@ PC07_Frame2Start:
 	dc.l	$01144444
 	dc.l	$14A44444
 
-	dc.l	$144FF444
+	dc.l	$1441F444
 	dc.l	$011FFF22
 	dc.l	$0001FF22
 	dc.l	$0001AFCC
@@ -219,9 +219,9 @@ PC07_Frame2Start:
 	dc.l	$4444F100
 
 	dc.l	$444FFF10
-	dc.l	$22FFFF10
-	dc.l	$22F44F10
-	dc.l	$CCF44100
+	dc.l	$22FF1F10
+	dc.l	$22F14100
+	dc.l	$CC144100
 	dc.l	$CCF11000
 	dc.l	$11100000
 	dc.l	$00000000
@@ -444,7 +444,7 @@ PC07_Frame5Start:
 	dc.l	$9EEEE410
 	dc.l	$44444100
 	dc.l	$4444FF10
-	dc.l	$FFFFF441
+	dc.l	$FFFFF141
 
 	dc.l	$FFFF1441
 	dc.l	$FFFF1110

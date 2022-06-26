@@ -468,11 +468,11 @@ FLOOR01_00_Frame6Start:
 	dc.l	$00000000
 	dc.l	$00000000
 
-	dc.l	$00000AAA
-	dc.l	$000AACCC
-	dc.l	$00ACCCCC
-	dc.l	$0ACCCCCC
-	dc.l	$0ACCCCCC
+	dc.l	$00000111
+	dc.l	$00011CCC
+	dc.l	$001CCCCC
+	dc.l	$01CCCCCC
+	dc.l	$01CCCCCC
 	dc.l	$1AAACCCC
 	dc.l	$1AE8AAAA
 	dc.l	$11E8AAAA
@@ -504,9 +504,9 @@ FLOOR01_00_Frame6Start:
 	dc.l	$00000000
 	dc.l	$00000000
 
-	dc.l	$AA000000
-	dc.l	$CCAA0000
-	dc.l	$CCCCA000
+	dc.l	$11000000
+	dc.l	$CC110000
+	dc.l	$CCCC1000
 	dc.l	$CCCAA100
 	dc.l	$CCAAA100
 	dc.l	$CAAAAA10
@@ -545,10 +545,10 @@ FLOOR01_00_Frame7Start:
 	dc.l	$00000000
 
 	dc.l	$00000111
-	dc.l	$000AACCC
-	dc.l	$00ACCCCC
-	dc.l	$0ACCCCCC
-	dc.l	$0ACCCCCC
+	dc.l	$00011CCC
+	dc.l	$001CCCCC
+	dc.l	$01CCCCCC
+	dc.l	$01CCCCCC
 	dc.l	$1AAACCCC
 	dc.l	$1AE8AAAA
 	dc.l	$11E8AAAA
@@ -621,10 +621,10 @@ FLOOR01_00_Frame8Start:
 	dc.l	$00000000
 
 	dc.l	$00000111
-	dc.l	$000AACCC
-	dc.l	$00ACCCCC
-	dc.l	$0ACCCCCC
-	dc.l	$0ACCCCCC
+	dc.l	$00011CCC
+	dc.l	$001CCCCC
+	dc.l	$01CCCCCC
+	dc.l	$01CCCCCC
 	dc.l	$1AAACCCC
 	dc.l	$1AE8AAAA
 	dc.l	$11E8AAAA
@@ -657,8 +657,8 @@ FLOOR01_00_Frame8Start:
 	dc.l	$00000000
 
 	dc.l	$11000000
-	dc.l	$CCAA0000
-	dc.l	$CCCCA000
+	dc.l	$CC110000
+	dc.l	$CCCC1000
 	dc.l	$CCCAA100
 	dc.l	$CCAAA100
 	dc.l	$CAAAAA10
@@ -696,9 +696,9 @@ FLOOR01_00_Frame9Start:
 	dc.l	$00000000
 	dc.l	$00000000
 
-	dc.l	$000000AA
-	dc.l	$0000AACC
-	dc.l	$000ACCCC
+	dc.l	$00000011
+	dc.l	$000011CC
+	dc.l	$0001CCCC
 	dc.l	$001AACCC
 	dc.l	$001AAACC
 	dc.l	$01AAAAAC
@@ -732,11 +732,11 @@ FLOOR01_00_Frame9Start:
 	dc.l	$00000000
 	dc.l	$00000000
 
-	dc.l	$AAA00000
-	dc.l	$CCCAA000
-	dc.l	$CCCCCA00
-	dc.l	$CCCCCCA0
-	dc.l	$CCCCCCA0
+	dc.l	$11100000
+	dc.l	$CCC11000
+	dc.l	$CCCCC100
+	dc.l	$CCCCCC10
+	dc.l	$CCCCCC10
 	dc.l	$CCCCAAA1
 	dc.l	$AAAA8EA1
 	dc.l	$AAAA8E11
@@ -809,10 +809,10 @@ FLOOR01_00_Frame10Start:
 	dc.l	$00000000
 
 	dc.l	$11100000
-	dc.l	$CCCAA000
-	dc.l	$CCCCCA00
-	dc.l	$CCCCCCA0
-	dc.l	$CCCCCCA0
+	dc.l	$CCC11000
+	dc.l	$CCCCC100
+	dc.l	$CCCCCC10
+	dc.l	$CCCCCC10
 	dc.l	$CCCCAAA1
 	dc.l	$AAAA8EA1
 	dc.l	$AAAA8E11
@@ -849,8 +849,8 @@ FLOOR01_00_Frame11Start:
 	dc.l	$00000000
 
 	dc.l	$00000011
-	dc.l	$0000AACC
-	dc.l	$000ACCCC
+	dc.l	$000011CC
+	dc.l	$0001CCCC
 	dc.l	$001AACCC
 	dc.l	$001AAACC
 	dc.l	$01AAAAAC
@@ -885,10 +885,10 @@ FLOOR01_00_Frame11Start:
 	dc.l	$00000000
 
 	dc.l	$11100000
-	dc.l	$CCCAA000
-	dc.l	$CCCCCA00
-	dc.l	$CCCCCCA0
-	dc.l	$CCCCCCA0
+	dc.l	$CCC11000
+	dc.l	$CCCCC100
+	dc.l	$CCCCCC10
+	dc.l	$CCCCCC10
 	dc.l	$CCCCAAA1
 	dc.l	$AAAA8EA1
 	dc.l	$AAAA8E11
@@ -899,7 +899,7 @@ FLOOR01_00_Frame11Start:
 	dc.l	$ACCA1110
 	dc.l	$14334310
 	dc.l	$43336310
-	dc.l	$33333A00
+	dc.l	$33333100
 	dc.l	$AAAA1000
 
 	dc.l	$CC1C1000

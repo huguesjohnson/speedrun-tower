@@ -188,7 +188,7 @@ PC06_Frame2Start:
 	dc.l	$0011CCCC
 	dc.l	$00012222
 	dc.l	$0001AA11
-	dc.l	$0000AA00
+	dc.l	$00001100
 	dc.l	$00000000
 
 	dc.l	$00000000
@@ -225,7 +225,7 @@ PC06_Frame2Start:
 	dc.l	$22221000
 	dc.l	$11331000
 	dc.l	$01AA1000
-	dc.l	$00AA0000
+	dc.l	$00110000
 
 PC06_Frame2End:
 
