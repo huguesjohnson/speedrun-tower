@@ -18,14 +18,14 @@ PC04_Frame0Start:
 	dc.l	$0001DDDD
 	dc.l	$001DDDDD
 	dc.l	$001DDDDD
-	dc.l	$0ADDD333
+	dc.l	$01DDD333
 	dc.l	$01DD3333
 
 	dc.l	$01D33333
 	dc.l	$01333333
 	dc.l	$01333333
-	dc.l	$0A33DD33
-	dc.l	$0A333233
+	dc.l	$0133DD33
+	dc.l	$01333233
 	dc.l	$00133733
 	dc.l	$001B3333
 	dc.l	$01BB3333
@@ -51,10 +51,10 @@ PC04_Frame0Start:
 	dc.l	$00000000
 	dc.l	$00000000
 	dc.l	$11110000
-	dc.l	$DDDDA000
+	dc.l	$DDDD1000
 	dc.l	$DDDDD100
 	dc.l	$DDDDD100
-	dc.l	$333DDDA0
+	dc.l	$333DDD10
 	dc.l	$3333DD10
 
 	dc.l	$33333D10
@@ -94,14 +94,14 @@ PC04_Frame1Start:
 	dc.l	$001DDDDD
 	dc.l	$01DDDDDD
 	dc.l	$01DDDDDD
-	dc.l	$ADDD3333
+	dc.l	$1DDD3333
 	dc.l	$1DD33333
 
 	dc.l	$1D333333
 	dc.l	$13333333
 	dc.l	$13333333
-	dc.l	$A33DD333
-	dc.l	$A3332333
+	dc.l	$133DD333
+	dc.l	$13332333
 	dc.l	$01337333
 	dc.l	$01333333
 	dc.l	$1B133333
@@ -405,7 +405,7 @@ PC04_Frame5Start:
 	dc.l	$01333333
 	dc.l	$01333333
 	dc.l	$01133333
-	dc.l	$133A3333
+	dc.l	$13313333
 	dc.l	$13115AAA
 	dc.l	$01BB5A55
 	dc.l	$01BB15FF
@@ -482,7 +482,7 @@ PC04_Frame6Start:
 	dc.l	$00133333
 	dc.l	$0013DD33
 	dc.l	$00132333
-	dc.l	$00A37333
+	dc.l	$00137333
 	dc.l	$00013333
 	dc.l	$00001111
 
@@ -558,7 +558,7 @@ PC04_Frame7Start:
 	dc.l	$00133333
 	dc.l	$0013DD33
 	dc.l	$00132333
-	dc.l	$00A37333
+	dc.l	$00137333
 	dc.l	$00013333
 	dc.l	$00011111
 
@@ -634,14 +634,14 @@ PC04_Frame8Start:
 	dc.l	$01333333
 	dc.l	$013DD333
 	dc.l	$01323333
-	dc.l	$0A373333
+	dc.l	$01373333
 	dc.l	$00133333
 	dc.l	$00011111
 
 	dc.l	$0001B1BB
 	dc.l	$0001331B
 	dc.l	$0001391B
-	dc.l	$001A11AA
+	dc.l	$00111111
 	dc.l	$01522221
 	dc.l	$01552222
 	dc.l	$00111111
@@ -714,10 +714,10 @@ PC04_Frame9Start:
 	dc.l	$00013333
 	dc.l	$00011111
 
-	dc.l	$00A61B1B
-	dc.l	$0A411B1B
-	dc.l	$0A661B1B
-	dc.l	$0A761B13
+	dc.l	$00161B1B
+	dc.l	$01411B1B
+	dc.l	$01661B1B
+	dc.l	$01761B13
 	dc.l	$00111111
 	dc.l	$00000122
 	dc.l	$00000155
@@ -790,10 +790,10 @@ PC04_Frame10Start:
 	dc.l	$00013333
 	dc.l	$00011111
 
-	dc.l	$00A61B1B
-	dc.l	$0A4111BB
-	dc.l	$0A661B33
-	dc.l	$0A761B33
+	dc.l	$00161B1B
+	dc.l	$014111BB
+	dc.l	$01661B33
+	dc.l	$01761B33
 	dc.l	$00111111
 	dc.l	$00015FFF
 	dc.l	$00001111
@@ -867,9 +867,9 @@ PC04_Frame11Start:
 	dc.l	$00001111
 
 	dc.l	$000161B1
-	dc.l	$00A411B1
-	dc.l	$00A661B1
-	dc.l	$00A761BB
+	dc.l	$001411B1
+	dc.l	$001661B1
+	dc.l	$001761BB
 	dc.l	$00011111
 	dc.l	$000015FF
 	dc.l	$00001551
@@ -905,7 +905,7 @@ PC04_Frame11Start:
 	dc.l	$BB1B1000
 	dc.l	$B1331000
 	dc.l	$B1931000
-	dc.l	$AA11A100
+	dc.l	$11111100
 	dc.l	$12222510
 	dc.l	$22225510
 	dc.l	$11111100
