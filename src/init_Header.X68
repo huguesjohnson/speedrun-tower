@@ -2,10 +2,10 @@
 
 	dc.b	'SEGA GENESIS    '	; console name
 	dc.b	'(C)HUJO '	; copyright
-	dc.b	'2022.JUN'	; date
+	dc.b	'2022.JUL'	; date
 	dc.b	'Speedrun Tower                                  '	; cart name
 	dc.b	'Speedrun Tower                                  '	; cart name (alt)
-	dc.b	'GM 20220626-15'	; program type / serial number / version
+	dc.b	'GM 20220718-10'	; program type / serial number / version
 	dc.w	$0000	; ROM checksum
 	dc.b	'J               '	; I/O device support (unused)
 	dc.l	$00000000	; address of ROM start
